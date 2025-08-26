@@ -1,4 +1,4 @@
-# API 1 SEMESTRE
+# API 1° SEMESTRE
 
 ## Título do projeto
 
