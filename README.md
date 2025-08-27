@@ -2,9 +2,10 @@
 
 ## Projeto de Análise de Censo 2022 em São josé dos Campos
 
-<p alingn="center">
-  <img src="codewave-logo.jpg" alt="Lgo da nossa equipe"
+<p align="center">
+  <img src="codewave-logo.jpg" alt="Logo da nossa equipe"
      width="200"/>
+<<<<<<< HEAD
      </p>
     
   ## Requisição do Cliente
@@ -23,3 +24,7 @@
   - Flask
   - My Sql
   
+=======
+  <h2 align="center"> CodeWave</h2>
+     </p>
+>>>>>>> dbdb71fdb6974b4083f6db3295d68a0cd56e3100
