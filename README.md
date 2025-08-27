@@ -19,7 +19,7 @@
 </h1>
 
 
-### 🏅 Ojetivo 
+### 🏅 Objetivo 
 
   - Realizar uma análise detalhada dos dados do Censo 2022, focando exclusivamente na cidade de São José dos Campos.
 
