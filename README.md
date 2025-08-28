@@ -28,5 +28,62 @@
   - A Secretaria Municipal de Planejamento Urbano de São José dos Campos comunicou a equipe CodeWave para solucionar um problema.
 
   - Traduzir informações de maneira eficiente e clara para a tomada de decisões.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### :mortar_board: Equipe <a id="equipe"></a>
+
+
+
+|      Membro      |    Função     |                            Github                            | 
+| :--------------: | :-----------: | :----------------------------------------------------------: | 
+|  Guilherme Oliveira  | Scrum Master  | <a href="https://github.com/guilhermefpoliveira"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+|  Hugo Leonardo  | Product Owner | <a href="https://github.com/HUGO0895"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+|  Elisa Mattos  | Desenvolvedor(a)  | <a href="https://github.com/eishymattos-cpu"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |                                                              |
+| Yuri Souza | Desenvolvedor(a) | <a href="https://github.com/YuridevOH"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+| Maria Teresa | Desenvolvedor(a)  | <a href="https://github.com/marryftx"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+| João Vitor | Desenvolvedor(a)  | <a href="https://github.com/KhovetS2"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+| Altier Cruz  | Desenvolvedor(a)  | <a href="https://github.com/T13rz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+| Felipe Batista | Desenvolvedor(a)  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+
+<br>
+
+## :dart: Focal Point<a id="focal"></a>
+
+
+
+| P²              | M²       |
+| :-------------------: | :-----------: |
+| <a href='https://buscatextual.cnpq.br/buscatextual/visualizacv.do'>Prof. Fernando Masanori Ashikaga</a> | <a href='http://lattes.cnpq.br/4723982029081265'>Prof.  Jean Carlos Lourenço Costa</a> |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
