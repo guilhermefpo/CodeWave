@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="CodeWave_Logo.png" alt="Logo da equipe"
-     width="400"/>
+     width="500"/>
    </p>
 
 
@@ -18,19 +18,22 @@
  <a href="https://pandas.pydata.org/"><img src = "https://img.shields.io/badge/pandas-%23150458?style=for-the-badge&logo=pandas"/></a>
 </h1>
 
+<br>
 
-### 🏅 Objetivo 
+> Status do Projeto: Em andamento! :hourglass_flowing_sand:
 
-  - Realizar uma análise detalhada dos dados do Censo 2022, focando exclusivamente na cidade de São José dos Campos.
+</br>
+
+### :dart: Objetivo 
+
+  :black_small_square: Realizar uma análise detalhada dos dados do Censo 2022, focando exclusivamente na cidade de São José dos Campos.
 
   
-###  🚀 Requisição do Cliente 
-  - A Secretaria Municipal de Planejamento Urbano de São José dos Campos comunicou a equipe CodeWave para solucionar um problema.
+###  :medal_sports: Requisição do Cliente 
 
-  - Traduzir informações de maneira eficiente e clara para a tomada de decisões.
+  :black_small_square: A Secretaria Municipal de Planejamento Urbano de São José dos Campos comunicou a equipe CodeWave para solucionar um problema.
 
-
-
+  :black_small_square: Traduzir informações de maneira eficiente e clara para a tomada de decisões.
 
 
 
@@ -47,7 +50,10 @@
 
 
 
-### :mortar_board: Equipe <a id="equipe"></a>
+
+
+
+### :mortar_board: Equipe
 
 
 
@@ -64,7 +70,7 @@
 
 <br>
 
-## :dart: Focal Point<a id="focal"></a>
+### :globe_with_meridians: Focal Point
 
 
 
