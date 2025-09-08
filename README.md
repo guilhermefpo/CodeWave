@@ -82,6 +82,8 @@
 </div>
 <br>
 
+<div align="center">  
+  
 ### :globe_with_meridians: Focal Point
 
 
@@ -90,7 +92,7 @@
 | :-------------------: | :-----------: |
 | <a href='https://buscatextual.cnpq.br/buscatextual/visualizacv.do'>Prof. Fernando Masanori Ashikaga</a> | <a href='http://lattes.cnpq.br/4723982029081265'>Prof.  Jean Carlos Lourenço Costa</a> |
 
-
+</div>
 
 
 
