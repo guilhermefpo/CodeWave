@@ -35,7 +35,7 @@
 
   :black_small_square: Traduzir informações de maneira eficiente e clara para a tomada de decisões.
 
-### 📋: Backlog do Produto
+### 📋 Backlog do Produto
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
