@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="CodeWaveLogo-removebg-preview.png" alt="Logo da equipe"
+  <img src="Logo_Code Wave.png" alt="Logo da equipe"
      width="500"/>
    </p>
 
@@ -23,17 +23,22 @@
 > Status do Projeto: Em andamento! :hourglass_flowing_sand:
 
 </br>
+<br>
 
 ### :dart: Objetivo 
 
   :black_small_square: Realizar uma análise detalhada dos dados do Censo 2022, focando exclusivamente na cidade de São José dos Campos.
+</br>
 
-  
+<br>
+
 ###  :medal_sports: Requisição do Cliente 
 
   :black_small_square: A Secretaria Municipal de Planejamento Urbano de São José dos Campos comunicou a equipe CodeWave para solucionar um problema.
 
   :black_small_square: Traduzir informações de maneira eficiente e clara para a tomada de decisões.
+</br>
+<br>
 
 ### 📋 Backlog do Produto
 
@@ -50,16 +55,7 @@
 | 10 | Baixa  | Como secretário, quero ter uma página "Sobre" com a metodologia utilizada na pesquisa, para dar credibilidade aos dados.  | 5 | 3 |  ⏸️
 | 11 | Baixa  | Como secretário , quero um Painel de ajuda contextual para me ajudar em cada seção do site.  | 2 | 3 |  ⏸️
 
-
-
-
-
-
-
-
-
-
-
+</br>
 
 <br>
 
@@ -80,6 +76,7 @@
 | Felipe Batista | Desenvolvedor(a)  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 
 </div>
+</br>
 <br>
 
 <div align="center">  
@@ -87,13 +84,12 @@
 ### :globe_with_meridians: Focal Point
 
 
-
 | P²              | M²       |
 | :-------------------: | :-----------: |
 | <a href='https://buscatextual.cnpq.br/buscatextual/visualizacv.do'>Prof. Fernando Masanori Ashikaga</a> | <a href='http://lattes.cnpq.br/4723982029081265'>Prof.  Jean Carlos Lourenço Costa</a> |
 
 </div>
-
+</br>
 
 
 
