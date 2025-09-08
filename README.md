@@ -69,7 +69,7 @@
 
 |      Membro      |    Função     |                            Github                            | 
 | :--------------: | :-----------: | :----------------------------------------------------------: | 
-|  Guilherme Oliveira  | Scrum Master  | <a href="https://github.com/guilhermefpoliveira"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+|  Guilherme Oliveira  | Scrum Master  | <a href="https://github.com/guilhermeoliveirad"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 |  Hugo Leonardo  | Product Owner | <a href="https://github.com/HUGO0895"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 |  Elisa Mattos  | Desenvolvedor(a)  | <a href="https://github.com/eishymattos-cpu"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |                                                              |
 | Yuri Souza | Desenvolvedor(a) | <a href="https://github.com/YuridevOH"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
