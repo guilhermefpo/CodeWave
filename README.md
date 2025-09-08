@@ -39,17 +39,16 @@
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
-|  1  | Alta  | <a href="https://github.com/guilhermefpoliveira"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-|  2  | Alta | <a href="https://github.com/HUGO0895"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-|  3  | Alta  | <a href="https://github.com/eishymattos-cpu"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |                                                             |
-| 4 | Alta | <a href="https://github.com/YuridevOH"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-| 5 | Alta  | <a href="https://github.com/marryftx"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-| 6 | Alta  | <a href="https://github.com/KhovetS2"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-| 7  | Alta  | <a href="https://github.com/T13rz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-| 8 | Alta  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-| 9  | Alta  | <a href="https://github.com/T13rz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-| 10 | Baixa  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
-| 11 | Baixa  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 8 | 1 |
+|  1  | Alta  | Como secretário, gostaria de visualizar os gráficos prontos.  | 8 | 1 |
+|  2  | Alta | Como secretário, quero um modelo do site.  | 8 | 1 |
+|  3  | Alta  | Como secretário, quero uma navegação intuitiva entre as seções do site, para acessar facilmente todas as funcionalidades.   | 8 | 1 |            | 4 | Alta | Como secretário, quero um site funcional e bonito para apresentação.  | 8 | 1 |
+| 5 | Alta  | Como secretário quero um site que contenha mapas interativos e com os dados que necessito.   | 8 | 1 |
+| 6 | Alta  | Como secretário, quero  um resumo dos principais indicadores demográficos de SJC, para ter uma visão geral rápida.  | 8 | 1 |
+| 7  | Alta  | Como secretário, quero visualizar gráficos com os dados populacionais por região, para comparar as duas. | 8 | 1 |
+| 8 | Alta  | Como secretário, quero filtros laterais para selecionar regiões e indicadores, para personalizar minha análise.  | 8 | 1 |
+| 9  | Alta  | Como secretário, quero visualizar um resumo executivo com os principais indicadores, para compartilhar com a prefeitura.   | 8 | 1 |
+| 10 | Baixa  | Como secretário, quero ter uma página "Sobre" com a metodologia utilizada na pesquisa, para dar credibilidade aos dados.  | 8 | 1 |
+| 11 | Baixa  | Como secretário , quero um Painel de ajuda contextual para me ajudar em cada seção do site.  | 8 | 1 |
 
 
 
