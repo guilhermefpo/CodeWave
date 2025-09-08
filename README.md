@@ -61,10 +61,11 @@
 
 
 
+<br>
 
-
+<div align="center">  
+  
 ### :mortar_board: Equipe
-
 
 
 |      Membro      |    Função     |                            Github                            | 
@@ -78,6 +79,7 @@
 | Altier Cruz  | Desenvolvedor(a)  | <a href="https://github.com/T13rz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 | Felipe Batista | Desenvolvedor(a)  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 
+</div>
 <br>
 
 ### :globe_with_meridians: Focal Point
