@@ -40,9 +40,9 @@
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
 |  1  | Alta  | Como secretário, gostaria de visualizar os gráficos prontos.  | 8 | 1 |  ⏳ |
-|  2  | Alta | Como secretário, quero um modelo do site.  | 8 | 1 |
-|  3  | Alta  | Como secretário, quero uma navegação intuitiva entre as seções do site, para acessar facilmente todas as funcionalidades.   | 3 | 1 |            | 4 | Alta | Como secretário, quero um site funcional e bonito para apresentação.  | 3 | 1 |
-| 5 | Alta  | Como secretário quero um site que contenha mapas interativos e com os dados que necessito.   | 13 | 1 |
+|  2  | Alta | Como secretário, quero um modelo do site.  | 8 | 1 |  ⏳
+|  3  | Alta  | Como secretário, quero uma navegação intuitiva entre as seções do site, para acessar facilmente todas as funcionalidades.   | 3 | 1 |  ⏳         | 4 | Alta | Como secretário, quero um site funcional e bonito para apresentação.  | 3 | 1 |  ⏳
+| 5 | Alta  | Como secretário quero um site que contenha mapas interativos e com os dados que necessito.   | 13 | 1 |  ⏳
 | 6 | Alta  | Como secretário, quero  um resumo dos principais indicadores demográficos de SJC, para ter uma visão geral rápida.  | 8 | 2 |
 | 7  | Alta  | Como secretário, quero visualizar gráficos com os dados populacionais por região, para comparar as duas. | 8 | 2 |
 | 8 | Alta  | Como secretário, quero filtros laterais para selecionar regiões e indicadores, para personalizar minha análise.  | 13 | 2 |
