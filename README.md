@@ -44,7 +44,7 @@
 |  3  | Alta  | Como secretário, quero  um resumo dos principais indicadores demográficos de SJC, para ter uma visão geral rápida.    | 3 | 1 |  ⏳         | 4 | Alta | Como secretário, quero um site funcional e bonito para apresentação.  | 3 | 1 |  ⏳
 | 5 | Alta  |  Como secretário, quero visualizar gráficos com os dados populacionais por região, para comparar as duas.  | 13 | 1 |  ⏳
 | 6 | Alta  |  Como secretário, quero visualizar um resumo executivo com os principais indicadores, para compartilhar com a prefeitura. | 8 | 2 |  ⏸️
-| 7  | Alta  |Como secretário quero um site que contenha mapas interativos e com os dados que necessito,para ter um site mais interativo e acessivo. | 8 | 2 |  ⏸️
+| 7  | Medio  |Como secretário quero um site que contenha mapas interativos e com os dados que necessito,para ter um site mais interativo e acessivo. | 8 | 2 |  ⏸️
 | 8 | Alta  | Como secretário, quero filtros laterais para selecionar regiões e indicadores, para personalizar minha análise.  | 13 | 2 |  ⏸️
 | 9  | Baixo | Como secretário, quero uma navegação intuitiva entre as seções do site, para acessar facilmente todas as funcionalidades.    | 5 | 3 |  ⏸️
 | 10 | Baixa  | Como secretário, quero ter uma página "Sobre" com a metodologia utilizada na pesquisa, para dar credibilidade aos dados.  | 5 | 3 |  ⏸️
