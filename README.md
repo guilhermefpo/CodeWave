@@ -16,6 +16,7 @@
  <a href="https://flask.palletsprojects.com/en/2.2.x/"><img src = "https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"/></a>
  <a href="https://www.mysql.com/"><img src = "https://img.shields.io/badge/MySQL-%234479A1?style=for-the-badge"/></a>
  <a href="https://pandas.pydata.org/"><img src = "https://img.shields.io/badge/pandas-%23150458?style=for-the-badge&logo=pandas"/></a>
+ <a href= "https://www.figma.com/pt-br/"><img src="https://img.shields.io/badge/FIGMA-%23F24E1E?style=for-the-badge&logo=figma&logoColor=black"/></a>
 </h1>
 
 <br>
