@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="Logo_Code Wave.png" alt="Logo da equipe"
+  <img src="CodeWave_logo.png" alt="Logo da equipe"
      width="500"/>
    </p>
 
