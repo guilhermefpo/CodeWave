@@ -87,7 +87,7 @@
 
 | P²              | M²       |
 | :-------------------: | :-----------: |
-| <a href='https://buscatextual.cnpq.br/buscatextual/visualizacv.do'>Prof. Fernando Masanori Ashikaga</a> | <a href='http://lattes.cnpq.br/4723982029081265'>Prof.  Jean Carlos Lourenço Costa</a> |
+| <a href='http://lattes.cnpq.br/3324339924853354'>Prof. Fernando Masanori Ashikaga</a> | <a href='http://lattes.cnpq.br/4723982029081265'>Prof.  Jean Carlos Lourenço Costa</a> |
 
 </div>
 </br>
