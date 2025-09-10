@@ -27,23 +27,26 @@
 
 <br>
 
-### :dart: Objetivo 
+## :dart: Objetivo
 
-  :black_small_square: Realizar uma análise detalhada dos dados do Censo 2022, focando exclusivamente na cidade de São José dos Campos.
+:black_small_square: Realizar uma análise detalhada dos dados do Censo 2022, focando exclusivamente na cidade de São José dos Campos.
+
+</br>
+
+
+<br>
+
+##  :medal_sports: Requisição do Cliente 
+
+:black_small_square: A Secretaria Municipal de Planejamento Urbano de São José dos Campos comunicou a equipe CodeWave para solucionar um problema.
+
+:black_small_square: Traduzir informações de maneira eficiente e clara para a tomada de decisões.
+
 </br>
 
 <br>
 
-###  :medal_sports: Requisição do Cliente 
-
-  :black_small_square: A Secretaria Municipal de Planejamento Urbano de São José dos Campos comunicou a equipe CodeWave para solucionar um problema.
-
-  :black_small_square: Traduzir informações de maneira eficiente e clara para a tomada de decisões.
-</br>
-
-<br>
-
-  ### 📆 Cronograma das Sprints
+## 📆 Cronograma das Sprints
 
 | Sprint | Período | Documentação |
 |:------:|:-------:|:------------:|
@@ -55,7 +58,7 @@
 
 <br>
 
-### 📋 Backlog do Produto
+## 📋 Backlog do Produto
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
@@ -76,7 +79,7 @@
 
 <div align="center">  
   
-### :mortar_board: Equipe
+## :mortar_board: Equipe
 
 
 |      Membro      |    Função     |                            Github                            | 
@@ -97,7 +100,7 @@
 
 <div align="center">  
   
-### :globe_with_meridians: Focal Point
+## :globe_with_meridians: Focal Point
 
 
 | P²              | M²       |
