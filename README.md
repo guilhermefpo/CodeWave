@@ -24,6 +24,7 @@
 > Status do Projeto: Em andamento! :hourglass_flowing_sand:
 
 </br>
+
 <br>
 
 ### :dart: Objetivo 
@@ -39,6 +40,19 @@
 
   :black_small_square: Traduzir informações de maneira eficiente e clara para a tomada de decisões.
 </br>
+
+<br>
+
+  ### 📆 Cronograma das Sprints
+
+| Sprint | Período | Documentação |
+|:------:|:-------:|:------------:|
+| **Sprint 1**  | 08/09 - 28/09 |         |
+| **Sprint 2**  | 06/10 - 26/10 |         |
+| **Sprint 3**  | 03/11 - 23/11 |         |
+
+</br>
+
 <br>
 
 ### 📋 Backlog do Produto
@@ -79,13 +93,6 @@
 </div>
 </br>
 
-### Cronograma das Sprints
-
-| sprint | periodo | documentação |
-|:------:|:-------:|:------------:|
-| 1      | 08/09 - 28/09 |         |
-| 2      | 06/10 - 26/10 |         |
-| 3      | 03/11 - 23/11 |         |
 <br>
 
 <div align="center">  
