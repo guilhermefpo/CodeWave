@@ -1,15 +1,15 @@
 ## FATEC Profº Jessen Vidal - São José dos Campos - API 1º Semestre DSM - 2025
 
+  
 ### Projeto de Análise de Censo em São josé dos Campos
 
 
 <p align="center">
-  <img src="../CodeWave/doc/Sprints/img/CodeWave_logo.png" alt="Logo da equipe"
+  <img src="doc/img/CodeWave_logo.png" alt="Logo da equipe"
      width="500"/>
-   </p>
+</p>
 
-
-  <h1 align="center">
+<h1 align="center">
  <a href="https://docs.python.org/3/"><img src = "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/></a>
  <a href="https://www.w3schools.com/tags/tag_doctype.asp"><img src = "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/></a>
  <a href="https://www.w3schools.com/css/"><img src = "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/></a>
@@ -47,9 +47,9 @@
 
 | Sprint | Período | Documentação |
 |:------:|:-------:|:------------:|
-| **Sprint 1**  | 08/09 - 28/09 |         |
-| **Sprint 2**  | 06/10 - 26/10 |         |
-| **Sprint 3**  | 03/11 - 23/11 |         |
+| **Sprint 1**  | 08/09 - 28/09 | [Sprint 1 Docs](doc/Sprints/Sprint_1) |
+| **Sprint 2**  | 06/10 - 26/10 | [Sprint 2 Docs](doc/Sprints/Sprint_2) |
+| **Sprint 3**  | 03/11 - 23/11 | [Sprint 3 Docs](doc/Sprints/Sprint_3) |
 
 </br>
 
