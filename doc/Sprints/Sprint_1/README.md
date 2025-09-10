@@ -1,10 +1,14 @@
-## API 1º Semestre DSM - 2025
 
-### Sprint 1
+<div align="center">
+  
+  ## API 1º Semestre DSM - 2025
+
+</div>
 
 <p align="center">
-  <img src="doc/img/CodeWave_logo.png" alt="Logo da equipe"
-     width="500"/>
+  
+![Logo](/doc/img/CodeWave_logo.png)
+
 </p>
 
 <h1 align="center">
@@ -16,6 +20,11 @@
  <a href="https://pandas.pydata.org/"><img src = "https://img.shields.io/badge/pandas-%23150458?style=for-the-badge&logo=pandas"/></a>
  <a href= "https://www.figma.com/pt-br/"><img src="https://img.shields.io/badge/FIGMA-%23F24E1E?style=for-the-badge&logo=figma&logoColor=black"/></a>
 </h1>
+
+<div align="center">
+
+  ### Sprint 1
+</div>
 
 <br>
 
