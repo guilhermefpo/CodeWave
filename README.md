@@ -78,6 +78,13 @@
 
 </div>
 </br>
+
+### Cronograma das Sprints
+
+| sprint | periodo | documentação |
+|:------:|:-------:|:------------:|
+
+
 <br>
 
 <div align="center">  
