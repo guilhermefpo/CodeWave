@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="../CodeWave/doc/img/CodeWave_logo.png" alt="Logo da equipe"
+  <img src="../CodeWave/doc/Sprints/img/CodeWave_logo.png" alt="Logo da equipe"
      width="500"/>
    </p>
 
