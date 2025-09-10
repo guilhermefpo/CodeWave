@@ -45,9 +45,9 @@
 
   ### 📆 Cronograma das Sprints
 
-| Sprint | Período | Documentação |
-|:------:|:-------:|:------------:|
-| **Sprint 1**  | 08/09 - 28/09 |         |
+| Sprint | Período | Documentação | Status |
+|:------:|:-------:|:------------:|:------:|
+| **Sprint 1**  | 08/09 - 28/09 | **Em Progresso** |
 | **Sprint 2**  | 06/10 - 26/10 |         |
 | **Sprint 3**  | 03/11 - 23/11 |         |
 
