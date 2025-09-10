@@ -1,10 +1,10 @@
-## API 1° SEMESTRE
+## FATEC Profº Jessen Vidal - São José dos Campos - API 1º Semestre DSM - 2025
 
 ### Projeto de Análise de Censo em São josé dos Campos
 
 
 <p align="center">
-  <img src="../CodeWave/doc/img/CodeWaveLogo.png" alt="Logo da equipe"
+  <img src="../CodeWave/doc/img/CodeWave_logo.png" alt="Logo da equipe"
      width="500"/>
    </p>
 
