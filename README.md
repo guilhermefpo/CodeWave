@@ -88,7 +88,6 @@
 |  Hugo Leonardo  | Product Owner | <a href="https://github.com/HUGO0895"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 |  Elisa Mattos  | Desenvolvedor(a)  | <a href="https://github.com/eishymattos-cpu"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |                                                              |
 | Yuri Souza | Desenvolvedor(a) | <a href="https://github.com/YuridevOH"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-| Maria Teresa | Desenvolvedor(a)  | <a href="https://github.com/marryftx"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 | João Vitor | Desenvolvedor(a)  | <a href="https://github.com/KhovetS2"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 | Altier Cruz  | Desenvolvedor(a)  | <a href="https://github.com/T13rz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
 | Felipe Batista | Desenvolvedor(a)  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
