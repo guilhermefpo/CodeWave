@@ -25,24 +25,26 @@
 
 </br>
 
-<br>
-
 ## :dart: Objetivo
 
-:black_small_square: Realizar uma análise detalhada dos dados do Censo 2022, focando exclusivamente na cidade de São José dos Campos.
-
-</br>
-
-
-<br>
+O desafio consiste em desenvolver uma solução web que realize a análise detalhada dos dados do Censo 2022 de São José dos Campos. O sistema deverá permitir a filtragem por região e faixa etária, apresentar gráficos de evolução populacional, pirâmides etárias dinâmicas e mapas interativos, de forma simples, responsiva e acessível, apoiando a tomada de decisão da Prefeitura Municipal.
 
 ##  :medal_sports: Requisição do Cliente 
 
-:black_small_square: A Secretaria Municipal de Planejamento Urbano de São José dos Campos comunicou a equipe CodeWave para solucionar um problema.
+A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou à equipe CodeWave o desenvolvimento de uma solução capaz de traduzir os dados do Censo 2022 em informações claras, acessíveis e úteis para a tomada de decisões estratégicas.
 
-:black_small_square: Traduzir informações de maneira eficiente e clara para a tomada de decisões.
+:black_small_square: Permitir filtros por região e faixa etária.
 
-</br>
+:black_small_square: Exibir gráficos da evolução populacional.
+
+:black_small_square: Incluir mapas interativos que mostrem a concentração da população.
+
+:black_small_square: Fornecer uma visualização simples e intuitiva, acessível também ao público.
+
+:black_small_square: Utilizar dados abertos do IBGE (sem custos extras de software).
+
+:black_small_square: Garantir que os resultados possam ser apresentados em reuniões com o prefeito e demais órgãos públicos.
+
 
 <br>
 
