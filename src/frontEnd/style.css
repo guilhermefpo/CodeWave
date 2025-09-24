@@ -52,10 +52,9 @@ header {
 .pagina-principal {
     display: flex;
     flex-direction: row;
-    margin: 13% auto;
+    margin: 12% auto;
     align-items: center;
-    width: 90%;
-    max-width: 1400px;
+    width: 70%;
     justify-content: space-between;
     gap: 20%;
 }
@@ -92,9 +91,24 @@ header {
 }
 
 .pagina-secundaria h1{
-    margin:5%;
+    text-align: center;
+    margin-top: 5%;
     color: white;
-    margin-bottom: 10;
 }
+
+.pagina-secundaria h2{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    color: white;
+}
+
+.pagina-secundaria img{
+    text-align: left;
+    margin-left: 5%;
+}
+
+
 
 
