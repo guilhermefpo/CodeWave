@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     font-family: Poppins;
     font-size: 100%;
+    background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
 }
 
 header {
@@ -43,3 +44,71 @@ header {
     border-radius: 20px;
     padding: 10px;
 }
+
+.cabecalho-menu-botao:hover{
+   background-color: white;
+}
+
+.pagina-principal {
+    display: flex;
+    flex-direction: row;
+    margin: 12% auto;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    gap: 20%;
+}
+
+.pagina-principal-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    gap: 10px;
+    color: white;
+}
+
+.pagina-principal-textos h1 {
+    margin: 0;
+    font-size: 200%;
+}
+
+.pagina-principal-textos p {
+    margin: 0;
+    font-size: 120%;
+
+}
+
+.pagina-principal-textos a{
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #FFBA00;
+    color: #004997;
+    font-family: Poppins;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.pagina-secundaria h1{
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+
+.pagina-secundaria h2{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    color: white;
+}
+
+.pagina-secundaria img{
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+
+
