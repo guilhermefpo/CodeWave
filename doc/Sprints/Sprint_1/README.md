@@ -24,6 +24,7 @@
 <div align="center">
 
   ### Sprint 1
+  
 </div>
 
 <br>
@@ -32,26 +33,13 @@
 
 </br>
 
-<br>
+
 
 ## :dart: Objetivo
 
-:black_small_square: Entregar uma primeira versão do protótipo do site com exemplos de gráficos e um resumo dos principais indicadores demográficos de São José dos Campos, permitindo ao secretário ter uma visão inicial e comparativa da população por região.
-
-</br>
+Disponibilizar um protótipo funcional do site contendo gráficos prontos e comparativos, bem como um resumo dos principais indicadores demográficos do Censo 2022 de São José dos Campos, para que o secretário possa identificar tendências populacionais, avaliar o crescimento por região e utilizar essas informações como apoio em decisões estratégicas e reuniões de gestão.
 
 
-<br>
-
-## 📆 Cronograma das Sprints
-
-| Sprint | Período | Documentação |
-|:------:|:-------:|:------------:|
-| **Sprint 1**  | 08/09 - 28/09 | [Sprint 1 Docs](doc/Sprints/Sprint_1) |
-| **Sprint 2**  | 06/10 - 26/10 | [Sprint 2 Docs](doc/Sprints/Sprint_2) |
-| **Sprint 3**  | 03/11 - 23/11 | [Sprint 3 Docs](doc/Sprints/Sprint_3) |
-
-</br>
 
 <br>
 
@@ -59,32 +47,13 @@
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
-|  1  | Alta  | Como secretário, quero poder visualizar os gráficos prontos, para ajudar na resolução de problemas sociais.  | 8 | 1 |  ⏳ |
-|  2  | Alta  | Como secretário, quero um protótipo do site, para ter uma noção do projeto.  | 8 | 1 |  ⏳
-|  3  | Alta  | Como secretário, quero um resumo dos principais indicadores demográficos de SJC, para ter uma visão geral rápida.    | 8 | 1 |  ⏳        
-|  4  | Alta  | Como secretário, quero visualizar gráficos com os dados populacionais por região, para comparar as duas.  | 8 | 1 |  ⏳
+|  1  | Alta  | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (como evolução populacional, pirâmide etária e crescimento por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos.  | 8 | 1 |  ⏳ |
+|  2  | Alta  | Como secretário, quero acessar um protótipo funcional do site com os principais indicadores de São José dos Campos, para validar a proposta e fornecer feedback antes da versão final. | 8 | 1 |  ⏳
+|  3  | Alta  | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (população total, densidade, crescimento médio, pirâmide etária), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores.    | 8 | 1 |  ⏳        
+|  4  | Alta  | 	Como secretário, quero acessar gráficos comparativos da população por região (Norte, Sul, Leste, Oeste, Centro, Sudeste, Rural), para identificar quais áreas estão crescendo mais e planejar investimentos.  | 8 | 1 |  ⏳
 
 
 </br>
 
-<br>
 
-<div align="center">  
-  
-## :mortar_board: Equipe
-
-
-|      Membro      |    Função     |                            Github                            | 
-| :--------------: | :-----------: | :----------------------------------------------------------: | 
-|  Guilherme Oliveira  | Scrum Master  | <a href="https://github.com/guilhermeoliveirad"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-|  Hugo Leonardo  | Product Owner | <a href="https://github.com/HUGO0895"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-|  Elisa Mattos  | Desenvolvedor(a)  | <a href="https://github.com/eishymattos-cpu"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |                                                              |
-| Yuri Souza | Desenvolvedor(a) | <a href="https://github.com/YuridevOH"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-| Maria Teresa | Desenvolvedor(a)  | <a href="https://github.com/marryftx"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-| João Vitor | Desenvolvedor(a)  | <a href="https://github.com/KhovetS2"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-| Altier Cruz  | Desenvolvedor(a)  | <a href="https://github.com/T13rz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-| Felipe Batista | Desenvolvedor(a)  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-
-</div>
-</br>
 
