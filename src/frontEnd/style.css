@@ -100,7 +100,7 @@ html {
  }
  
  .button:hover {
-     box-shadow: 0 0 0 2px  white;
+     box-shadow: 0 0 0 2px #032B56;
      color: #00418C;   
  }
  
