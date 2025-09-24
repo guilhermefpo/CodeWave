@@ -24,6 +24,7 @@ header {
 .cabecalho-menu {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .cabecalho-menu-item {
@@ -31,4 +32,14 @@ header {
     font-weight: 700;
     font-size: 24px;
     color: #FFF;
+}
+
+.cabecalho-menu-botao {
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFBA00;
+    border-radius: 20px;
+    padding: 10px;
 }
