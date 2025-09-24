@@ -75,12 +75,12 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 |  2  | Alta  | Como secretário, quero acessar um protótipo funcional do site com os principais indicadores de São José dos Campos, para validar a proposta e fornecer feedback antes da versão final.  | 8 | 1 |  ⏳
 |  3  | Alta  | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (população total, densidade, crescimento médio, pirâmide etária), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores.    | 8 | 1 |  ⏳        
 |  4  | Alta  | Como secretário, quero acessar gráficos comparativos da população por região (Norte, Sul, Leste, Oeste, Centro, Sudeste, Rural), para identificar quais áreas estão crescendo mais e planejar investimentos.  | 8 | 1 |  ⏳
-|  5  | Alta  | Como secretário, quero um resumo executivo com os indicadores-chave em formato visual e compartilhável, para apresentar facilmente aos gestores e à imprensa. | 8 | 2 |  ⏸️
-|  6  | Medio | Como secretário, quero um site que contenha mapas interativos com cores por crescimento ou densidade populacional, para explorar visualmente onde estão concentradas as pessoas. | 8 | 2 |  ⏸️
-|  7  | Alta  | Como secretário, quero filtros laterais que me permitam selecionar regiões e faixas etárias específicas, para personalizar as análises conforme a demanda. | 13 | 2 |  ⏸️
-|  8  | Baixo | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo.   | 5 | 3 |  ⏸️
-|  9  | Baixa | Como secretário, quero uma página “Sobre” que descreva a metodologia utilizada (fontes de dados do IBGE, tratamento em Python/Colab, visualização em Flask), para garantir credibilidade e transparência no uso dos dados.  | 5 | 3 |  ⏸️
-|  10 | Baixa | Como secretário, quero um painel de ajuda contextual em cada seção do site, para entender facilmente como usar gráficos, filtros e mapas sem precisar de treinamento adicional.  | 2 | 3 |  ⏸️
+|  5  | Medio | Como secretário, quero um site que contenha mapas interativos com cores por crescimento ou densidade populacional, para explorar visualmente onde estão concentradas as pessoas. | 8 | 2 |  ⏸️
+|  6  | Alta  | Como secretário, quero filtros laterais que me permitam selecionar regiões e faixas etárias específicas, para personalizar as análises conforme a demanda. | 13 | 2 |  ⏸️
+|  7  | Baixo | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo.   | 5 | 3 |  ⏸️
+|  8  | Baixa | Como secretário, quero uma página “Sobre” que descreva a metodologia utilizada (fontes de dados do IBGE, tratamento em Python/Colab, visualização em Flask), para garantir credibilidade e transparência no uso dos dados.  | 5 | 3 |  ⏸️
+| 9 | Baixa | Como secretário, quero um painel de ajuda contextual em cada seção do site, para entender facilmente como usar gráficos, filtros e mapas sem precisar de treinamento adicional.  | 2 | 3 |  ⏸️
+|  10  | Alta  | Como secretário, quero um resumo executivo com os indicadores-chave em formato visual e compartilhável, para apresentar facilmente aos gestores e à imprensa. | 8 | 2 |  ⏸️
 
 </br>
 
