@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     font-family: Poppins;
     font-size: 100%;
+    background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
 }
 
 header {
@@ -42,4 +43,46 @@ header {
     color: #FFBA00;
     border-radius: 20px;
     padding: 10px;
+}
+
+.pagina-principal {
+    display: flex;
+    flex-direction: row;
+    padding: 167px 167px 0px 167px;
+    align-items: center;
+    gap: 260px ;
+}
+
+.textos-principais{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    gap: 10px;
+    color: white;
+}
+
+.textos-principais h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.textos-principais p {
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.textos-principais button{
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #FFBA00;
+    color: #004997;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.pagina-secundaria h1{
+    padding: 167px;
 }
