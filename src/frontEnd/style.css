@@ -45,15 +45,22 @@ header {
     padding: 10px;
 }
 
+.cabecalho-menu-botao:hover{
+   background-color: white;
+}
+
 .pagina-principal {
     display: flex;
     flex-direction: row;
-    padding: 167px 167px 0px 167px;
+    margin: 13% auto;
     align-items: center;
-    gap: 260px ;
+    width: 90%;
+    max-width: 1400px;
+    justify-content: space-between;
+    gap: 20%;
 }
 
-.textos-principais{
+.pagina-principal-textos{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -62,18 +69,18 @@ header {
     color: white;
 }
 
-.textos-principais h1 {
+.pagina-principal-textos h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 200%;
 }
 
-.textos-principais p {
+.pagina-principal-textos p {
     margin: 0;
-    font-size: 16px;
+    font-size: 120%;
 
 }
 
-.textos-principais button{
+.pagina-principal-textos a{
     font-size: 16px;
     border-radius: 8px;
     padding: 10px;
@@ -81,8 +88,13 @@ header {
     color: #004997;
     font-family: Poppins;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .pagina-secundaria h1{
-    padding: 167px;
+    margin:5%;
+    color: white;
+    margin-bottom: 10;
 }
+
+
