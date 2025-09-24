@@ -71,16 +71,16 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
-|  1  | Alta  | Como secretário, quero poder visualizar os gráficos prontos, para ajudar na resolução de problemas sociais.  | 8 | 1 |  ⏳ |
-|  2  | Alta  | Como secretário, quero um protótipo do site, para ter uma noção do projeto.  | 8 | 1 |  ⏳
-|  3  | Alta  | Como secretário, quero um resumo dos principais indicadores demográficos de SJC, para ter uma visão geral rápida.    | 8 | 1 |  ⏳        
-|  4  | Alta  | Como secretário, quero visualizar gráficos com os dados populacionais por região, para comparar as duas.  | 8 | 1 |  ⏳
-|  5  | Alta  | Como secretário, quero visualizar um resumo executivo com os principais indicadores, para compartilhar com a prefeitura. | 8 | 2 |  ⏸️
-|  6  | Medio | Como secretário, quero um site que contenha mapas interativos e com os dados que necessito, para ter um site mais interativo e acessivo. | 8 | 2 |  ⏸️
-|  7  | Alta  | Como secretário, quero filtros laterais para selecionar regiões e indicadores, para personalizar minha análise.  | 13 | 2 |  ⏸️
-|  8  | Baixo | Como secretário, quero uma navegação intuitiva entre as seções do site, para acessar facilmente todas as funcionalidades.    | 5 | 3 |  ⏸️
-|  9  | Baixa | Como secretário, quero ter uma página "Sobre" com a metodologia utilizada na pesquisa, para dar credibilidade aos dados.  | 5 | 3 |  ⏸️
-|  10 | Baixa | Como secretário, quero um Painel de ajuda contextual para me ajudar em cada seção do site.  | 2 | 3 |  ⏸️
+|  1  | Alta  | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (como evolução populacional, pirâmide etária e crescimento por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos. | 8 | 1 |  ⏳ |
+|  2  | Alta  | Como secretário, quero acessar um protótipo funcional do site com os principais indicadores de São José dos Campos, para validar a proposta e fornecer feedback antes da versão final.  | 8 | 1 |  ⏳
+|  3  | Alta  | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (população total, densidade, crescimento médio, pirâmide etária), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores.    | 8 | 1 |  ⏳        
+|  4  | Alta  | Como secretário, quero acessar gráficos comparativos da população por região (Norte, Sul, Leste, Oeste, Centro, Sudeste, Rural), para identificar quais áreas estão crescendo mais e planejar investimentos.  | 8 | 1 |  ⏳
+|  5  | Alta  | Como secretário, quero um resumo executivo com os indicadores-chave em formato visual e compartilhável, para apresentar facilmente aos gestores e à imprensa. | 8 | 2 |  ⏸️
+|  6  | Medio | Como secretário, quero um site que contenha mapas interativos com cores por crescimento ou densidade populacional, para explorar visualmente onde estão concentradas as pessoas. | 8 | 2 |  ⏸️
+|  7  | Alta  | Como secretário, quero filtros laterais que me permitam selecionar regiões e faixas etárias específicas, para personalizar as análises conforme a demanda. | 13 | 2 |  ⏸️
+|  8  | Baixo | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo.   | 5 | 3 |  ⏸️
+|  9  | Baixa | Como secretário, quero uma página “Sobre” que descreva a metodologia utilizada (fontes de dados do IBGE, tratamento em Python/Colab, visualização em Flask), para garantir credibilidade e transparência no uso dos dados.  | 5 | 3 |  ⏸️
+|  10 | Baixa | Como secretário, quero um painel de ajuda contextual em cada seção do site, para entender facilmente como usar gráficos, filtros e mapas sem precisar de treinamento adicional.  | 2 | 3 |  ⏸️
 
 </br>
 
