@@ -71,9 +71,9 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
-|  1  | Alta  | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (como evolução populacional, pirâmide etária e crescimento por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos. | 8 | 1 |  ⏳ |
+|  1  | Alta  | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos. | 8 | 1 |  ⏳ |
 |  2  | Alta  | Como secretário, quero acessar um protótipo funcional do site com os principais indicadores de São José dos Campos, para validar a proposta e fornecer feedback antes da versão final.  | 8 | 1 |  ⏳
-|  3  | Alta  | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (população total, densidade, crescimento médio, pirâmide etária), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores.    | 8 | 1 |  ⏳        
+|  3  | Alta  | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores.    | 8 | 1 |  ⏳        
 |  4  | Alta  | Como secretário, quero acessar gráficos comparativos da população por região (Norte, Sul, Leste, Oeste, Centro, Sudeste, Rural), para identificar quais áreas estão crescendo mais e planejar investimentos.  | 8 | 1 |  ⏳
 |  5  | Medio | Como secretário, quero um site que contenha mapas interativos com cores por crescimento ou densidade populacional, para explorar visualmente onde estão concentradas as pessoas. | 8 | 2 |  ⏸️
 |  6  | Alta  | Como secretário, quero filtros laterais que me permitam selecionar regiões e faixas etárias específicas, para personalizar as análises conforme a demanda. | 13 | 2 |  ⏸️
