@@ -1,8 +1,14 @@
-## FATEC Profº Jessen Vidal - São José dos Campos - API 1º Semestre DSM - 2025
+<div align="center">
 
+## API 1º Semestre DSM - 2025
+
+</div>
+
+<div align="center">
   
 ### Projeto de Análise de Censo em São josé dos Campos
 
+</div>
 
 <p align="center">
   <img src="doc/img/CodeWave_logo.png" alt="Logo da equipe"
@@ -85,15 +91,15 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 ## :mortar_board: Equipe
 
 
-|      Membro      |    Função     |                            Github                            | 
+|      Membro      |    Função     |                 LinkedIn & GitHub                            | 
 | :--------------: | :-----------: | :----------------------------------------------------------: | 
-|  Guilherme Oliveira  | Scrum Master  | <a href="https://github.com/guilhermeoliveirad"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-|  Hugo Leonardo  | Product Owner | <a href="https://github.com/HUGO0895"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-|  Elisa Mattos  | Desenvolvedor(a)  | <a href="https://github.com/eishymattos-cpu"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |                                                              |
-| Yuri Souza | Desenvolvedor(a) | <a href="https://github.com/YuridevOH"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-| João Vitor | Desenvolvedor(a)  | <a href="https://github.com/KhovetS2"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-| Altier Cruz  | Desenvolvedor(a)  | <a href="https://github.com/T13rz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
-| Felipe Batista | Desenvolvedor(a)  | <a href="https://github.com/felipesgb"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |
+|  Guilherme Oliveira  | Scrum Master  | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/guilhermeoliveirad) |
+|  Hugo Leonardo  | Product Owner | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/HUGO0895) |
+|  Elisa Mattos  | Desenvolvedor(a)  | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/elisamattosmann/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/eishymattos-cpu)|                                                              |
+| Yuri Souza | Desenvolvedor(a) | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/elisamattosmann/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/YuridevOH) |
+| João Vitor | Desenvolvedor(a)  | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/elisamattosmann/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/joaoCavalcante377) |
+| Altier Cruz  | Desenvolvedor(a)  | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/elisamattosmann/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/T13rz) |
+| Felipe Batista | Desenvolvedor(a)  | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/elisamattosmann/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/felipesgb) |
 
 </div>
 </br>
