@@ -25,17 +25,29 @@
  <a href= "https://www.figma.com/pt-br/"><img src="https://img.shields.io/badge/FIGMA-%23F24E1E?style=for-the-badge&logo=figma&logoColor=black"/></a>
 </h1>
 
+<p align="center">
+  | <a href ="#Objetivo"> Objetivo</a>  |
+  <a href ="#requisitos"> Requisitos do Cliente</a>  |   
+  <a href ="#cronograma"> Cronograma das Sprints</a>  |
+  <a href ="#dor">DoR</a>  |
+  <a href ="#dod">DoD</a>  |
+  <a href ="#backlog">Bcklog do Produto</a>  |
+  <a href ="#equipe"> Equipe</a> |
+</p>
+
 <br>
 
 > Status do Projeto: Em andamento! :hourglass_flowing_sand:
 
 </br>
 
-## :dart: Objetivo
+
+
+## :dart: Objetivo <a id="Objetivo"></a>
 
 O desafio consiste em desenvolver uma solução web que realize a análise detalhada dos dados do Censo 2022 de São José dos Campos. O sistema deverá permitir a filtragem por região e faixa etária, apresentar gráficos de evolução populacional, pirâmides etárias dinâmicas e mapas interativos, de forma simples, responsiva e acessível, apoiando a tomada de decisão da Prefeitura Municipal.
 
-##  :medal_sports: Requisitos do Cliente 
+##  :medal_sports: Requisitos do Cliente <a id="requisitos"></a>
 
 A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou à equipe CodeWave o desenvolvimento de uma solução capaz de traduzir os dados do Censo 2022 em informações claras, acessíveis e úteis para a tomada de decisões estratégicas.
 
@@ -54,7 +66,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 <br>
 
-## 📆 Cronograma das Sprints
+## 📆 Cronograma das Sprints <a id="cronograma"></a>
 
 | Sprint | Período |Status| Documentação |
 |:------:|:-------:|:------------:|:----------:|
@@ -65,9 +77,25 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 </br>
 
+## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
+
+* User Stories com **Critérios de Aceitação**
+* Subtarefas divididas **a partir das US**
+* Design no **Figma**
+* Modelagem do **Banco de Dados**
+* Diagrama de **Rotas**
+* Banco de Dados **Vetorizado** do Cliente
+
+## 🏆 DoD - Definition of Done <a id="dod"></a>
+
+* Manual de Usuário
+* Manual da Aplicação
+* Documentação da API (Application Programming Interface)
+* Código completo
+* Vídeos de cada etapa de entrega
 <br>
 
-## 📋 Backlog do Produto
+## 📋 Backlog do Produto <a id="backlog"></a>
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
@@ -88,7 +116,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 <div align="center">  
   
-## :mortar_board: Equipe
+## :mortar_board: Equipe <a id="equipe"></a>
 
 
 |      Membro      |    Função     |                 LinkedIn & GitHub                            | 
