@@ -33,6 +33,7 @@
   <a href ="#dod">DoD</a>  |
   <a href ="#backlog">Bcklog do Produto</a>  |
   <a href ="#equipe"> Equipe</a> |
+   <a href ="#cronogramaPJ"> Cronograma de Evolução do Projeto </a> |
 </p>
 
 <br>
@@ -64,7 +65,28 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 :black_small_square: Garantir que os resultados possam ser apresentados em reuniões com o prefeito e demais órgãos públicos.
 
 
+## 💡 MVP (Produto Mínimo Viável) <a id="mvp"></a>
+  <details>
+  <summary> Backlog - Sprint 1 </summary>
+  </details>
+  <details>
+  <summary> Backlog - Sprint 2 </summary>
+  </details>
+  <details>
+  <summary> Backlog - Sprint 3 </summary>
+  </details>
+
 <br>
+
+## 📆 Cronograma de Evolução do Projeto <a id="cronogramaPJ"></a>
+
+
+| Sprint | Período |  Status  | Foco |
+|:------:|:-------:|:------------:|:----------:|
+| **Sprint 1**  | 08/09 - 28/09 | Em andamento |  |
+| **Sprint 2**  | 06/10 - 26/10 | Em planejamento |  |
+| **Sprint 3**  | 03/11 - 23/11 | Em planejamento |  |
+
 
 ## 📆 Cronograma das Sprints <a id="cronograma"></a>
 
@@ -77,22 +99,19 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 </br>
 
+
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
 
 * User Stories com **Critérios de Aceitação**
 * Subtarefas divididas **a partir das US**
 * Design no **Figma**
-* Modelagem do **Banco de Dados**
-* Diagrama de **Rotas**
-* Banco de Dados **Vetorizado** do Cliente
 
 ## 🏆 DoD - Definition of Done <a id="dod"></a>
 
 * Manual de Usuário
-* Manual da Aplicação
-* Documentação da API (Application Programming Interface)
 * Código completo
 * Vídeos de cada etapa de entrega
+  
 <br>
 
 ## 📋 Backlog do Produto <a id="backlog"></a>
@@ -137,9 +156,6 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 <div align="center">  
   
 ## :globe_with_meridians: Focal Point
-
-
-# Link do site: https://codewavecenso.vercel.app/
 
 
 | P²              | M²       |
