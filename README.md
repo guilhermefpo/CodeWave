@@ -12,7 +12,7 @@
 
 <p align="center">
   <img src="doc/img/CodeWave_logo.png" alt="Logo da equipe"
-     width="500"/>
+     width="400"/>
 </p>
 
 <h1 align="center">
