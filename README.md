@@ -83,9 +83,9 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 | Sprint | Período |  Status  | Foco |
 |:------:|:-------:|:------------:|:----------:|
-| **Sprint 1**  | 08/09 - 28/09 | Em andamento |  |
-| **Sprint 2**  | 06/10 - 26/10 | Em planejamento |  |
-| **Sprint 3**  | 03/11 - 23/11 | Em planejamento |  |
+| **Sprint 1**  | 08/09 - 28/09 | Em andamento | Esqueleto do site, raspagem de dados e entrega de um protótipo no Figma |
+| **Sprint 2**  | 06/10 - 26/10 | ⏸️ |  |
+| **Sprint 3**  | 03/11 - 23/11 | ⏸️ |  |
 
 
 ## 📆 Cronograma das Sprints <a id="cronograma"></a>
