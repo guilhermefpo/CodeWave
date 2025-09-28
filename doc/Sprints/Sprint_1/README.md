@@ -23,7 +23,7 @@
 
 <br>
 
-> Status da Sprint: Em andamento! :hourglass_flowing_sand:
+> Status da Sprint: Completa! ✔️
 
 </br>
 
@@ -31,7 +31,7 @@
 
 ## :dart: Objetivo
 
-Disponibilizar um protótipo funcional do site contendo gráficos prontos e comparativos, bem como um resumo dos principais indicadores demográficos do Censo 2022 de São José dos Campos, para que o secretário possa identificar tendências populacionais, avaliar o crescimento por região e utilizar essas informações como apoio em decisões estratégicas e reuniões de gestão.
+Disponibilizar um protótipo do site contendo gráficos prontos e comparativos, bem como um resumo dos principais indicadores demográficos do Censo 2022 de São José dos Campos, para que o secretário possa identificar tendências populacionais, avaliar o crescimento por região e utilizar essas informações como apoio em decisões estratégicas e reuniões de gestão.
 
 
 
@@ -49,5 +49,10 @@ Disponibilizar um protótipo funcional do site contendo gráficos prontos e comp
 
 </br>
 
+<br>
+
+## 📂 MVP 
 
 
+
+</br>
