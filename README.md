@@ -94,8 +94,8 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 |:------:|:-------:|:------------:|:----------:|
 | **Sprint 1**  | 08/09 - 28/09 | ✔️ | [MVP](doc/Sprints/Sprint_1) |
 | **Sprint 2**  | 06/10 - 26/10 |🔜| [MVP](doc/Sprints/Sprint_2) |
-| **Sprint 3**  | 03/11 - 23/11 🔜| [MVP](doc/Sprints/Sprint_3) |
-| **Feira de Soluções** | 04/12 🔜| [MVP](README.md)|
+| **Sprint 3**  | 03/11 - 23/11 | 🔜| [MVP](doc/Sprints/Sprint_3) |
+| **Feira de Soluções** | 04/12 | 🔜| [MVP](README.md)|
 
 </br>
 
