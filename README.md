@@ -68,6 +68,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 ## 💡 MVP (Produto Mínimo Viável) <a id="mvp"></a>
   <details>
   <summary> MVP - Sprint 1 </summary>
+    <img src="doc/videos/Colab - GIF.gif">
   </details>
   <details>
   <summary> MVP - Sprint 2 </summary>
