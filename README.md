@@ -83,19 +83,19 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 | Sprint | Período |  Status  | Foco |
 |:------:|:-------:|:------------:|:----------:|
-| **Sprint 1**  | 08/09 - 28/09 | Em andamento | Esqueleto do site, raspagem de dados e entrega do protótipo no Figma. |
-| **Sprint 2**  | 06/10 - 26/10 | ⏸️ |  |
-| **Sprint 3**  | 03/11 - 23/11 | ⏸️ |  |
+| **Sprint 1**  | 08/09 - 28/09 | ✔️ | Esqueleto do site, raspagem de dados e entrega do protótipo no Figma. |
+| **Sprint 2**  | 06/10 - 26/10 | 🔜 |  |
+| **Sprint 3**  | 03/11 - 23/11 | 🔜 |  |
 
 
 ## 📆 Cronograma das Sprints <a id="cronograma"></a>
 
 | Sprint | Período |Status| Documentação |
 |:------:|:-------:|:------------:|:----------:|
-| **Sprint 1**  | 08/09 - 28/09 | Em andamento | [MVP](doc/Sprints/Sprint_1) |
-| **Sprint 2**  | 06/10 - 26/10 |⏸️| [MVP](doc/Sprints/Sprint_2) |
-| **Sprint 3**  | 03/11 - 23/11 |⏸️| [MVP](doc/Sprints/Sprint_3) |
-| **Feira de Soluções** | 04/12 |⏸️| [MVP](README.md)|
+| **Sprint 1**  | 08/09 - 28/09 | ✔️ | [MVP](doc/Sprints/Sprint_1) |
+| **Sprint 2**  | 06/10 - 26/10 |🔜| [MVP](doc/Sprints/Sprint_2) |
+| **Sprint 3**  | 03/11 - 23/11 🔜| [MVP](doc/Sprints/Sprint_3) |
+| **Feira de Soluções** | 04/12 🔜| [MVP](README.md)|
 
 </br>
 
