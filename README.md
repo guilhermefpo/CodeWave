@@ -134,6 +134,52 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 </br>
 
+## 📖 Manual do Usuário <a id="manual"></a>
+
+### Requisitos
+ - Git (<a href="https://git-scm.com/downloads">download</a>)
+ - Python 3.9+ (<a href="https://www.python.org/">download</a>)
+
+### Execução
+ 1. Clonar o repositório principal (main)
+  ```bash
+   git clone https://github.com/guilhermefpo/CodeWave
+   cd CodeWave
+  ```
+
+  2. Criar o ambiente virtual
+  ```bash
+   py -m venv . venv
+  ```
+
+  3. Ativar o ambiente
+  ```bash
+   (PowerShell): .\venv\Scripts\Activate.ps1
+   (cmd): .\venv\Scripts\activate.bat
+   (bash): source venv/Scripts/activate
+   (Linux / Mac): source venv/bin/activate
+
+   Caso haja erro de permissão, executar:
+   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+   Para desativar o ambiente, basta executar:
+   deactivate
+
+   Se o ambiente foi configurado corretamente, deverá aparecer:
+   (venv) C:\Users\"Caminho_do_projeto"
+  ```
+
+  4. Baixar as bibliotecas do arquivo requirements.txt
+  ```bash
+   cd src
+   pip install -r requirements.txt
+  ```
+
+  5. Subir o servidor flask
+  ```bash
+   flask run
+  ```
+
 <br>
 
 <div align="center">  
