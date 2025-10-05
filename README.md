@@ -27,13 +27,15 @@
 
 <p align="center">
   | <a href ="#Objetivo"> Objetivo</a>  |
-  <a href ="#requisitos"> Requisitos do Cliente</a>  |   
+  <a href ="#requisitos"> Requisitos do Cliente</a>  |  
+  <a href ="#mvp"> MVP</a>  |
+  <a href ="#cronogramaPJ"> Cronograma de Evolução do Projeto </a> |
   <a href ="#cronograma"> Cronograma das Sprints</a>  |
   <a href ="#dor">DoR</a>  |
   <a href ="#dod">DoD</a>  |
-  <a href ="#backlog">Bcklog do Produto</a>  |
+  <a href ="#backlog">Backlog do Produto</a>  |
   <a href ="#equipe"> Equipe</a> |
-   <a href ="#cronogramaPJ"> Cronograma de Evolução do Projeto </a> |
+   
 </p>
 
 <br>
@@ -128,7 +130,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 |  7  | Baixo | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo.   | 5 | 3 |  ⏸️
 |  8  | Baixa | Como secretário, quero uma página “Sobre” que descreva a metodologia utilizada (fontes de dados do IBGE, tratamento em Python/Colab, visualização em Flask), para garantir credibilidade e transparência no uso dos dados.  | 5 | 3 |  ⏸️
 | 9 | Baixa | Como secretário, quero um painel de ajuda contextual em cada seção do site, para entender facilmente como usar gráficos, filtros e mapas sem precisar de treinamento adicional.  | 2 | 3 |  ⏸️
-|  10  | Alta  | Como secretário, quero um resumo executivo com os indicadores-chave em formato visual e compartilhável, para apresentar facilmente aos gestores e à imprensa. | 8 | 2 |  ⏸️
+|  10  | Alta  | Como secretário, quero um resumo executivo com os indicadores-chave em formato visual e compartilhável, para apresentar facilmente aos gestores e à imprensa. | 8 | 3 |  ⏸️
 
 </br>
 
