@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-size: 100%;
+    background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
+}
+
+header {
+    background: linear-gradient(90deg, #004997 42.79%, #163659 69.23%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 40px;
+    justify-content: space-between;
+}
+
+.cabecalho-logo {
+    height: 70px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.cabecalho-menu-item {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFF;
+}
+
+.cabecalho-menu-botao {
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFBA00;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cabecalho-menu-botao:hover{
+   background-color: white;
+}
+
+.pagina-principal {
+    display: flex;
+    flex-direction: row;
+    margin: 12% auto;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    gap: 20%;
+}
+
+.pagina-principal-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    gap: 10px;
+    color: white;
+}
+
+.pagina-principal-textos h1 {
+    margin: 0;
+    font-size: 200%;
+}
+
+.pagina-principal-textos p {
+    margin: 0;
+    font-size: 120%;
+
+}
+
+.pagina-principal-textos a{
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #FFBA00;
+    color: #004997;
+    font-family: Poppins;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.pagina-secundaria h1{
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+
+.pagina-secundaria h2{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    color: white;
+}
+
+.pagina-secundaria img{
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+
+
