@@ -16,7 +16,7 @@
 
 <div align="center">
 
-  ### Sprint 1
+  ### Sprint II
   
 </div>
 
