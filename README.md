@@ -143,7 +143,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 ### Execução
  1. Clonar o repositório principal (main)
   ```bash
-   git clone https://github.com/guilhermefpo/CodeWave
+   git clone [https://github.com/guilhermefpo/CodeWave](https://github.com/guilhermefpo/CodeWave.git)
    cd CodeWave
   ```
 
