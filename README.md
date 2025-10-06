@@ -116,6 +116,31 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 * Vídeos de cada etapa de entrega
   
 <br>
+# 📋 Sprint 2 - Requisitos
+
+| Rank | Prioridade | User Story | Estimativa | Sprint | Status |
+|------|------------|------------|------------|--------|--------|
+| 1 | **Alta** | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região, para avaliar a qualificação da população. | 8 | 2 | ⏸️ |
+| 2 | **Alta** | Como Secretário, quero identificar quais regiões têm renda per capita acima da média da cidade, para entender desigualdades regionais. | 8 | 2 | ⏸️ |
+| 3 | **Alta** | Como Secretário, quero analisar a evolução do rendimento formal por região, para identificar aumento potencial de arrecadação e consumo. | 8 | 2 | ⏸️ |
+| 4 | **Média** | Como Secretário, quero ver a proporção de domicílios com internet banda larga, para planejar automação de serviços públicos. | 5 | 2 | ⏸️ |
+| 5 | **Média** | Como Secretário, quero analisar a distribuição etária da população de SJC em comparação com o Estado de SP, para identificar tendências de rejuvenescimento ou envelhecimento. | 5 | 2 | ⏸️ |
+| 6 | **Alta** | Como secretário, quero filtros laterais que me permitam selecionar regiões e faixas etárias específicas, para personalizar as análises conforme a demanda. | 13 | 2 | ⏸️ |
+| 7 | **Média** | Como secretário, quero um site que contenha mapas interativos com cores por crescimento ou densidade populacional, para explorar visualmente onde estão concentradas as pessoas. | 8 | 2 | ⏸️ |
+| 8 | **Média** | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ⏸️ |
+
+## 📊 Resumo da Sprint 2
+
+**Total de Pontos:** 60 pontos  
+**Histórias de Alta Prioridade:** 4  
+**Histórias de Média Prioridade:** 4  
+
+### 🎯 Foco Principal:
+- **Indicadores Educacionais e de Renda** (Ensino Superior, renda per capital)
+- **Ferramentas de Análise** (Filtros, mapas interativos)
+- **Comparativos Regionais** (SJC vs Estado de SP)
+
+
 
 ## 📋 Backlog do Produto <a id="backlog"></a>
 
