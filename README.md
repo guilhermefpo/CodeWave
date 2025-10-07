@@ -118,27 +118,21 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 <br>
 # 📋 Sprint 2 - Requisitos
 
-| Rank | Prioridade | User Story | Estimativa | Sprint | Status |
-|------|------------|------------|------------|--------|--------|
-| 1 | **Alta** | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região, para avaliar a qualificação da população. | 8 | 2 | ⏸️ |
-| 2 | **Alta** | Como Secretário, quero identificar quais regiões têm renda per capita acima da média da cidade, para entender desigualdades regionais. | 8 | 2 | ⏸️ |
-| 3 | **Alta** | Como Secretário, quero analisar a evolução do rendimento formal por região, para identificar aumento potencial de arrecadação e consumo. | 8 | 2 | ⏸️ |
-| 4 | **Média** | Como Secretário, quero ver a proporção de domicílios com internet banda larga, para planejar automação de serviços públicos. | 5 | 2 | ⏸️ |
-| 5 | **Média** | Como Secretário, quero analisar a distribuição etária da população de SJC em comparação com o Estado de SP, para identificar tendências de rejuvenescimento ou envelhecimento. | 5 | 2 | ⏸️ |
-| 6 | **Alta** | Como secretário, quero filtros laterais que me permitam selecionar regiões e faixas etárias específicas, para personalizar as análises conforme a demanda. | 13 | 2 | ⏸️ |
-| 7 | **Média** | Como secretário, quero um site que contenha mapas interativos com cores por crescimento ou densidade populacional, para explorar visualmente onde estão concentradas as pessoas. | 8 | 2 | ⏸️ |
-| 8 | **Média** | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ⏸️ |
+| Rank | Prioridade | User Story | Estimativa | Sprint | Status | Meta |
+|------|------------|------------|------------|--------|--------|------| 
+| 1 | **Alta** | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região e comparar esse dado com a média estadual, para avaliar a qualificação da população. | 8 | 2 | ⏸️ | ✅ |
+| 2 | **Alta** | Como Secretário, quero visualizar se o rendimento formal nas regiões da cidade aumentou mais que a média nacional, para entender desigualdades regionais, o potencial de aumento de arrecadação, maior consumo local e oportunidades para o comércio. | 8 | 2 | ⏸️ | ✅ |
+| 3 | **Alta** | Como Secretário, quero visualizar a proporção de domicílios com internet banda larga por região e verificar se essa proporção é uma das mais altas do Brasil, para planejar automação de serviços públicos. | 8 | 2 | ⏸️ | ✅ |
+| 4 | **Alta** | Como Secretário, quero visualizar quais regiões têm renda per capita acima da média da cidade, para entender desigualdades regionais e distribuir melhor os recursos. | 8 | 2 | ⏸️ | ✅ |
+| 5 | **Alta** | Como Secretário, quero visualizar a distribuição etária da população de SJC por regiões e comparar a média populacional da cidade com a média estadual, para entender questões de migração e identificar tendências de rejuvenescimento ou envelhecimento. | 8 | 2 | ⏸️ | ✅ |
+| 6 | **Alta** | Como secretário, quero uma página de filtros que me permita selecionar a região por meio de um mapa interativo e o tipo de dado específico para visualização em gráficos, para personalizar as análises conforme a demanda. | 13 | 2 | ⏸️ | ✅ |
+| 7 | **Média** | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ⏸️ |    |
 
 ## 📊 Resumo da Sprint 2
 
-**Total de Pontos:** 60 pontos  
-**Histórias de Alta Prioridade:** 4  
-**Histórias de Média Prioridade:** 4  
-
-### 🎯 Foco Principal:
-- **Indicadores Educacionais e de Renda** (Ensino Superior, renda per capital)
-- **Ferramentas de Análise** (Filtros, mapas interativos)
-- **Comparativos Regionais** (SJC vs Estado de SP)
+**Total de Pontos:** 58 pontos  
+**Histórias de Alta Prioridade:** 6
+**Histórias de Média Prioridade:** 1
 
 
 
