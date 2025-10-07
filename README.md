@@ -116,17 +116,18 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 * Vídeos de cada etapa de entrega
   
 <br>
-# #📋 Sprint 2 - Requisitos
+## 📋 Sprint 2 - Requisitos
 
 | Rank | Prioridade | User Story | Estimativa | Sprint | Status | Meta |
-|------|------------|------------|------------|--------|--------|------| 
-| 1 | **Alta** | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região e comparar esse dado com a média estadual, para avaliar a qualificação da população. | 8 | 2 |  ⏸️  |  ✅  |
-| 2 | **Alta** | Como Secretário, quero visualizar se o rendimento formal nas regiões da cidade aumentou mais que a média nacional, para entender desigualdades regionais, o potencial de aumento de arrecadação, maior consumo local e oportunidades para o comércio. | 8 | 2 |  ⏸️ |  ✅ |
-| 3 | **Alta** | Como Secretário, quero visualizar a proporção de domicílios com internet banda larga por região e verificar se essa proporção é uma das mais altas do Brasil, para planejar automação de serviços públicos. | 8 | 2 |  ⏸️  |  ✅  |
-| 4 | **Alta** | Como Secretário, quero visualizar quais regiões têm renda per capita acima da média da cidade, para entender desigualdades regionais e distribuir melhor os recursos. | 8 | 2 |  ⏸️  |  ✅  |
-| 5 | **Alta** | Como Secretário, quero visualizar a distribuição etária da população de SJC por regiões e comparar a média populacional da cidade com a média estadual, para entender questões de migração e identificar tendências de rejuvenescimento ou envelhecimento. | 8 | 2 |  ⏸️  |  ✅  |
-| 6 | **Alta** | Como secretário, quero uma página de filtros que me permita selecionar a região por meio de um mapa interativo e o tipo de dado específico para visualização em gráficos, para personalizar as análises conforme a demanda. | 13 | 2 |  ⏸️   |  ✅  |
-| 7 | **Média** | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 |  ⏸️  |    |
+|:----:|:----------:|------------|:----------:|:------:|:------:|:----:|
+| 1 | Alta | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região e comparar esse dado com a média estadual, para avaliar a qualificação da população. | 8 | 2 | ⏸️ | ✅ |
+| 2 | Alta | Como Secretário, quero visualizar se o rendimento formal nas regiões da cidade aumentou mais que a média nacional, para entender desigualdades regionais, o potencial de aumento de arrecadação, maior consumo local e oportunidades para o comércio. | 8 | 2 | ⏸️ | ✅ |
+| 3 | Alta | Como Secretário, quero visualizar a proporção de domicílios com internet banda larga por região e verificar se essa proporção é uma das mais altas do Brasil, para planejar automação de serviços públicos. | 8 | 2 | ⏸️ | ✅ |
+| 4 | Alta | Como Secretário, quero visualizar quais regiões têm renda per capita acima da média da cidade, para entender desigualdades regionais e distribuir melhor os recursos. | 8 | 2 | ⏸️ | ✅ |
+| 5 | Alta | Como Secretário, quero visualizar a distribuição etária da população de SJC por regiões e comparar a média populacional da cidade com a média estadual, para entender questões de migração e identificar tendências de rejuvenescimento ou envelhecimento. | 8 | 2 | ⏸️ | ✅ |
+| 6 | Alta | Como secretário, quero uma página de filtros que me permita selecionar a região por meio de um mapa interativo e o tipo de dado específico para visualização em gráficos, para personalizar as análises conforme a demanda. | 13 | 2 | ⏸️ | ✅ |
+| 7 | Média | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ⏸️ |     |
+
 
 ## 📊 Resumo da Sprint 2
 
