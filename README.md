@@ -116,7 +116,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 * Vídeos de cada etapa de entrega
   
 <br>
-# 📋 Sprint 2 - Requisitos
+## 📋 Sprint 2 - Requisitos
 
 | Rank | Prioridade | User Story | Estimativa | Sprint | Status | Meta |
 |:----:|:----------:|------------|:----------:|:------:|:------:|:----:|
