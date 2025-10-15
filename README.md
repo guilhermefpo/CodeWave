@@ -136,7 +136,8 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 **Histórias de Média Prioridade:** 1
 
 
-
+</br>
+<br>
 ## 📋 Backlog do Produto <a id="backlog"></a>
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
