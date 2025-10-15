@@ -115,7 +115,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 * Código completo
 * Vídeos de cada etapa de entrega
   
-<br>
+
 ## 📋 Sprint 2 - Requisitos
 
 | Rank | Prioridade | User Story | Estimativa | Sprint | Status | Meta |
@@ -136,7 +136,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 **Histórias de Média Prioridade:** 1
 
 
-</br>
+
 <br>
 ## 📋 Backlog do Produto <a id="backlog"></a>
 
