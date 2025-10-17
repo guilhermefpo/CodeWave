@@ -30,9 +30,7 @@ def indicadores():
            grap_setor=graficos['setor'],
            grap_domi=graficos['domici']
         )
-       else:
-         print("Erro ao gerar gráficos")
-         return render_template('erro.html')
+      
     
 
 

@@ -7,13 +7,13 @@
             <h1>Alguns dos principais indicadores de São José dos Campos</h1>
             <div class="pagina-secundaria-conteudo">
                 <h2>População por grupo etário</h2>
-                <img src="./static/graf_pop_etario.jpg" alt="Gráfico população por grupo etário">
+               <div class="container-fluid w-75" > {{grap_etario|safe}} </div>
                 <h2>População por grupo quinzenal</h2>
-                <img src="./static/graf_pop_quin.jpg" alt="Gráfico população por grupo quinzenal">
+              <div class="container-fluid w-75" > {{grap_piramid|safe}} </div>
                 <h2>População por bairro</h2>
-                <img src="./static/graf_pop.jpg" alt="Gráfico população por bairro">
+                <div class="container-fluid w-75" > {{grap_setor|safe}} </div>
                 <h2>População e domicílios por região</h2>
-                <img src="./static/graf_pop_dom.jpg" alt="Gráfico população e domicílios por região">
+                <div class="container-fluid w-75" > {{grap_domi|safe}} </div>
             </div>
         </section>
     </main>

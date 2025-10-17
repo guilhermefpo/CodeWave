@@ -1,10 +1,10 @@
 import pandas as pd
+import plotly
 import plotly.express as px
 import plotly.graph_objects as go
 import sidrapy
 import numpy as np
 import os
-import matplotlib.pyplot as plt
 def criando_grap():
  url='https://www.sjc.sp.gov.br/servicos/governanca/populacao/'
  df=pd.read_html(url,header=0)
