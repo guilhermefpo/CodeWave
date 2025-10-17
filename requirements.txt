@@ -1,0 +1,10 @@
+pandas>=2.1.4
+numpy>=1.24.3
+plotly>=5.17.0
+sidrapy 
+matplotlib>=3.7.0
+flask>=2.3.0
+lxml
+html5lib
+beautifulsoup4
+requests
