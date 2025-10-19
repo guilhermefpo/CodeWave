@@ -1,39 +1,22 @@
-   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
     font-size: 100%;
     background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
 }
 
 header {
     background: linear-gradient(90deg, #004997 42.79%, #163659 69.23%);
-  
-    
-    align-items: center;
-   
 }
 
-.cabecalho-logo {
-    height: 70px;
-}
-
-.cabecalho-menu {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-
-.cabecalho-menu-item {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 24px;
-    color: #FFF;
-}
-
+/* -------------------- NAVBAR -------------------- */
 .cabecalho-menu-botao {
     text-decoration: none;
     border: 2px solid rgb(255, 196, 0);
@@ -41,69 +24,155 @@ header {
     font-size: 15px;
     color: #ffbb00;
     border-radius: 20px;
-    padding: 2px;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
 }
 
-.cabecalho-menu-botao:hover{
-   background-color: rgb(255, 251, 0);
+.cabecalho-menu-botao:hover {
+    background-color: rgb(255, 251, 0);
+    color: #032B56;
 }
+
+/* -------------------- PÁGINA PRINCIPAL -------------------- */
 
 .pagina-principal {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    margin: 12% auto;
+    margin: 5% auto;
     align-items: center;
-    width: 70%;
-    justify-content: space-between;
-    gap: 20%;
+    width: 90%;
+    justify-content: center;
+    gap: 5%;
+    padding: 20px;
 }
 
-.pagina-principal-textos{
+.pagina-principal-textos {
+    flex: 1 1 300px;
+    min-width: 280px;
+    color: white;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     text-align: justify;
-    gap: 10px;
-    color: white;
+    gap: 16px;
 }
 
 .pagina-principal-textos h1 {
-    margin: 0;
-    font-size: 200%;
+    font-size: 2rem;
 }
 
 .pagina-principal-textos p {
-    margin: 0;
-    font-size: 120%;
-
+    font-size: 1rem;
 }
 
-.pagina-principal-textos a{
-    font-size: 16px;
+.pagina-principal-textos a {
+    font-size: 1rem;
     border-radius: 8px;
-    padding: 10px;
+    padding: 10px 16px;
     background-color: #FFBA00;
     color: #004997;
-    font-family: Poppins;
     font-weight: 700;
     text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
 }
 
-.pagina-secundaria h1{
+.pagina-principal-textos a:hover {
+    background-color: #ffd21f;
+    color: #002d61;
+}
+
+.pagina-principal img {
+    flex: 1 1 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------------------- PÁGINA SECUNDÁRIA -------------------- */
+
+.pagina-secundaria h1,
+.pagina-secundaria h2 {
+    color: white;
+}
+
+.pagina-secundaria h1 {
     text-align: center;
-    margin-top: 5%;
-    color: white;
+    margin: 5% 0 3%;
+    font-size: 1.8rem;
 }
 
-.pagina-secundaria h2{
+.pagina-secundaria h2 {
     text-align: left;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-bottom: 0;
-    color: white;
+    margin: 3% 0 1% 5%;
+    font-size: 1.4rem;
 }
 
-.pagina-secundaria img{
-    text-align: left;
-    margin-left: 5%;
+.pagina-secundaria .container-fluid {
+    margin-bottom: 40px;
+}
+
+/* -------------------- RESPONSIVIDADE -------------------- */
+
+@media (max-width: 992px) {
+    .pagina-principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pagina-principal-textos {
+        align-items: center;
+        text-align: center;
+    }
+
+    .pagina-secundaria h2 {
+        margin-left: 3%;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pagina-principal-textos h1 {
+        font-size: 1.5rem;
+    }
+
+    .pagina-principal-textos p,
+    .pagina-principal-textos a {
+        font-size: 0.95rem;
+    }
+
+    .pagina-secundaria h1 {
+        font-size: 1.5rem;
+    }
+
+    .pagina-secundaria h2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pagina-principal {
+        padding: 10px;
+    }
+
+    .pagina-principal-textos h1 {
+        font-size: 1.3rem;
+    }
+
+    .pagina-principal-textos p {
+        font-size: 0.9rem;
+    }
+
+    .pagina-principal-textos a {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+    }
+
+    .pagina-secundaria h1 {
+        font-size: 1.3rem;
+    }
+
+    .pagina-secundaria h2 {
+        font-size: 1rem;
+        margin-left: 5%;
+    }
 }
