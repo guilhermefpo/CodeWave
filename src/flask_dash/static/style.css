@@ -107,8 +107,25 @@ header {
     font-size: 1.4rem;
 }
 
+/* Contêiner dos gráficos */
 .pagina-secundaria .container-fluid {
     margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto; /* Permite rolagem horizontal caso o gráfico seja largo */
+}
+
+/* Garante que os gráficos (Plotly, Chart.js, SVG etc.) fiquem fluidos */
+.pagina-secundaria .container-fluid > div,
+.pagina-secundaria .container-fluid iframe,
+.pagina-secundaria .container-fluid svg,
+.pagina-secundaria .container-fluid canvas {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100%;
 }
 
 /* -------------------- RESPONSIVIDADE -------------------- */
@@ -147,6 +164,11 @@ header {
     .pagina-secundaria h2 {
         font-size: 1.1rem;
     }
+
+    /* Torna os gráficos menores em tablets */
+    .pagina-secundaria .container-fluid {
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -174,5 +196,11 @@ header {
     .pagina-secundaria h2 {
         font-size: 1rem;
         margin-left: 5%;
+    }
+
+    /* Garante boa visualização dos gráficos no celular */
+    .pagina-secundaria .container-fluid {
+        width: 100%;
+        padding: 0 10px;
     }
 }
