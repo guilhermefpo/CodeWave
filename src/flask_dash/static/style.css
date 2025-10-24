@@ -171,36 +171,331 @@ header {
     }
 }
 
-@media (max-width: 480px) {
-    .pagina-principal {
-        padding: 10px;
-    }
 
-    .pagina-principal-textos h1 {
-        font-size: 1.3rem;
-    }
 
-    .pagina-principal-textos p {
-        font-size: 0.9rem;
-    }
 
-    .pagina-principal-textos a {
-        font-size: 0.9rem;
-        padding: 8px 14px;
-    }
 
-    .pagina-secundaria h1 {
-        font-size: 1.3rem;
-    }
+ /* Estilos específicos para a página de gráficos */
+.dashboard-container {
+    padding: 2rem 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
-    .pagina-secundaria h2 {
-        font-size: 1rem;
-        margin-left: 5%;
-    }
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
 
-    /* Garante boa visualização dos gráficos no celular */
-    .pagina-secundaria .container-fluid {
+.dashboard-header h1 {
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.dashboard-header p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.filters-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.filter-form {
+    width: 100%;
+}
+
+.filters-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    flex: 1;
+    min-width: 180px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #032B56;
+    font-size: 0.95rem;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.filter-group select:focus {
+    outline: none;
+    border-color: #004997;
+    box-shadow: 0 0 0 2px rgba(0, 73, 151, 0.2);
+}
+
+.btn-submit {
+    background-color: #004997;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    min-width: 150px;
+    height: fit-content;
+    white-space: nowrap;
+}
+
+.btn-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 73, 151, 0.3);
+}
+
+.active-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.active-filters-label {
+    font-weight: 600;
+    color: #ffffff;
+    margin-right: 0.5rem;
+}
+
+.filter-tag {
+    background: #e9f2ff;
+    color: #004997;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Layout principal com gráfico maior */
+.content-grid-large {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: start;
+}
+
+@media (max-width: 992px) {
+    .content-grid-large {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Cartão do gráfico principal */
+.main-chart-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    height: 100%;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.75rem;
+}
+
+.chart-title {
+    color: #032B56;
+    font-weight: 600;
+    margin: 0;
+}
+
+.chart-subtitle {
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.chart-container-large {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-chart-large {
+    text-align: center;
+    color: #666;
+    padding: 3rem 2rem;
+}
+
+.no-chart-icon {
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+
+.no-chart-large p {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.graph-wrapper-large {
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+}
+
+/* Cartão do mapa aumentado */
+.map-card-large {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    height: fit-content;
+}
+
+.map-container-large {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.no-map {
+    text-align: center;
+    color: #666;
+    padding: 3rem 1rem;
+}
+
+.no-map-icon {
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+
+.no-map p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.map-info {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+.map-info h4 {
+    color: #032B56;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.map-info p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+}
+
+.legend-color {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    margin-right: 0.75rem;
+}
+
+.conditional-filters {
+    display: none;
+    align-items: flex-end;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.conditional-filters .filter-group {
+    flex: 1;
+    min-width: 180px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    .content-grid-large {
+        gap: 1rem;
+    }
+    
+    .main-chart-card,
+    .map-card-large {
+        padding: 1rem;
+    }
+    
+    .chart-container-large {
+        min-height: 400px;
+    }
+    
+    .map-container-large {
+        min-height: 350px;
+    }
+    
+    .filters-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .filter-group {
+        min-width: 100%;
         width: 100%;
-        padding: 0 10px;
+    }
+    
+    .conditional-filters {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn-submit {
+        width: 100%;
+        margin-top: 0.5rem;
+      
+    }
+}
+
+/* Ajustes para telas médias */
+@media (max-width: 1200px) and (min-width: 769px) {
+    .filters-row {
+        gap: 1rem;
+    }
+    
+    .filter-group {
+        min-width: 160px;
     }
 }
