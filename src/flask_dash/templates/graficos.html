@@ -1,0 +1,209 @@
+{% extends "index.html" %}
+
+{% block title %}CodeWave: Dashboard de Gráficos{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='graficos.css') }}">
+{% endblock %}
+
+{% block main %}
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h1>Dashboard Demográfico de SJC</h1>
+        <p>Explore dados demográficos e estatísticos de São José dos Campos através de visualizações interativas</p>
+    </div>
+    
+    <div class="filters-card">
+        <form method="POST" class="filter-form">
+            <div class="filters-row">
+                <div class="filter-group">
+                    <label for="censo">Tipo de Censo:</label>
+                    <select name="censo" id="censo">
+                        <option value="Censo_d" {% if censo == 'Censo_d' %}selected{% endif %}>Censo Demográfico</option>
+                        <option value="Censo_e" {% if censo == 'Censo_e' %}selected{% endif %}>Censo Escolar</option>
+                    </select>
+                </div>
+                
+                <div class="conditional-filters" id="censo-d-filters" {% if censo == 'Censo_d' %}style="display: flex;"{% endif %}>
+                    <div class="filter-group">
+                        <label for="grafico">Tipo de Gráfico:</label>
+                        <select name="grafico" id="grafico">
+                            <option value="barras" {% if tipo == 'barras' %}selected{% endif %}>População por grupo Etário</option>
+                            <option value="piramide" {% if tipo == 'piramide' %}selected{% endif %}>Pirâmide Etária</option>
+                            <option value="setor" {% if tipo == 'setor' %}selected{% endif %}>População por Setor</option>
+                            <option value="domici" {% if tipo == 'domici' %}selected{% endif %}>Domicílios por Região</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="conditional-filters" id="censo-e-filters" {% if censo == 'Censo_e' %}style="display: flex;"{% endif %}>
+                    <div class="filter-group">
+                        <label for="regiao">Região:</label>
+                        <select name="regiao" id="regiao">
+                            <option value="NORTE" {% if regi == 'NORTE' %}selected{% endif %}>Norte</option>
+                            <option value="SUL" {% if regi == 'SUL' %}selected{% endif %}>Sul</option>
+                            <option value="LESTE" {% if regi == 'LESTE' %}selected{% endif %}>Leste</option>
+                            <option value="SUDESTE" {% if regi == 'SUDESTE' %}selected{% endif %}>Sudeste</option>
+                            <option value="OESTE" {% if regi == 'OESTE' %}selected{% endif %}>Oeste</option>
+                            <option value="CENTRO" {% if regi == 'CENTRO' %}selected{% endif %}>Centro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="escolas">Nível de Ensino:</label>
+                        <select name="escolas" id="escolas">
+                            {% for x, y in titulo.items() %}
+                            <option value="{{ x }}" {% if esco == x %}selected{% endif %}>{{ y }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn-submit">Gerar Gráfico</button>
+            </div>
+        </form>
+    </div>
+    
+    {% if censo %}
+    <div class="active-filters">
+        <span class="active-filters-label">Filtros Ativos:</span>
+        {% if censo == 'Censo_d' %}
+            <span class="filter-tag">Censo: Demográfico</span>
+        {% elif censo == 'Censo_e' %}
+            <span class="filter-tag">Censo: Escolar</span>
+        {% endif %}
+        
+        {% if censo == 'Censo_d' and tipo %}
+            {% if tipo == 'barras' %}
+                <span class="filter-tag">Gráfico: Barras</span>
+            {% elif tipo == 'piramide' %}
+                <span class="filter-tag">Gráfico: Pirâmide</span>
+            {% elif tipo == 'setor' %}
+                <span class="filter-tag">Gráfico: Pizza</span>
+            {% elif tipo == 'domici' %}
+                <span class="filter-tag">Gráfico: Domicílios</span>
+            {% endif %}
+        {% endif %}
+        
+        {% if censo == 'Censo_e' %}
+            {% if regi %}
+                <span class="filter-tag">Região: {{ regi|title }}</span>
+            {% endif %}
+            {% if esco and titulo[esco] %}
+                <span class="filter-tag">Nível: {{ titulo[esco] }}</span>
+            {% endif %}
+        {% endif %}
+    </div>
+    {% endif %}
+    
+    <div class="content-grid-large">
+        <div class="main-chart-card">
+            <div class="chart-header">
+                <h3 class="chart-title">Visualização do Censo</h3>
+                {% if censo and tipo %}
+                <span class="chart-subtitle">{{ tipo|title }}</span>
+                {% endif %}
+            </div>
+            <div class="chart-container-large">
+                {% if grap %}
+                    <div class="graph-wrapper-large">{{ grap|safe }}</div>
+                {% else %}
+                    <div class="no-chart-large">
+                        <div class="no-chart-icon">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17ZM19 19H5V5H19V19.1M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3Z" fill="#004997"/>
+                            </svg>
+                        </div>
+                        <p>Selecione as opções nos filtros acima e clique em "Gerar Gráfico" para visualizar os dados.</p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <div class="map-card-large">
+            <div class="chart-header">
+                <h3 class="chart-title">Mapa - SJC</h3>
+            </div>
+            <div class="map-container-large">
+                {% if m %}
+                    {{ m|safe }}
+                {% else %}
+                    <div class="no-map">
+                        <div class="no-map-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#004997"/>
+                            </svg>
+                        </div>
+                       
+                    </div>
+                {% endif %}
+            </div>
+            
+                
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #004997;"></div>
+                        <span>Oeste</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #28a745;"></div>
+                        <span>Norte</span>
+                
+                    </div>
+                     <div class="legend-item">
+                        <div class="legend-color" style="background-color: #6328a7;"></div>
+                        <span>Sudeste</span>
+                
+                    </div>
+                   <div class="legend-item">
+                        <div class="legend-color" style="background-color: #fffb00;"></div>
+                        <span>Sul</span>
+                
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ff0000;"></div>
+                        <span>Leste</span>
+                
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #c5511c;"></div>
+                        <span>Centro</span>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const censoSelect = document.getElementById('censo');
+    const censoDFilters = document.getElementById('censo-d-filters');
+    const censoEFilters = document.getElementById('censo-e-filters');
+    
+    function updateFilterVisibility() {
+        const selectedCenso = censoSelect.value;
+        
+        // Esconder todos os filtros condicionais
+        censoDFilters.style.display = 'none';
+        censoEFilters.style.display = 'none';
+        
+        // Mostrar apenas os filtros relevantes
+        if (selectedCenso === 'Censo_d') {
+            censoDFilters.style.display = 'flex';
+        } else if (selectedCenso === 'Censo_e') {
+            censoEFilters.style.display = 'flex';
+        }
+    }
+    
+    // Configurar evento de mudança
+    censoSelect.addEventListener('change', updateFilterVisibility);
+    
+    // Inicializar visibilidade
+    updateFilterVisibility();
+});
+</script>
+{% endblock %}
