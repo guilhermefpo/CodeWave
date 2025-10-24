@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1V2Q3skpGDlabqwLQ-8jS-U9uLE4gM-0j">
+	<name>Mapa sem título</name>
+	<gx:CascadingStyle kml:id="__managed_style_20689BCCBD3B23B6E1D4">
+		<Style>
+			<IconStyle>
+				<scale>1.8</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_13763252983B23B6E1D4">
+		<Style>
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0EAA07E99A3B23B6E1D4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_13763252983B23B6E1D4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_20689BCCBD3B23B6E1D4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2B2F5E30733B23B4B9A4">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_19653183863B23B4B9A4">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0E17C3A6B23B23B4B9A4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_19653183863B23B4B9A4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2B2F5E30733B23B4B9A4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0CAE50E5EE3B23B4B9A1">
+		<name>limite sjc</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-45.7946527</longitude>
+			<latitude>-23.1037633</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>962.459083235862</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0E17C3A6B23B23B4B9A4</styleUrl>
+		<Point>
+			<coordinates>-457946527004242,-2.310376331345999e+16,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E5C9E336C3B23B6A000">
+		<name>limite zona norte sjc</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-45.79458518502623</longitude>
+			<latitude>-23.10376329682324</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>652.4306145622868</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0EAA07E99A3B23B6E1D4</styleUrl>
+		<Point>
+			<coordinates>-45.79446984817955,-23.10376701911033,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0047745C043B23BA4A08">
+		<name>limite sjc zona norte/urbanova</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-45.9812969</longitude>
+			<latitude>-23.2016807</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>961.6777472299196</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0EAA07E99A3B23B6E1D4</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-45.9812969,-23.2016807,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F784D6C043B23C2F120">
+		<name>zona norte</name>
+		<LookAt>
+			<longitude>-45.98660879197104</longitude>
+			<latitude>-23.19004474821</latitude>
+			<altitude>-2.121972597635136e-09</altitude>
+			<heading>-32.69960348962618</heading>
+			<tilt>0.2136343773575396</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>12460.54110140586</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0E17C3A6B23B23B4B9A4</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-45.98126778432358,-23.20157503158253,0 -45.94469939320212,-23.16905402661373,0 -45.93353587126884,-23.16812035259878,0 -45.91674319215774,-23.16803292803407,0 -45.91388243529101,-23.16896536282787,0 -45.91489623969403,-23.17413985637241,0 -45.89514959839284,-23.17413873217312,0 -45.87555217199878,-23.17393483636736,0 -45.87732709665299,-23.17281330560229,0 -45.88047040999307,-23.16333016401925,0 -45.87656996234214,-23.16176239449022,0 -45.87812907391378,-23.15373495409461,0 -45.8746992586965,-23.14864605643357,0 -45.86690420741674,-23.14857398469578,0 -45.86347462441627,-23.14477481888541,0 -45.85903118476352,-23.14635114395925,0 -45.85910943252959,-23.14348404693113,0 -45.85193737864761,-23.14484466932327,0 -45.84905228881852,-23.14842801050296,0 -45.84757218437736,-23.14125964392979,0 -45.84445381318176,-23.14061366579595,0 -45.845694303599,-23.13722170849004,0 -45.84269951027039,-23.1359814864634,0 -45.83839193668945,-23.13816269226906,0 -45.83687953782194,-23.13356184261724,0 -45.84190976345511,-23.13220974634102,0 -45.84005607976416,-23.12458535109001,0 -45.83638798234261,-23.12808476201289,0 -45.83428690961736,-23.12425202617326,0 -45.83673573083546,-23.1199329692642,0 -45.83382517162845,-23.11804056231831,0 -45.82907408575275,-23.12171286373849,0 -45.82560390187992,-23.11972699300544,0 -45.82243945012284,-23.12040962788289,0 -45.8181219042936,-23.11758005478124,0 -45.82187305650319,-23.11301903980569,0 -45.81828089329103,-23.10817425214447,0 -45.8126752625931,-23.11095248726525,0 -45.80571686706259,-23.10898705348936,0 -45.80080511969246,-23.10153928729745,0 -45.79926006880923,-23.10182402063255,0 -45.79990762287123,-23.09875727916878,0 -45.80077248186602,-23.09906643390526,0 -45.80170119771832,-23.09928436183726,0 -45.80360641419529,-23.09889784733809,0 -45.80823474741745,-23.0966151516051,0 -45.81937388228337,-23.09869104592633,0 -45.83187810361002,-23.1019418585518,0 -45.85182745401047,-23.11532323021102,0 -45.85924522642244,-23.11806199908437,0 -45.86753922624921,-23.12663027900944,0 -45.87216271855768,-23.12729694391795,0 -45.87322411088505,-23.13351938896397,0 -45.87889315986543,-23.1386967080439,0 -45.88410910876307,-23.13351894703965,0 -45.8905766639676,-23.12971728133582,0 -45.89775695738295,-23.12995973543617,0 -45.90188820241664,-23.13535950010123,0 -45.90795640804155,-23.13193188125038,0 -45.91179816324435,-23.13327275813239,0 -45.91102790988114,-23.13569128536415,0 -45.92129961795735,-23.14150796755228,0 -45.92595956412768,-23.14062708263521,0 -45.92383888749945,-23.14326190165956,0 -45.92439170369863,-23.14747564043106,0 -45.92558598270635,-23.14826574429058,0 -45.92280050940886,-23.15278684664644,0 -45.96216655040152,-23.16285843963836,0 -45.96601726889695,-23.16707246002824,0 -45.97021165517737,-23.16988708955369,0 -45.97717993860533,-23.17755098098873,0 -45.98194996400947,-23.18019738450713,0 -45.97982432520278,-23.18350620333921,0 -45.97902395736235,-23.18768051021511,0 -45.98277997374339,-23.19006612137542,0 -45.98126778432358,-23.20157503158253,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
