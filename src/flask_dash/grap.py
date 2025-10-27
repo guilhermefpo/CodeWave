@@ -120,6 +120,20 @@ def criando_grap():
  domi_regi=domi_regi.drop(8)
  domi_regi_grap=px.bar(domi_regi, x="Região", y="Domicílios particulares (2022)", title="Domicílios    particulares por Região")
 
+# grafico de população por região 
+ lista_popu_certa=[]
+ popu_regi=df[3]
+ popu_regi['População (2022)']=popu_regi['População (2022)'].astype('float64')
+
+ for x in popu_regi['População (2022)']:
+ 
+    lista_popu_certa.append(x*1000)
+  
+ popu_regi['População (2022)']=lista_popu_certa
+ popu_regi=popu_regi.drop(8)
+ popu_regi_grap=px.bar(popu_regi, x="Região", y="População (2022)", title="População por Região")
+
+ 
 
 
 
@@ -127,7 +141,8 @@ def criando_grap():
             'barras': fig.to_html(full_html=False),
             'piramide':fig2.to_html(full_html=False),
             'setor':popu_set.to_html(full_html=False),
-            'domici': domi_regi_grap.to_html(full_html=False)
+            'domici': domi_regi_grap.to_html(full_html=False),
+            'popu_regi':popu_regi_grap.to_html(full_html=False)
             }
 
 
@@ -781,3 +796,4 @@ def criando_map():
       }).add_to(m)
   
   return m
+

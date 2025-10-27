@@ -1,6 +1,6 @@
 {% extends "index.html" %}
 
-{% block title %}CodeWave: Dashboard de Gráficos{% endblock %}
+{% block title %}<title>CodeWave: Graficos</title>{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{{ url_for('static', filename='graficos.css') }}">
@@ -32,6 +32,7 @@
                             <option value="piramide" {% if tipo == 'piramide' %}selected{% endif %}>Pirâmide Etária</option>
                             <option value="setor" {% if tipo == 'setor' %}selected{% endif %}>População por Setor</option>
                             <option value="domici" {% if tipo == 'domici' %}selected{% endif %}>Domicílios por Região</option>
+                            <option value="popu_regi" {% if tipo == 'popu_regi' %}selected{% endif %}>População por Região</option>
                         </select>
                     </div>
                 </div>
