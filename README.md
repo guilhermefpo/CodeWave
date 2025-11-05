@@ -89,7 +89,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 |:------:|:-------:|:------------:|:----------:|
 | **Sprint 1**  | 08/09 - 28/09 | ✔️ | Esqueleto do site, raspagem de dados e entrega do protótipo no Figma. |
 | **Sprint 2**  | 06/10 - 26/10 | ✔️ | Site funcional e estilizado com as cores requisitadas; Visualização de tabelas com interação por interface gráfica e mapa dinâmico |
-| **Sprint 3**  | 03/11 - 23/11 | |🔛| | Implementar a identidade do site e integrar o mapa com dados reais |
+| **Sprint 3**  | 03/11 - 23/11 | 🔛 | Implementar a identidade do site e integrar o mapa com dados reais |
 
 
 ## 📆 Cronograma das Sprints <a id="cronograma"></a>
