@@ -22,7 +22,7 @@
 
 <br>
 
-> Status da Sprint: Em andamento! 🔛
+> Status da Sprint: Concluído! ✔️
 
 </br>
 
@@ -50,12 +50,12 @@ Desenvolver funcionalidades interativas que permitam ao secretário realizar an�
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status | Meta |
 | :------------: | :-------------: | :-----------------------------------------------------: | :-------------: |  :-----: | :----: |:----:|
-|  5  | Alta | Como secretário, quero uma página de filtros onde seja possível escolher a região e o tipo de dado que desejo ver nos gráficos, para analisar as informações específicas de acordo com as minhas necessidades. | 8 | 2 | 🔛 | ✖️
-|  6  | Médio  |  Como Secretário, quero analisar a distribuição etária da população de SJC em comparação com o Estado de SP, para identificar tendências de rejuvenescimento ou envelhecimento. | 13 | 2 | 🔛 | ️
-|  7  | Alta | Como secretário, quero visualizar a variação do número de moradores com Ensino Superior Completo e comparar com a média estadual, para identificar se houve um aumento expressivo no nível de escolaridade da população. | 8 | 2 | 🔛 | ✖️
-|  8  | Alta | Como secretário, quero identificar em quais regiões do município a renda per capita é superior à média da cidade, para apoiar o planejamento de políticas de equilíbrio econômico e social entre as áreas. | 13 | 2 | 🔛 | ✖️
-|  9  | Médio | Como secretário, quero analisar se o rendimento formal em São José dos Campos cresceu acima da média nacional, com base nos dados do Censo, para avaliar o potencial de aumento da arrecadação, do consumo local e das oportunidades para o comércio. | 8 | 2 | 🔛 | 
-| 10  | Médio | Como secretário, quero verificar se a proporção de domicílios com internet banda larga está entre as mais altas do Brasil (segundo IBGE e TIC Domicílios), para fundamentar investimentos em automação de serviços públicos e políticas baseadas em dados. | 13 | 2 | 🔛 | 
+|  5  | Alta | Como secretário, quero uma página de filtros onde seja possível escolher a região e o tipo de dado que desejo ver nos gráficos, para analisar as informações específicas de acordo com as minhas necessidades. | 8 | 2 | ✅ | 🚨
+|  6  | Médio  |  Como Secretário, quero analisar a distribuição etária da população de SJC em comparação com o Estado de SP, para identificar tendências de rejuvenescimento ou envelhecimento. | 13 | 2 | ✅ | ️
+|  7  | Alta | Como secretário, quero visualizar a variação do número de moradores com Ensino Superior Completo e comparar com a média estadual, para identificar se houve um aumento expressivo no nível de escolaridade da população. | 8 | 2 | ✅ | 🚨
+|  8  | Alta | Como secretário, quero identificar em quais regiões do município a renda per capita é superior à média da cidade, para apoiar o planejamento de políticas de equilíbrio econômico e social entre as áreas. | 13 | 2 | ✅ | 🚨
+|  9  | Médio | Como secretário, quero analisar se o rendimento formal em São José dos Campos cresceu acima da média nacional, com base nos dados do Censo, para avaliar o potencial de aumento da arrecadação, do consumo local e das oportunidades para o comércio. | 8 | 2 | ✅ | 
+| 10  | Médio | Como secretário, quero verificar se a proporção de domicílios com internet banda larga está entre as mais altas do Brasil (segundo IBGE e TIC Domicílios), para fundamentar investimentos em automação de serviços públicos e políticas baseadas em dados. | 13 | 2 | ✅ | 
 
 
 
@@ -70,8 +70,8 @@ Desenvolver funcionalidades interativas que permitam ao secretário realizar an�
 | Sprint | Período |Status| Documentação |
 |:------:|:-------:|:------------:|:----------:|
 | **Sprint 1**  | 08/09 - 28/09 | ✔️ | [MVP](https://youtu.be/03TNUyL9tUg?si=OSNxtr4BpAINg_1R) |
-| **Sprint 2**  | 06/10 - 26/10 | 🔛 | [MVP](doc/Sprints/Sprint_2) |
-| **Sprint 3**  | 03/11 - 23/11 | 🔜 | [MVP](doc/Sprints/Sprint_3) |
+| **Sprint 2**  | 06/10 - 26/10 | ✔️ | [MVP](doc/Sprints/Sprint_2) |
+| **Sprint 3**  | 03/11 - 23/11 | 🔛 | [MVP](doc/Sprints/Sprint_3) |
 | **Feira de Soluções** | 04/12 | 🔜 | [MVP](README.md)|
 
 
