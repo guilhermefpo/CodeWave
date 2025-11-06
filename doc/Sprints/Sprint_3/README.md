@@ -21,7 +21,7 @@
 
 <br>
 
-> Status da Sprint: Concluído! ✔️
+> Status da Sprint: Em andamento! 🔛
 
 </br>
 
