@@ -154,10 +154,10 @@ de cada etapa de entrega
 | 6 | Alta | Como Secretário, quero visualizar a proporção de domicílios com internet banda larga por região e verificar se essa proporção é uma das mais altas do Brasil, para planejar automação de serviços públicos. | 8 | 2 | ✅ | 🚨 |
 | 7 | Alta | Como Secretário, quero visualizar a distribuição etária da população de SJC por regiões e comparar a média populacional da cidade com a média estadual, para entender questões de migração e identificar tendências de rejuvenescimento ou envelhecimento. | 8 | 2 | ✅ | 🚨 |
 | 8 | Alta | Como secretário, quero uma página de filtros que me permita selecionar a região por meio de um mapa interativo e o tipo de dado específico para visualização em gráficos, para personalizar as análises conforme a demanda. | 13 | 2 | ✅ | 🚨 |
-| 9 | Média | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ✅ | ❌ |
-| 10 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 | | |
-| 11 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 | | |
-| 12 | Média | Como usuário (cidadão ou gestor), quero ter dicas de ajuda ou "tooltips" (ícones de interrogação "?") próximas aos gráficos e filtros, para entender o que cada indicador significa e como interagir com o painel. | 5 | 3 | | |
+| 9 | Média | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ✅ | |
+| 10 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 | ⌛ | |
+| 11 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 | ⌛ | |
+| 12 | Média | Como usuário (cidadão ou gestor), quero ter dicas de ajuda ou "tooltips" (ícones de interrogação "?") próximas aos gráficos e filtros, para entender o que cada indicador significa e como interagir com o painel. | 5 | 3 | ⌛  | |
 
 
 
