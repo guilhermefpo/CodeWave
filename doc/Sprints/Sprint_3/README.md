@@ -42,11 +42,33 @@ Entregar um site mais completo em termos de informação e usabilidade. A meta �
 📋 Backlog da Sprint
 </br>
 
+<br>
 
-📂 MVP
-Sprint	Período	Status	Documentação
-Sprint 1	08/09 - 28/09	✔️	
-Sprint 2	06/10 - 26/10	✔️	
-Sprint 3	03/11 - 23/11	🔛	
-Feira de Soluções	04/12	🔜	
+## 📋 Backlog da Sprint
+
+|      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status | Meta |
+| :------------: | :-------------: | :-----------------------------------------------------: | :-------------: |  :-----: | :----: |:----:|
+| 1 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 | ⌛ | |
+| 2 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 | ⌛ | |
+| 3 | Média | Como usuário (cidadão ou gestor), quero ter dicas de ajuda ou "tooltips" (ícones de interrogação "?") próximas aos gráficos e filtros, para entender o que cada indicador significa e como interagir com o painel. | 5 | 3 | ⌛  | |
+
+
+
+
+
+
+</br>
+
+<br>
+
+## 📂 MVP 
+
+| Sprint | Período |Status| Documentação |
+|:------:|:-------:|:------------:|:----------:|
+| **Sprint 1**  | 08/09 - 28/09 | ✔️ | [MVP](https://youtu.be/03TNUyL9tUg?si=OSNxtr4BpAINg_1R) |
+| **Sprint 2**  | 06/10 - 26/10 | ✔️ | [MVP](doc/Sprints/Sprint_2) |
+| **Sprint 3**  | 03/11 - 23/11 | 🔛 | [MVP](doc/Sprints/Sprint_3) |
+| **Feira de Soluções** | 04/12 | 🔜 | [MVP](README.md)|
+
+
 </br>
