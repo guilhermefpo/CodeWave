@@ -6,7 +6,7 @@
 
 <div align="center">
   
-### Projeto de Análise de Censo em São josé dos Campos
+### Projeto de Análise de Censo em São José dos Campos
 
 </div>
 
@@ -97,8 +97,8 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 | Sprint | Período |Status| Documentação |
 |:------:|:-------:|:------------:|:----------:|
 | **Sprint 1**  | 08/09 - 28/09 | ✔️ | [MVP](doc/Sprints/Sprint_1) |
-| **Sprint 2**  | 06/10 - 26/10 |🔛| [MVP](doc/Sprints/Sprint_2) |
-| **Sprint 3**  | 03/11 - 23/11 | 🔜| [MVP](doc/Sprints/Sprint_3) |
+| **Sprint 2**  | 06/10 - 26/10 |✔️| [MVP](doc/Sprints/Sprint_2) |
+| **Sprint 3**  | 03/11 - 23/11 |🔛| [MVP](doc/Sprints/Sprint_3) |
 | **Feira de Soluções** | 04/12 | 🔜| [MVP](README.md)|
 
 </br>
@@ -114,47 +114,57 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
 
 * Manual de Usuário
 * Código completo
-* Vídeos de cada etapa de entrega
+* Vídeos 
+de cada etapa de entrega
   
 
-## 📋 Sprint 2 - Requisitos
-
-| Rank | Prioridade | User Story | Estimativa | Sprint | Status | Meta |
-|:----:|:----------:|------------|:----------:|:------:|:------:|:----:|
-| 1 | Alta | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região e comparar esse dado com a média estadual, para avaliar a qualificação da população. | 8 | 2 | ⏸️ | ✅ |
-| 2 | Alta | Como Secretário, quero visualizar se o rendimento formal nas regiões da cidade aumentou mais que a média nacional, para entender desigualdades regionais, o potencial de aumento de arrecadação, maior consumo local e oportunidades para o comércio. | 8 | 2 | ⏸️ | ✅ |
-| 3 | Alta | Como Secretário, quero visualizar a proporção de domicílios com internet banda larga por região e verificar se essa proporção é uma das mais altas do Brasil, para planejar automação de serviços públicos. | 8 | 2 | ⏸️ | ✅ |
-| 4 | Alta | Como Secretário, quero visualizar quais regiões têm renda per capita acima da média da cidade, para entender desigualdades regionais e distribuir melhor os recursos. | 8 | 2 | ⏸️ | ✅ |
-| 5 | Alta | Como Secretário, quero visualizar a distribuição etária da população de SJC por regiões e comparar a média populacional da cidade com a média estadual, para entender questões de migração e identificar tendências de rejuvenescimento ou envelhecimento. | 8 | 2 | ⏸️ | ✅ |
-| 6 | Alta | Como secretário, quero uma página de filtros que me permita selecionar a região por meio de um mapa interativo e o tipo de dado específico para visualização em gráficos, para personalizar as análises conforme a demanda. | 13 | 2 | ⏸️ | ✅ |
-| 7 | Média | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ⏸️ |     |
-
-
-## 📊 Resumo da Sprint 2
-
-**Total de Pontos:** 58 pontos  
-**Histórias de Alta Prioridade:** 6  
-**Histórias de Média Prioridade:** 1
 
 
 
-<br>
+
+## 📋 Sprint 3 - Requisitos
+| ID | Prioridade | User Story | Pontos | Sprint | Status 1 | Status 2 |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
+| 1 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 |⌛| |
+| 2 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 |⌛| |
+| 3 | baixo | Como usuário (cidadão ou gestor), quero ter dicas de ajuda ou "tooltips" (ícones de interrogação "?") próximas aos gráficos e filtros, para entender o que cada indicador significa e como interagir com o painel. | 5 | 3 |⌛| |
+
+
+## 📊 Resumo da Sprint 3
+
+**Total de Pontos:13** 
+**Histórias de Alta Prioridade:0**  
+**Histórias de Média Prioridade:1** 
+
+
+
+
+
+
 ## 📋 Backlog do Produto <a id="backlog"></a>
 
 |      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
 | :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
-|  1  | Alta  | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos. | 8 | 1 |  ⏳ |
-|  2  | Alta  | Como secretário, quero acessar um protótipo funcional do site com os principais indicadores de São José dos Campos, para validar a proposta e fornecer feedback antes da versão final.  | 8 | 1 |  ⏳
-|  3  | Alta  | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores.    | 8 | 1 |  ⏳        
-|  4  | Alta  | Como secretário, quero acessar gráficos comparativos da população por região (Norte, Sul, Leste, Oeste, Centro, Sudeste, Rural), para identificar quais áreas estão crescendo mais e planejar investimentos.  | 8 | 1 |  ⏳
-|  5  | Medio | Como secretário, quero um site que contenha mapas interativos com cores por crescimento ou densidade populacional, para explorar visualmente onde estão concentradas as pessoas. | 8 | 2 |  ⏸️
-|  6  | Alta  | Como secretário, quero filtros laterais que me permitam selecionar regiões e faixas etárias específicas, para personalizar as análises conforme a demanda. | 13 | 2 |  ⏸️
-|  7  | Baixo | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo.   | 5 | 3 |  ⏸️
-|  8  | Baixa | Como secretário, quero uma página “Sobre” que descreva a metodologia utilizada (fontes de dados do IBGE, tratamento em Python/Colab, visualização em Flask), para garantir credibilidade e transparência no uso dos dados.  | 5 | 3 |  ⏸️
-| 9 | Baixa | Como secretário, quero um painel de ajuda contextual em cada seção do site, para entender facilmente como usar gráficos, filtros e mapas sem precisar de treinamento adicional.  | 2 | 3 |  ⏸️
-|  10  | Alta  | Como secretário, quero um resumo executivo com os indicadores-chave em formato visual e compartilhável, para apresentar facilmente aos gestores e à imprensa. | 8 | 3 |  ⏸️
+### 📋 Product Backlog - User Stories
 
-</br>
+| ID | Prioridade | User Story | Pontos | Sprint | Status 1 | Status 2 |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
+| 1 | Alta | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos. | 8 | 1 | ✅ | |
+| 2 | Alta | Como secretário, quero acessar um protótipo funcional do site com os principais indicadores de São José dos Campos, para validar a proposta e fornecer feedback antes da versão final. | 8 | 1 | ✅ | |
+| 3 | Alta | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores. | 8 | 1 | ✅ | |
+| 4 | Alta | Como secretário, quero acessar gráficos comparativos da população por região (Norte, Sul, Leste, Oeste, Centro, Sudeste, Rural), para identificar quais áreas estão crescendo mais e planejar investimentos. | 8 | 1 | ✅ | |
+| 5 | Alta | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região e comparar esse dado com a média estadual, para avaliar a qualificação da população. | 8 | 2 | ✅ | ✅ |
+| 6 | Alta | Como Secretário, quero visualizar se o rendimento formal nas regiões da cidade aumentou mais que a média nacional, para entender desigualdades regionais, o potencial de aumento de arrecadação, maior consumo local e oportunidades para o comércio. | 8 | 2 | ❌ | ✅ |
+| 7 | Alta | Como Secretário, quero visualizar a proporção de domicílios com internet banda larga por região e verificar se essa proporção é uma das mais altas do Brasil, para planejar automação de serviços públicos. | 8 | 2 | ✅ | ✅ |
+| 8 | Alta | Como Secretário, quero visualizar quais regiões têm renda per capita acima da média da cidade, para entender desigualdades regionais e distribuir melhor os recursos. | 8 | 2 | ❌ | ✅ |
+| 9 | Alta | Como Secretário, quero visualizar a distribuição etária da população de SJC por regiões e comparar a média populacional da cidade com a média estadual, para entender questões de migração e identificar tendências de rejuvenescimento ou envelhecimento. | 8 | 2 | ✅ | ✅ |
+| 10 | Alta | Como secretário, quero uma página de filtros que me permita selecionar a região por meio de um mapa interativo e o tipo de dado específico para visualização em gráficos, para personalizar as análises conforme a demanda. | 13 | 2 | ✅ | ✅ |
+| 11 | Média | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ✅ | ❌ |
+| 12 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 | | |
+| 13 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 | | |
+| 14 | Média | Como usuário (cidadão ou gestor), quero ter dicas de ajuda ou "tooltips" (ícones de interrogação "?") próximas aos gráficos e filtros, para entender o que cada indicador significa e como interagir com o painel. | 5 | 3 | | |
+
+
 
 ## 📖 Manual do Usuário <a id="manual"></a>
 
