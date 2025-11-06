@@ -146,20 +146,20 @@ de cada etapa de entrega
 
 ### 📋 Product Backlog - User Stories
 
-| ID | Prioridade | User Story | Pontos | Sprint | Status | META |
-| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
-| 1 | Alta | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos. | 8 | 1 | ✅ |🚨|
+| ID | Prioridade | User Story | Pontos | Sprint | Status |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| 1 | Alta | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos. | 8 | 1 | ✅ |
 | 2 | Alta | Como secretário, quero acessar um protótipo funcional do site com os principais indicadores de São José dos Campos, para validar a proposta e fornecer feedback antes da versão final. | 8 | 1 | ✅ |🚨|
-| 3 | Alta | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores. | 8 | 1 | ✅ |🚨|
-| 4 | Alta | Como secretário, quero acessar gráficos comparativos da população por região (Norte, Sul, Leste, Oeste, Centro, Sudeste, Rural), para identificar quais áreas estão crescendo mais e planejar investimentos. | 8 | 1 | ✅ |🚨|
-| 5 | Alta | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região e comparar esse dado com a média estadual, para avaliar a qualificação da população. | 8 | 2 | ✅ | 🚨 |
-| 6 | Alta | Como Secretário, quero visualizar a proporção de domicílios com internet banda larga por região e verificar se essa proporção é uma das mais altas do Brasil, para planejar automação de serviços públicos. | 8 | 2 | ✅ | 🚨 |
-| 7 | Alta | Como Secretário, quero visualizar a distribuição etária da população de SJC por regiões e comparar a média populacional da cidade com a média estadual, para entender questões de migração e identificar tendências de rejuvenescimento ou envelhecimento. | 8 | 2 | ✅ | 🚨 |
-| 8 | Alta | Como secretário, quero uma página de filtros que me permita selecionar a região por meio de um mapa interativo e o tipo de dado específico para visualização em gráficos, para personalizar as análises conforme a demanda. | 13 | 2 | ✅ | 🚨 |
-| 9 | Média | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ✅ | |
-| 10 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 | ⌛ | |
-| 11 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 | ⌛ | |
-| 12 | Média | Como usuário (cidadão ou gestor), quero ter dicas de ajuda ou "tooltips" (ícones de interrogação "?") próximas aos gráficos e filtros, para entender o que cada indicador significa e como interagir com o painel. | 5 | 3 | ⌛  | |
+| 3 | Alta | Como secretário, quero visualizar um resumo claro dos principais indicadores demográficos (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para ter uma visão geral rápida da cidade em reuniões com o prefeito e vereadores. | 8 | 1 | ✅ |
+| 4 | Alta | Como secretário, quero acessar gráficos comparativos da população por região (Norte, Sul, Leste, Oeste, Centro, Sudeste, Rural), para identificar quais áreas estão crescendo mais e planejar investimentos. | 8 | 1 | ✅ |
+| 5 | Alta | Como Secretário, quero visualizar a proporção de moradores com Ensino Superior Completo por região e comparar esse dado com a média estadual, para avaliar a qualificação da população. | 8 | 2 | ✅ | 
+| 6 | Alta | Como Secretário, quero visualizar a proporção de domicílios com internet banda larga por região e verificar se essa proporção é uma das mais altas do Brasil, para planejar automação de serviços públicos. | 8 | 2 | ✅ | 
+| 7 | Alta | Como Secretário, quero visualizar a distribuição etária da população de SJC por regiões e comparar a média populacional da cidade com a média estadual, para entender questões de migração e identificar tendências de rejuvenescimento ou envelhecimento. | 8 | 2 | ✅ | 
+| 8 | Alta | Como secretário, quero uma página de filtros que me permita selecionar a região por meio de um mapa interativo e o tipo de dado específico para visualização em gráficos, para personalizar as análises conforme a demanda. | 13 | 2 | ✅ | 
+| 9 | Média | Como secretário, quero uma navegação intuitiva e responsiva entre as seções do site (resumo, gráficos, mapas, metodologia), para acessar rapidamente as informações em qualquer dispositivo. | 5 | 2 | ✅ | 
+| 10 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 | ⌛ | 
+| 11 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 | ⌛ | 
+| 12 | Média | Como usuário (cidadão ou gestor), quero ter dicas de ajuda ou "tooltips" (ícones de interrogação "?") próximas aos gráficos e filtros, para entender o que cada indicador significa e como interagir com o painel. | 5 | 3 | ⌛  | 
 
 
 
