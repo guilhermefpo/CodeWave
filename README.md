@@ -173,6 +173,8 @@ de cada etapa de entrega
  1. Clonar o repositório principal (main)
   ```bash
    git clone https://github.com/guilhermefpo/CodeWave.git
+ ```
+ ```bash
    cd CodeWave
   ```
 
@@ -184,23 +186,36 @@ de cada etapa de entrega
   3. Ativar o ambiente
   ```bash
    (PowerShell): .\venv\Scripts\Activate.ps1
+  ```
+  ```bash
    (cmd): .\venv\Scripts\activate.bat
+    ```
+  ```bash
    (bash): source venv/Scripts/activate
+    ```
+  ```bash
    (Linux / Mac): source venv/bin/activate
-
+    ```
+  
    Caso haja erro de permissão, executar:
+```bash
    Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-
+  ```
    Para desativar o ambiente, basta executar:
+   ```bash
    deactivate
+```
 
    Se o ambiente foi configurado corretamente, deverá aparecer:
+   ```bash
    (venv) C:\Users\"Caminho_do_projeto"
   ```
 
   4. Baixar as bibliotecas do arquivo requirements.txt
   ```bash
    cd .src/flask_dash
+  ```
+  ```bash
    pip install -r ../../requirements.txt
   ```
 
