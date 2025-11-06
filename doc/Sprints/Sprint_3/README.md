@@ -66,7 +66,7 @@ Entregar um site mais completo em termos de informação e usabilidade. A meta �
 | Sprint | Período |Status| Documentação |
 |:------:|:-------:|:------------:|:----------:|
 | **Sprint 1**  | 08/09 - 28/09 | ✔️ | [MVP](https://youtu.be/03TNUyL9tUg?si=OSNxtr4BpAINg_1R) |
-| **Sprint 2**  | 06/10 - 26/10 | ✔️ | [MVP](doc/Sprints/Sprint_2) |
+| **Sprint 2**  | 06/10 - 26/10 | ✔️ | [MVP](https://youtu.be/Ac6sfh40HdY) |
 | **Sprint 3**  | 03/11 - 23/11 | 🔛 | [MVP](doc/Sprints/Sprint_3) |
 | **Feira de Soluções** | 04/12 | 🔜 | [MVP](README.md)|
 
