@@ -201,7 +201,7 @@ de cada etapa de entrega
   4. Baixar as bibliotecas do arquivo requirements.txt
   ```bash
    cd src
-   pip install -r requirements.txt
+   pip install -r ../../requirements.txt
   ```
 
   5. Subir o servidor flask
