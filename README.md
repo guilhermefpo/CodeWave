@@ -184,20 +184,24 @@ de cada etapa de entrega
   ```
 
   3. Ativar o ambiente
+   (PowerShell):
   ```bash
-   (PowerShell): .\venv\Scripts\Activate.ps1
+    .\venv\Scripts\Activate.ps1
   ```
 
+(cmd):
   ```bash
-   (cmd): .\venv\Scripts\activate.bat
+    .\venv\Scripts\activate.bat
   ```
 
+(bash):
   ```bash
-   (bash): source venv/Scripts/activate
+    source venv/Scripts/activate
   ```
 
+(Linux / Mac):
   ```bash
-   (Linux / Mac): source venv/bin/activate
+    source venv/bin/activate
   ```
   
    Caso haja erro de permissão, executar:
