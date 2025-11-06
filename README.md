@@ -125,7 +125,7 @@ de cada etapa de entrega
 ## 📋 Sprint 3 - Requisitos
 | ID | Prioridade | User Story | Pontos | Sprint | Status | META |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
-| 1 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 |⌛| |
+| 1 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 |⌛| 🚨 |
 | 2 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 |⌛| |
 | 3 | Baixa | Como usuário (cidadão ou gestor), quero ter dicas de ajuda ou "tooltips" (ícones de interrogação "?") próximas aos gráficos e filtros, para entender o que cada indicador significa e como interagir com o painel. | 5 | 3 |⌛| |
 
