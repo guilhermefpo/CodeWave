@@ -200,7 +200,7 @@ de cada etapa de entrega
 
   4. Baixar as bibliotecas do arquivo requirements.txt
   ```bash
-   cd src
+   cd .src/flask_dash
    pip install -r ../../requirements.txt
   ```
 
