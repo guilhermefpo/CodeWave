@@ -65,9 +65,9 @@ Desenvolver e disponibilizar um conjunto de gráficos analíticos baseados nos d
 | Sprint | Período |Status| Documentação |
 |:------:|:-------:|:------------:|:----------:|
 | **Sprint 1**  | 08/09 - 28/09 | ✔️ | [MVP](https://youtu.be/03TNUyL9tUg?si=OSNxtr4BpAINg_1R) |
-| **Sprint 2**  | 06/10 - 26/10 |🔜| [MVP](doc/Sprints/Sprint_2) |
-| **Sprint 3**  | 03/11 - 23/11 | 🔜| [MVP](doc/Sprints/Sprint_3) |
-| **Feira de Soluções** | 04/12 | 🔜| [MVP](README.md)|
+| **Sprint 2**  | 06/10 - 26/10 | ✔️ | [MVP](doc/Sprints/Sprint_2) |
+| **Sprint 3**  | 03/11 - 23/11 | 🔛 | [MVP](doc/Sprints/Sprint_3) |
+| **Feira de Soluções** | 04/12 | 🔜 | [MVP](README.md)|
 
 
 </br>
