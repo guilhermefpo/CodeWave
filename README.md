@@ -187,15 +187,18 @@ de cada etapa de entrega
   ```bash
    (PowerShell): .\venv\Scripts\Activate.ps1
   ```
+
   ```bash
    (cmd): .\venv\Scripts\activate.bat
-    ```
+  ```
+
   ```bash
    (bash): source venv/Scripts/activate
-    ```
+  ```
+
   ```bash
    (Linux / Mac): source venv/bin/activate
-    ```
+  ```
   
    Caso haja erro de permissão, executar:
 ```bash
