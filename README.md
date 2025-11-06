@@ -180,7 +180,7 @@ de cada etapa de entrega
 
   2. Criar o ambiente virtual
   ```bash
-   py -m venv . venv
+   python3 -m venv . venv
   ```
 
   3. Ativar o ambiente
