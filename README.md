@@ -123,7 +123,7 @@ de cada etapa de entrega
 
 
 ## 📋 Sprint 3 - Requisitos
-| ID | Prioridade | User Story | Pontos | Sprint | Status 1 | Status 2 |
+| ID | Prioridade | User Story | Pontos | Sprint | Status 1 | META |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
 | 1 | Média | Como usuário (cidadão ou gestor), quero poder avaliar o site (ex: 1 a 5 estrelas) e deixar um comentário de feedback, para que os administradores saibam minha opinião e possam melhorar a plataforma. | 5 | 3 |⌛| |
 | 2 | Baixa | Como usuário (cidadão ou gestor), quero acessar uma página "Sobre" no site, para entender o propósito do projeto, a origem dos dados (metodologia) e quem são os responsáveis. | 3 | 3 |⌛| |
@@ -141,13 +141,10 @@ de cada etapa de entrega
 
 
 
-## 📋 Backlog do Produto <a id="backlog"></a>
 
-|      Rank      |    Prioridade   |                    User Story                           |    Estimativa   |  Sprint  | Status |
-| :------------: | :-------------: | :-----------------------------------------------------: | :--------------:|  :-----: | :-----:|
 ### 📋 Product Backlog - User Stories
 
-| ID | Prioridade | User Story | Pontos | Sprint | Status 1 | Status 2 |
+| ID | Prioridade | User Story | Pontos | Sprint | Status 1 | META |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
 | 1 | Alta | Como secretário, quero visualizar gráficos prontos com dados do Censo 2022 (Pirâmide etária, população por grupo quinzenal, população total e democílios por região), para identificar tendências demográficas e apoiar decisões sobre infraestrutura e serviços públicos. | 8 | 1 | ✅ | |
 | 2 | Alta | Como secretário, quero acessar um protótipo funcional do site com os principais indicadores de São José dos Campos, para validar a proposta e fornecer feedback antes da versão final. | 8 | 1 | ✅ | |
