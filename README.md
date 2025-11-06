@@ -132,9 +132,11 @@ de cada etapa de entrega
 
 ## 📊 Resumo da Sprint 3
 
-**Total de Pontos:13** 
-**Histórias de Alta Prioridade:0**  
-**Histórias de Média Prioridade:1** 
+**Total de Pontos: 13** 
+
+**Histórias de Alta Prioridade: 0**  
+
+**Histórias de Média Prioridade: 1** 
 
 
 
