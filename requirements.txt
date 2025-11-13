@@ -40,3 +40,5 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
 Werkzeug==2.3.6
+mysql-connector==2.2.9
+mysql-connector-python==9.5.0
