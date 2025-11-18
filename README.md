@@ -194,7 +194,7 @@ de cada etapa de entrega
     .\venv\Scripts\activate.bat
   ```
 
-Caso haja erro de permissão, executar:
+Caso haja erro de permissão no Windows, executar:
 ```bash
    Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
   ```
