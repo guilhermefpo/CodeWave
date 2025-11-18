@@ -165,6 +165,72 @@ de cada etapa de entrega
 
 ## 📖 Manual do Usuário <a id="manual"></a>
 
+
+# File Tree: CodeWave
+
+```
+├── 📁 doc
+│   ├── 📁 Sprints
+│   │   ├── 📁 Sprint_1
+│   │   │   └── 📝 README.md
+│   │   ├── 📁 Sprint_2
+│   │   │   └── 📝 README.md
+│   │   ├── 📁 Sprint_3
+│   │   │   └── 📝 README.md
+│   │   └── 📁 img
+│   │       └── 🖼️ CodeWave_logo.png
+│   ├── 📁 colab
+│   │   └── 📄 Codewave_table
+│   ├── 📁 img
+│   │   ├── 🖼️ CodeWave_logo.png
+│   │   ├── 🖼️ onda.png
+│   │   └── 🖼️ wave.png
+│   └── 📁 videos
+│       ├── 🖼️ Colab - GIF.gif
+│       ├── 🖼️ video_sprint_2.gif
+│       ├── 🎬 video_sprint_2.mp4
+│       └── 🎬 video_tabelas_jupiter.mp4
+├── 📁 src
+│   └── 📁 flask_dash
+│       ├── 📁 static
+│       │   ├── 🖼️ Logo CodeWave.svg
+│       │   ├── 🖼️ altier.jpeg
+│       │   ├── 🖼️ desenho_grafico.svg
+│       │   ├── 🖼️ felipe.PNG
+│       │   ├── 🖼️ graf_pop.jpg
+│       │   ├── 🖼️ graf_pop_dom.jpg
+│       │   ├── 🖼️ graf_pop_etario.jpg
+│       │   ├── 🖼️ graf_pop_quin.jpg
+│       │   ├── 🖼️ gui.jpeg
+│       │   ├── 🖼️ hugo.jpeg
+│       │   ├── 🖼️ joao_cavalcante.png
+│       │   ├── 🎨 style.css
+│       │   └── 🖼️ yuri_g.png
+│       ├── 📁 templates
+│       │   ├── 🌐 graficos.html
+│       │   ├── 🌐 index.html
+│       │   ├── 🌐 principais_indicadores.html
+│       │   ├── 🌐 review.html
+│       │   └── 🌐 sobre.html
+│       ├── 📄 LimiteMunicipal.kml
+│       ├── 📄 ZonaCentral.kml
+│       ├── 📄 ZonaLeste.kml
+│       ├── 📄 ZonaNorte.kml
+│       ├── 📄 ZonaOeste.kml
+│       ├── 📄 ZonaSudeste.kml
+│       ├── 📄 ZonaSul.kml
+│       ├── 🐍 app.py
+│       ├── 🐍 banco.py
+│       ├── 📄 dados_municipio.csv
+│       └── 🐍 grap.py
+├── ⚙️ .gitignore
+├── 📝 README.md
+└── 📄 requirements.txt
+```
+
+---
+
+
 ### Requisitos
  - Git (<a href="https://git-scm.com/downloads">download</a>)
  - Python 3.9+ (<a href="https://www.python.org/">download</a>)
@@ -264,3 +330,4 @@ de cada etapa de entrega
 
 </div>
 </br>
+
