@@ -171,15 +171,15 @@ de cada etapa de entrega
 ├── 📁 doc
 │   ├── 📁 Sprints
 │   │   ├── 📁 Sprint_1
-│   │   │   └── 📝 README.md
+│   │   │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
 │   │   ├── 📁 Sprint_2
-│   │   │   └── 📝 README.md
+│   │   │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
 │   │   ├── 📁 Sprint_3
-│   │   │   └── 📝 README.md
+│   │   │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
 │   │   └── 📁 img
 │   │       └── 🖼️ CodeWave_logo.png
 │   ├── 📁 colab
-│   │   └── 📄 Codewave_table
+│   │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"width="15" height="15" /> Codewave_table
 │   ├── 📁 img
 │   │   ├── 🖼️ CodeWave_logo.png
 │   │   ├── 🖼️ onda.png
@@ -196,21 +196,17 @@ de cada etapa de entrega
 │       │   ├── 🖼️ altier.jpeg
 │       │   ├── 🖼️ desenho_grafico.svg
 │       │   ├── 🖼️ felipe.PNG
-│       │   ├── 🖼️ graf_pop.jpg
-│       │   ├── 🖼️ graf_pop_dom.jpg
-│       │   ├── 🖼️ graf_pop_etario.jpg
-│       │   ├── 🖼️ graf_pop_quin.jpg
 │       │   ├── 🖼️ gui.jpeg
 │       │   ├── 🖼️ hugo.jpeg
 │       │   ├── 🖼️ joao_cavalcante.png
-│       │   ├── 🎨 style.css
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="15" height="15" /> style.css
 │       │   └── 🖼️ yuri_g.png
 │       ├── 📁 templates
-│       │   ├── 🌐 graficos.html
-│       │   ├── 🌐 index.html
-│       │   ├── 🌐 principais_indicadores.html
-│       │   ├── 🌐 review.html
-│       │   └── 🌐 sobre.html
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> graficos.html
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> index.html
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> principais_indicadores.html
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> review.html
+│       │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> sobre.html
 │       ├── 📄 LimiteMunicipal.kml
 │       ├── 📄 ZonaCentral.kml
 │       ├── 📄 ZonaLeste.kml
@@ -218,12 +214,12 @@ de cada etapa de entrega
 │       ├── 📄 ZonaOeste.kml
 │       ├── 📄 ZonaSudeste.kml
 │       ├── 📄 ZonaSul.kml
-│       ├── 🐍 app.py
-│       ├── <img src="[https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)" height="20"/> <strong>banco.py</strong>
+│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> app.py
+│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> banco.py
 │       ├── 📄 dados_municipio.csv
-│       └── 🐍 grap.py
+│       └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> grap.py
 ├── ⚙️ .gitignore
-├── 📝 README.md
+├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
 └── 📄 requirements.txt
 </pre>
 
@@ -246,30 +242,35 @@ de cada etapa de entrega
   ```
 
   3. Ativar o ambiente
-   (PowerShell):
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="15" height="15" />(PowerShell):
   ```bash
     .\venv\Scripts\Activate.ps1
   ```
 
-(cmd):
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="15" height="15"/> (cmd):
   ```bash
     .\venv\Scripts\activate.bat
   ```
 
-(bash):
+Caso haja erro de permissão, executar:
+```bash
+   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+  ```
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" width="15" height="15" />(bash):
   ```bash
     source venv/Scripts/activate
   ```
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="15" height="15" />   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" width="15" height="15" />
 
 (Linux / Mac):
   ```bash
     source venv/bin/activate
   ```
   
-   Caso haja erro de permissão, executar:
-```bash
-   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-  ```
+  
    Para desativar o ambiente, basta executar:
    ```bash
    deactivate
@@ -326,5 +327,6 @@ de cada etapa de entrega
 
 </div>
 </br>
+
 
 
