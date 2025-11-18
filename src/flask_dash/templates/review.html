@@ -1,0 +1,41 @@
+
+{% extends "index.html" %}
+{% block title %}<title>CodeWave: Graficos</title>{% endblock %}
+{% block main %}
+    <main class="dashboard-container">
+        
+        <div class="dashboard-header">
+            <h1>Deixe seu Feedback</h1>
+            <p>Sua opinião é muito importante para a melhoria contínua do nosso projeto. Por favor, deixe sua avaliação e um comentário.</p>
+        </div>
+
+        <div class="filters-card">
+            
+            <form action="#" method="POST" class="feedback-form" id="feedbackForm">
+
+                <div class="filter-group">
+                    <div class="star-rating-container">
+                        <label class="rating-label">Sua avaliação (1 a 5 estrelas):</label>
+                        <div class="star-rating">
+                            <input type="radio" id="star5" name="rating" value="5" required><label for="star5">★</label>
+                            <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                            <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                            <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                            <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label for="comentario">Seu comentário:</label>
+                    <textarea id="comentario" name="comentario" rows="6" placeholder="O que você achou do projeto? Quais pontos podemos melhorar?"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Feedback</button>
+
+            </form>
+        </div>
+
+    </main>
+
+  {% endblock %}
