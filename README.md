@@ -165,6 +165,64 @@ de cada etapa de entrega
 
 ## 📖 Manual do Usuário <a id="manual"></a>
 
+# File Tree: CodeWave
+
+<pre>
+├── 📁 doc
+│   ├── 📁 Sprints
+│   │   ├── 📁 Sprint_1
+│   │   │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
+│   │   ├── 📁 Sprint_2
+│   │   │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
+│   │   ├── 📁 Sprint_3
+│   │   │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
+│   │   └── 📁 img
+│   │       └── 🖼️ CodeWave_logo.png
+│   ├── 📁 colab
+│   │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"width="15" height="15" /> Codewave_table
+│   ├── 📁 img
+│   │   ├── 🖼️ CodeWave_logo.png
+│   │   ├── 🖼️ onda.png
+│   │   └── 🖼️ wave.png
+│   └── 📁 videos
+│       ├── 🖼️ Colab - GIF.gif
+│       ├── 🖼️ video_sprint_2.gif
+│       ├── 🎬 video_sprint_2.mp4
+│       └── 🎬 video_tabelas_jupiter.mp4
+├── 📁 src
+│   └── 📁 flask_dash
+│       ├── 📁 static
+│       │   ├── 🖼️ Logo CodeWave.svg
+│       │   ├── 🖼️ altier.jpeg
+│       │   ├── 🖼️ desenho_grafico.svg
+│       │   ├── 🖼️ felipe.PNG
+│       │   ├── 🖼️ gui.jpeg
+│       │   ├── 🖼️ hugo.jpeg
+│       │   ├── 🖼️ joao_cavalcante.png
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="15" height="15" /> style.css
+│       │   └── 🖼️ yuri_g.png
+│       ├── 📁 templates
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> graficos.html
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> index.html
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> principais_indicadores.html
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> review.html
+│       │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> sobre.html
+│       ├── 📄 LimiteMunicipal.kml
+│       ├── 📄 ZonaCentral.kml
+│       ├── 📄 ZonaLeste.kml
+│       ├── 📄 ZonaNorte.kml
+│       ├── 📄 ZonaOeste.kml
+│       ├── 📄 ZonaSudeste.kml
+│       ├── 📄 ZonaSul.kml
+│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> app.py
+│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> banco.py
+│       ├── 📄 dados_municipio.csv
+│       └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> grap.py
+├── ⚙️ .gitignore
+├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
+└── 📄 requirements.txt
+</pre>
+
 ### Requisitos
  - Git (<a href="https://git-scm.com/downloads">download</a>)
  - Python 3.9+ (<a href="https://www.python.org/">download</a>)
@@ -184,32 +242,35 @@ de cada etapa de entrega
   ```
 
   3. Ativar o ambiente
-   (PowerShell):
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="15" height="15" />(PowerShell):
   ```bash
     .\venv\Scripts\Activate.ps1
   ```
 
-(cmd):
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="15" height="15"/> (cmd):
   ```bash
     .\venv\Scripts\activate.bat
   ```
 
-Caso haja erro de permissão no Windows, executar:
+Caso haja erro de permissão, executar:
 ```bash
    Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
   ```
 
-(bash):
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" width="15" height="15" />(bash):
   ```bash
     source venv/Scripts/activate
   ```
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="15" height="15" />   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" width="15" height="15" />
 
 (Linux / Mac):
   ```bash
     source venv/bin/activate
   ```
   
-   
+  
    Para desativar o ambiente, basta executar:
    ```bash
    deactivate
@@ -266,3 +327,7 @@ Caso haja erro de permissão no Windows, executar:
 
 </div>
 </br>
+
+
+
+
