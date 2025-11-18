@@ -165,10 +165,9 @@ de cada etapa de entrega
 
 ## 📖 Manual do Usuário <a id="manual"></a>
 
-
 # File Tree: CodeWave
 
-```
+<pre>
 ├── 📁 doc
 │   ├── 📁 Sprints
 │   │   ├── 📁 Sprint_1
@@ -220,16 +219,13 @@ de cada etapa de entrega
 │       ├── 📄 ZonaSudeste.kml
 │       ├── 📄 ZonaSul.kml
 │       ├── 🐍 app.py
-│       ├── 🐍 banco.py
+│       ├── <img src="[https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)" height="20"/> <strong>banco.py</strong>
 │       ├── 📄 dados_municipio.csv
 │       └── 🐍 grap.py
 ├── ⚙️ .gitignore
 ├── 📝 README.md
 └── 📄 requirements.txt
-```
-
----
-
+</pre>
 
 ### Requisitos
  - Git (<a href="https://git-scm.com/downloads">download</a>)
@@ -330,4 +326,5 @@ de cada etapa de entrega
 
 </div>
 </br>
+
 
