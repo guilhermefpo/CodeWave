@@ -194,6 +194,11 @@ de cada etapa de entrega
     .\venv\Scripts\activate.bat
   ```
 
+Caso haja erro de permissão, executar:
+```bash
+   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+  ```
+
 (bash):
   ```bash
     source venv/Scripts/activate
@@ -204,10 +209,7 @@ de cada etapa de entrega
     source venv/bin/activate
   ```
   
-   Caso haja erro de permissão, executar:
-```bash
-   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-  ```
+   
    Para desativar o ambiente, basta executar:
    ```bash
    deactivate
