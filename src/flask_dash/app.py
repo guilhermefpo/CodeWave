@@ -1,6 +1,4 @@
 from flask import Flask, render_template, url_for, request
-import pandas as pd
-import numpy as np
 from grap import criando_grap, grap_censo_e, criando_map
 
 titulo={
@@ -72,7 +70,15 @@ def graf():
                    
                      censo=censo) 
     
+@app.route('/sobre')
+def sobre():
+  return render_template('sobre.html')
 
+@app.route('/review',methods=['GET','POST'])
+def review():
+  return render_template('review.html')
+
+    
 
 
 
@@ -80,4 +86,4 @@ def graf():
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
