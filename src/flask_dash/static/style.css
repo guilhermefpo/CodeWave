@@ -499,3 +499,155 @@ header {
         min-width: 160px;
     }
 }
+
+
+
+
+.dashboard-container {
+            padding: 2rem 1rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Cabeçalho da Página (Reutilizado do seu CSS) */
+        .dashboard-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .dashboard-header h1 {
+            color: #FFBA00; /* Destaque dourado */
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .dashboard-header p {
+            color: #ffffff;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Cartão de Filtros (Reutilizado para o Formulário) */
+        .filters-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 2rem 1.5rem; /* Mais padding para o formulário */
+            margin: 0 auto; /* Centraliza o cartão */
+            max-width: 700px; /* Limita a largura do formulário */
+        }
+
+        /* Estilo do Formulário */
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem; /* Espaço entre os campos */
+        }
+        
+        /* Grupo de Filtro (Reutilizado para os campos) */
+        .filter-group {
+            width: 100%;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 0.75rem; /* Mais espaço para o label */
+            font-weight: 600;
+            color: #032B56;
+            font-size: 1rem;
+        }
+
+        /* Estilo da Caixa de Comentários (Textarea) */
+        .filter-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: white;
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+            transition: border-color 0.3s;
+            resize: vertical; /* Permite ao usuário redimensionar verticalmente */
+            min-height: 120px;
+        }
+
+        .filter-group textarea:focus {
+            outline: none;
+            border-color: #004997;
+            box-shadow: 0 0 0 2px rgba(0, 73, 151, 0.2);
+        }
+
+        /* -------------------- NOVO: ESTILO DAS ESTRELAS -------------------- */
+        
+        .star-rating-container {
+            text-align: center;
+        }
+
+        .star-rating-container .rating-label {
+            font-size: 1.1rem;
+            color: #032B56;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .star-rating {
+            display: inline-flex;
+            flex-direction: row-reverse; /* Isso faz a mágica do hover funcionar */
+            justify-content: center;
+        }
+
+        /* Esconde os botões de rádio reais */
+        .star-rating input[type="radio"] {
+            display: none;
+        }
+
+        /* Estilo das labels (as estrelas) */
+        .star-rating label {
+            font-size: 2.8rem; /* Tamanho das estrelas */
+            color: #ccc; /* Cor da estrela apagada */
+            cursor: pointer;
+            transition: color 0.2s ease;
+            padding: 0 0.2rem;
+            margin: 0;
+        }
+
+        /* Mágica do CSS: 
+           1. Colore a estrela que está com hover
+           2. Colore TODAS as estrelas "anteriores" a ela (usando ~) */
+        .star-rating label:hover,
+        .star-rating label:hover ~ label {
+            color: #FFBA00; /* Cor dourada ao passar o mouse */
+        }
+
+        /* 3. Colore de forma permanente as estrelas quando uma é clicada (:checked)
+           4. Colore TODAS as estrelas "anteriores" à clicada (usando ~) */
+        .star-rating input[type="radio"]:checked ~ label {
+            color: #FFBA00; /* Cor dourada permanente */
+        }
+
+        /* -------------------- Botão de Envio (Reutilizado) -------------------- */
+        .btn-submit {
+            background-color: #004997;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 0.85rem 1.5rem; /* Botão um pouco maior */
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%; /* Ocupa a largura total do cartão */
+            max-width: 300px; /* Limite de largura */
+            margin: 0.5rem auto 0; /* Centraliza o botão */
+            font-size: 1.1rem;
+            display: block;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 73, 151, 0.3);
+        }
+
+
+
+        

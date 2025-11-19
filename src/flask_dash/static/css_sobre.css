@@ -1,0 +1,145 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 100%;
+            background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
+            color: #ffffff; /* Cor de texto padrão para o corpo */
+        }
+
+        header {
+            background: linear-gradient(90deg, #004997 42.79%, #163659 69.23%);
+        }
+
+        /* -------------------- NAVBAR -------------------- */
+        .cabecalho-menu-botao {
+            text-decoration: none;
+            border: 2px solid rgb(255, 196, 0);
+            font-weight: 700;
+            font-size: 15px;
+            color: #ffbb00;
+            border-radius: 20px;
+            padding: 5px 10px;
+            transition: background 0.3s ease;
+        }
+
+        .cabecalho-menu-botao:hover {
+            background-color: rgb(255, 251, 0);
+            color: #032B56;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #ffbb00;
+        }
+
+        /* -------------------- PÁGINA SOBRE -------------------- */
+        .about-section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #FFBA00; /* Cor de destaque */
+            font-weight: 700;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .team-section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .team-section h2 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            color: #FFBA00;
+            font-weight: 600;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+        }
+
+        .member-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 200px; /* Largura fixa para os cards */
+        }
+
+        .member-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #FFBA00; /* Borda dourada para as fotos */
+            margin-bottom: 1rem;
+            box-shadow: 0 0 15px rgba(255, 186, 0, 0.4);
+        }
+
+        .member-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+            color: #ffffff;
+        }
+
+        .member-email {
+            font-size: 0.9rem; /* Fonte menor para o email */
+            color: #cccccc;
+            word-break: break-all; /* Garante que emails longos quebrem a linha */
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .about-section h1 {
+                font-size: 2rem;
+            }
+            .about-section p {
+                font-size: 1rem;
+            }
+            .team-section h2 {
+                font-size: 1.7rem;
+            }
+            .team-members {
+                gap: 2rem;
+            }
+            .member-photo {
+                width: 120px;
+                height: 120px;
+            }
+            .member-name {
+                font-size: 1.1rem;
+            }
+            .member-email {
+                font-size: 0.8rem;
+            }
+        }
