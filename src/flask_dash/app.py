@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for, request
 from grap import criando_grap, grap_censo_e, criando_map
+from bd import insercao_dados
 
 titulo={
     'IN_INF':'ENSINO INFANTIL',
@@ -76,6 +77,17 @@ def sobre():
 
 @app.route('/review',methods=['GET','POST'])
 def review():
+
+
+  nota = None
+  comentario = None
+   
+  if request.method == "POST":
+        nota = request.form.get('rating', 'None')
+        comentario = request.form.get('comentario', 'None')
+        insercao_dados(comentario, nota)
+
+
   return render_template('review.html')
 
     
