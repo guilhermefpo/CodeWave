@@ -296,6 +296,34 @@ Caso haja erro de permissão, executar:
 
 <br>
 
+# Configuração do Banco de Dados com Docker
+
+## Pré-requisitos
+
+Para utilizar um banco de dados com as reviews, siga os passos abaixo:
+
+### 1. Instalar o Docker
+
+Certifique-se de ter o Docker instalado em sua máquina:
+
+- **Windows/Mac**: Baixe do [site oficial do Docker](https://www.docker.com/products/docker-desktop)
+- **Linux**: Siga as instruções para sua distribuição
+
+### 2. Criar arquivo de configuração
+
+Na pasta `flask_dash`, crie um arquivo `.env` baseado no nosso exemplo:
+
+
+# Na pasta flask_dash/
+```bash
+   cp .env_exemplo .env
+  ```
+Coloque os dados necessarios no .env 
+### 3. Docker compose
+```bash
+docker compose up -d
+```
+
 <div align="center">  
   
 ## :mortar_board: Equipe <a id="equipe"></a>
