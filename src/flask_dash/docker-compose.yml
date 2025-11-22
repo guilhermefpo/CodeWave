@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    ports:
+      - "3306"
+    env_file:
+      - .env
+    environment:
+      - MYSQL_USER=
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./initdb/init.sql:/docker-entrypoint-initdb.d/init.sql
+volumes:
+  db_data:
