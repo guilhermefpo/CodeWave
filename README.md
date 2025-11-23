@@ -194,6 +194,7 @@ de cada etapa de entrega
 │       ├── 📁 static
 │       │   ├── 🖼️ Logo CodeWave.svg
 │       │   ├── 🖼️ altier.jpeg
+│       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="15" height="15" /> css_sobre.css
 │       │   ├── 🖼️ desenho_grafico.svg
 │       │   ├── 🖼️ felipe.PNG
 │       │   ├── 🖼️ gui.jpeg
@@ -207,6 +208,9 @@ de cada etapa de entrega
 │       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> principais_indicadores.html
 │       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> review.html
 │       │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> sobre.html
+│       ├── ⚙️ .dockerignore
+│       ├── ⚙️ .env_exemplo
+│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="15" height="15" /> Dockerfile
 │       ├── 📄 LimiteMunicipal.kml
 │       ├── 📄 ZonaCentral.kml
 │       ├── 📄 ZonaLeste.kml
@@ -215,8 +219,9 @@ de cada etapa de entrega
 │       ├── 📄 ZonaSudeste.kml
 │       ├── 📄 ZonaSul.kml
 │       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> app.py
-│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> banco.py
+│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> bd.py
 │       ├── 📄 dados_municipio.csv
+│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="15" height="15" /> docker-compose.yml
 │       └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="15" height="15" /> grap.py
 ├── ⚙️ .gitignore
 ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" width="15" height="15"/> README.md
