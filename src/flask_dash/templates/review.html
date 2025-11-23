@@ -1,262 +1,38 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeWave: Feedback</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
-    <style>
-        /* ... (Todos os seus estilos CSS estão ótimos) ... */
-        /* Importação da Fonte */
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-        /* Reset Básico */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Estilo Principal do Corpo - Fundo Gradiente */
-        body {
-            font-family: 'Poppins', sans-serif;
-            font-size: 100%;
-            background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
-            color: #ffffff;
-            min-height: 100vh;
-        }
-
-        /* ... (Todos os seus outros estilos .header, .navbar, .dashboard-container, .filters-card, .star-rating, etc. continuam aqui) ... */
-        /* Estilo do Header e Navbar (Copiado do seu CSS) */
-        header {
-            background: linear-gradient(90deg, #004997 42.79%, #163659 69.23%);
-        }
-
-        .cabecalho-menu-botao {
-            text-decoration: none;
-            border: 2px solid rgb(255, 196, 0);
-            font-weight: 700;
-            font-size: 15px;
-            color: #ffbb00;
-            border-radius: 20px;
-            padding: 5px 10px;
-            transition: background 0.3s ease;
-        }
-
-        .cabecalho-menu-botao:hover {
-            background-color: rgb(255, 251, 0);
-            color: #032B56;
-        }
-
-        .navbar-dark .navbar-nav .nav-link {
-            color: #ffffff;
-        }
-
-        .navbar-dark .navbar-nav .nav-link:hover {
-            color: #ffbb00;
-        }
-
-        /* Container do Dashboard (Reutilizado do seu CSS) */
-        .dashboard-container {
-            padding: 2rem 1rem;
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        /* Cabeçalho da Página (Reutilizado do seu CSS) */
-        .dashboard-header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }
-
-        .dashboard-header h1 {
-            color: #FFBA00; /* Destaque dourado */
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-        }
-
-        .dashboard-header p {
-            color: #ffffff;
-            font-size: 1.1rem;
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        /* Cartão de Filtros (Reutilizado para o Formulário) */
-        .filters-card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            padding: 2rem 1.5rem; /* Mais padding para o formulário */
-            margin: 0 auto; /* Centraliza o cartão */
-            max-width: 700px; /* Limita a largura do formulário */
-        }
-
-        /* Estilo do Formulário */
-        .feedback-form {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem; /* Espaço entre os campos */
-        }
-        
-        /* Grupo de Filtro (Reutilizado para os campos) */
-        .filter-group {
-            width: 100%;
-        }
-
-        .filter-group label {
-            display: block;
-            margin-bottom: 0.75rem; /* Mais espaço para o label */
-            font-weight: 600;
-            color: #032B56;
-            font-size: 1rem;
-        }
-
-        /* Estilo da Caixa de Comentários (Textarea) */
-        .filter-group textarea {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            background-color: white;
-            font-size: 1rem;
-            font-family: 'Poppins', sans-serif;
-            transition: border-color 0.3s;
-            resize: vertical; /* Permite ao usuário redimensionar verticalmente */
-            min-height: 120px;
-        }
-
-        .filter-group textarea:focus {
-            outline: none;
-            border-color: #004997;
-            box-shadow: 0 0 0 2px rgba(0, 73, 151, 0.2);
-        }
-        
-        .star-rating-container {
-            text-align: center;
-        }
-
-        .star-rating-container .rating-label {
-            font-size: 1.1rem;
-            color: #032B56;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .star-rating {
-            display: inline-flex;
-            flex-direction: row-reverse; /* Isso faz a mágica do hover funcionar */
-            justify-content: center;
-        }
-
-        /* Esconde os botões de rádio reais */
-        .star-rating input[type="radio"] {
-            display: none;
-        }
-
-        /* Estilo das labels (as estrelas) */
-        .star-rating label {
-            font-size: 2.8rem; /* Tamanho das estrelas */
-            color: #ccc; /* Cor da estrela apagada */
-            cursor: pointer;
-            transition: color 0.2s ease;
-            padding: 0 0.2rem;
-            margin: 0;
-        }
-        
-        .star-rating label:hover,
-        .star-rating label:hover ~ label {
-            color: #FFBA00; /* Cor dourada ao passar o mouse */
-        }
-        
-        .star-rating input[type="radio"]:checked ~ label {
-            color: #FFBA00; /* Cor dourada permanente */
-        }
-
-        .btn-submit {
-            background-color: #004997;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            padding: 0.85rem 1.5rem; /* Botão um pouco maior */
-            font-weight: 600;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-            width: 100%; /* Ocupa a largura total do cartão */
-            max-width: 300px; /* Limite de largura */
-            margin: 0.5rem auto 0; /* Centraliza o botão */
-            font-size: 1.1rem;
-            display: block;
-        }
-
-        .btn-submit:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 73, 151, 0.3);
-        }
-
-        /* Fim dos seus estilos */
-    </style>
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="{{ url_for('home') }}"> <!-- Link para Home -->
-                    <!-- ATUALIZADO: Caminho da imagem usando url_for para a pasta 'static' -->
-                    <img src="{{ url_for('static', filename='Logo CodeWave.svg') }}" alt="Logo" width="100">
-                </a>
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Alternar navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-lg-end" id="menu">
-                    <ul class="navbar-nav text-end">
-                        <li class="nav-item"><a class="nav-link" href="{{url_for('home')}}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{url_for('sobre')}}">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{url_for('review')}}">Review</a></li>
-                       <li class=" nav-item cabecalho-menu-botao "><a class="nav-link" href="{{url_for('indicadores')}}">Principais Indicadores</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+{% extends "index.html" %}
+{% block title %}<title>CodeWave: Feedback</title>{% endblock %}
+{% block main %}
     <main class="dashboard-container">
-        
-        <!-- NOVO: Bloco para exibir mensagens flash (feedback) -->
-        <!-- Usamos as classes de Alerta do Bootstrap (alert-success, alert-danger) -->
-        {% with messages = get_flashed_messages(with_categories=true) %}
-            {% if messages %}
-                {% for category, message in messages %}
-                    <!-- 'category' virá do app.py (ex: 'success', 'danger') -->
-                    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert" style="max-width: 700px; margin: 0 auto 1.5rem auto;">
-                        {{ message }}
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                    </div>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
-        <!-- FIM do bloco de mensagens flash -->
         
         <div class="dashboard-header">
             <h1>Deixe seu Feedback</h1>
             <p>Sua opinião é muito importante para a melhoria contínua do nosso projeto. Por favor, deixe sua avaliação e um comentário.</p>
         </div>
 
+        <!-- BLOCO DE MENSAGENS (FLASH MESSAGES) -->
+        <!-- É aqui que aparece "Enviado com sucesso" ou "Erro" -->
+        <div style="max-width: 700px; margin: 0 auto; padding: 0 1rem;">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <!-- Usa classes do Bootstrap: alert-success, alert-danger, etc -->
+                        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+
         <div class="filters-card">
-            
-            <!-- ATUALIZADO: 'action' aponta para a rota 'review' e método POST -->
+            <!-- ACTION: Aponta para a rota 'review' -->
             <form action="{{ url_for('review') }}" method="POST" class="feedback-form" id="feedbackForm">
 
                 <div class="filter-group">
                     <div class="star-rating-container">
                         <label class="rating-label">Sua avaliação (1 a 5 estrelas):</label>
                         <div class="star-rating">
-                            <!-- Adicionado 'required' ao primeiro input para garantir que uma nota seja enviada -->
+                            <!-- 'required' garante que o usuário marque uma estrela -->
                             <input type="radio" id="star5" name="rating" value="5" required><label for="star5">★</label>
                             <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
                             <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
@@ -277,10 +53,4 @@
         </div>
 
     </main>
-    
-    <footer>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
-</html>
+{% endblock %}

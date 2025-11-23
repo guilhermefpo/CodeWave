@@ -746,54 +746,66 @@ def criando_map():
   folium.GeoJson(ZSD).add_to(m)
   folium.GeoJson(ZL).add_to(m)
   folium.GeoJson(
-      ZN,
-      style_function=lambda feature:{
-          'fillColor': 'green',
-          'color': 'black',
-          'weight': 2,
-          'fillOpacity': 0.5
-      }
-  ).add_to(m)
+    ZN,
+    tooltip="Zona Norte",
+    popup=folium.Popup("População Total: 61.940"),
+    style_function=lambda feature:{
+        'fillColor': 'green',
+        'color': 'black',
+        'weight': 2,
+        'fillOpacity': 0.5
+    }
+ ).add_to(m)
   folium.GeoJson(
-      ZO,
-      style_function=lambda feature: {
-          'fillColor': 'blue',
-          'color': 'black',
-          'weight': 2,
-          'fillOpacity': 0.5
-      }).add_to(m)
+    ZO,
+    tooltip="Zona Oeste",
+    popup=folium.Popup("População Total: 64.482"),
+    style_function=lambda feature: {
+        'fillColor': 'blue',
+        'color': 'black',
+        'weight': 2,
+        'fillOpacity': 0.5
+    }).add_to(m)
   folium.GeoJson(
-      ZS,
-      style_function=lambda feature: {
-          'fillColor': 'yellow',
-          'color': 'black',
-          'weight': 2,
-          'fillOpacity': 0.5
-      }).add_to(m)
+    ZS,
+    tooltip="Zona Sul",
+    popup=folium.Popup("População Total: 237.572"),
+    style_function=lambda feature: {
+        'fillColor': 'yellow',
+        'color': 'black',
+        'weight': 2,
+        'fillOpacity': 0.5
+    }).add_to(m)
   folium.GeoJson(
-      ZC,
-      style_function=lambda feature: {
-          'fillColor': 'OrangeRed',
-          'color': 'black',
-          'weight': 2,
-          'fillOpacity': 0.5
-      }).add_to(m)
+    ZC,
+    tooltip="Zona Central",
+    popup=folium.Popup("População Total: 72.401"),
+    style_function=lambda feature: {
+        'fillColor': 'OrangeRed',
+        'color': 'black',
+        'weight': 2,
+        'fillOpacity': 0.5
+    }).add_to(m)
   folium.GeoJson(
-      ZSD,
-      style_function=lambda feature: {
-          'fillColor': 'purple',
-          'color': 'black',
-          'weight': 2,
-          'fillOpacity': 0.5
-      }).add_to(m)
+    ZSD,
+    tooltip="Zona Sudeste",
+    popup=folium.Popup("População Total: 62.541"),
+    style_function=lambda feature: {
+        'fillColor': 'purple',
+        'color': 'black',
+        'weight': 2,
+        'fillOpacity': 0.5
+    }).add_to(m)
   folium.GeoJson(
-      ZL,
-      style_function=lambda feature: {
-          'fillColor': 'red',
-          'color': 'black',
-          'weight': 2,
-          'fillOpacity': 0.5
-      }).add_to(m)
+    ZL,
+    tooltip="Zona Leste",
+    popup=folium.Popup("População Total: 181.463"),
+    style_function=lambda feature: {
+        'fillColor': 'red',
+        'color': 'black',
+        'weight': 2,
+        'fillOpacity': 0.5
+    }).add_to(m)
   
   return m
 

@@ -1,21 +1,17 @@
-from flask import Flask, render_template, url_for, request, redirect, flash
-import pandas as pd
-import numpy as np
+from flask import Flask, render_template, url_for, request, flash, redirect
 from grap import criando_grap, grap_censo_e, criando_map
+import os
+from dotenv import load_dotenv
 
-# Importa a função do seu script de banco
-# (Certifique-se que o arquivo se chama banco.py e está na mesma pasta)
+# Tenta importar as funções do banco.py
 try:
-    from banco import adicionar_avaliacao
+    from banco import adicionar_avaliacao, init_db
 except ImportError:
-    print("="*50)
-    print("AVISO: Não foi possível importar 'banco.py'.")
-    print("Execute 'python banco.py' primeiro para criar o banco e a tabela.")
-    print("="*50)
-    # Define uma função placeholder para evitar que o app quebre
-    def adicionar_avaliacao(nota, msg):
-        print(f"Modo Falso: Avaliação ({nota}, '{msg}') não salva. 'banco.py' não encontrado.")
-        return False
+    print("AVISO: banco.py não encontrado. O formulário de review não funcionará.")
+    def adicionar_avaliacao(n, c): return False
+    def init_db(): pass
+
+load_dotenv()
 
 titulo = {
     'IN_INF': 'ENSINO INFANTIL',
@@ -24,10 +20,7 @@ titulo = {
 }
 
 app = Flask(__name__)
-
-# Chave secreta é OBRIGATÓRIA para usar 'flash messages'
-# Mude isso para uma string aleatória e segura
-app.secret_key = 'sua-chave-secreta-muito-segura-aqui'
+app.secret_key = os.getenv('SECRET_KEY', 'chave_padrao_desenvolvimento')
 
 @app.route("/")
 def home():
@@ -35,44 +28,59 @@ def home():
 
 @app.route("/indicadores")
 def indicadores():
-    print("Gerando gráficos...")
-    graficos = criando_grap()
-
-    if graficos:
-        return render_template('principais_indicadores.html',
-            grap_etario=graficos['barras'],
-            grap_piramid=graficos['piramide'],
-            grap_setor=graficos['setor'],
-            grap_domi=graficos['domici']
-        )
-    return "Erro ao gerar gráficos", 500 # Adicionado um fallback
+    try:
+        graficos = criando_grap()
+        if graficos:
+            return render_template('principais_indicadores.html',
+                grap_etario=graficos['barras'],
+                grap_piramid=graficos['piramide'],
+                grap_setor=graficos['setor'],
+                grap_domi=graficos['domici']
+            )
+    except Exception as e:
+        print(f"Erro ao gerar indicadores: {e}")
+    
+    return "Erro ao carregar gráficos. Verifique os logs.", 500
 
 @app.route("/graficos", methods=['GET', 'POST'])
 def graf():
+    # Valores padrão
     tipo = 'barras'
     regi = 'NORTE'
     esco = 'IN_INF'
-    mapa = criando_map()
-    mapa_no_site = mapa._repr_html_()
+    
+    # Mapa
+    try:
+        mapa = criando_map()
+        mapa_no_site = mapa._repr_html_()
+    except Exception as e:
+        print(f"Erro no mapa: {e}")
+        mapa_no_site = "<h1>Erro ao carregar mapa</h1>"
 
+    # Lógica do Filtro
     censo = request.form.get('censo', 'Censo_d')
     grap = ''
+    
     if censo == 'Censo_d':
+        # Recupera o tipo enviado pelo form, ou mantem o padrão 'barras'
         tipo = request.form.get('grafico', tipo)
         grape = criando_grap()
         grap = grape.get(tipo)
+        
     elif censo == 'Censo_e':
         regi = request.form.get('regiao', regi)
         esco = request.form.get('escolas', esco)
         grap = grap_censo_e(regi, esco, titulo)
 
+    # RETORNO CORRIGIDO: Adicionado 'tipo=tipo' para o HTML saber o que selecionar
     return render_template('graficos.html',
                            grap=grap,
                            regi=regi,
                            esco=esco,
                            titulo=titulo,
                            m=mapa_no_site,
-                           censo=censo)
+                           censo=censo,
+                           tipo=tipo) # <--- ISSO FALTAVA
 
 @app.route('/sobre')
 def sobre():
@@ -81,44 +89,31 @@ def sobre():
 @app.route('/review', methods=['GET', 'POST'])
 def review():
     if request.method == 'POST':
-        # 1. Obter os dados do formulário
         nota = request.form.get('rating')
         comentario = request.form.get('comentario')
-        
-        # 2. Validar (verificar se a nota foi enviada)
+
         if not nota:
-            # Informa o usuário se ele não selecionou uma nota
-            # 'danger' é uma categoria do Bootstrap (vermelho)
-            flash('Por favor, selecione uma avaliação de estrelas.', 'danger')
-            return render_template('review.html') # Renderiza de novo com a msg de erro
+            flash('Por favor, selecione uma estrela para avaliar.', 'warning')
+            return redirect(url_for('review'))
 
         try:
-            # Converte nota para inteiro
-            nota_int = int(nota)
-            
-            # 3. Chamar a função do banco para salvar
-            sucesso = adicionar_avaliacao(nota_int, comentario)
-            
+            sucesso = adicionar_avaliacao(nota, comentario)
             if sucesso:
-                # 4. Redirecionar para evitar reenvio do formulário (Padrão PRG)
-                print("Avaliação salva com sucesso.")
-                # 'success' é uma categoria do Bootstrap (verde)
-                flash('Obrigado pelo seu feedback!', 'success')
+                flash('Obrigado! Seu feedback foi enviado com sucesso.', 'success')
                 return redirect(url_for('review'))
             else:
-                flash('Ocorreu um erro ao salvar seu feedback. Tente novamente.', 'danger')
-        
-        except ValueError:
-            flash('Valor de avaliação inválido.', 'danger')
+                flash('Erro ao conectar ao banco de dados.', 'danger')
         except Exception as e:
-            print(f"Erro na rota /review: {e}")
-            flash('Um erro inesperado ocorreu. Tente novamente mais tarde.', 'danger')
-        
-        # Se algo falhar, apenas renderiza a página de review novamente
-        return render_template('review.html')
+            print(f"Erro no review: {e}")
+            flash('Ocorreu um erro inesperado.', 'danger')
 
-    # 5. Se for GET, apenas mostra a página de review
     return render_template('review.html')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    try:
+        init_db()
+    except Exception as e:
+        print(f"Erro na inicialização do banco: {e}")
+
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
