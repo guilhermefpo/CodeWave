@@ -1,145 +1,269 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-        body {
-            font-family: 'Poppins', sans-serif;
-            font-size: 100%;
-            background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
-            color: #ffffff; /* Cor de texto padrão para o corpo */
-        }
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
+    color: #ffffff;
+}
 
-        header {
-            background: linear-gradient(90deg, #004997 42.79%, #163659 69.23%);
-        }
+header {
+    background: linear-gradient(90deg, #004997 42.79%, #163659 69.23%);
+}
 
-        /* -------------------- NAVBAR -------------------- */
-        .cabecalho-menu-botao {
-            text-decoration: none;
-            border: 2px solid rgb(255, 196, 0);
-            font-weight: 700;
-            font-size: 15px;
-            color: #ffbb00;
-            border-radius: 20px;
-            padding: 5px 10px;
-            transition: background 0.3s ease;
-        }
+/* ==========================================================================
+   NAVBAR
+   ========================================================================== */
+.navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    color: #ffffff !important;
+    padding: 8px 10px !important;
+    transition: color 0.3s ease, background 0.3s ease;
+    display: inline-block;
+}
 
-        .cabecalho-menu-botao:hover {
-            background-color: rgb(255, 251, 0);
-            color: #032B56;
-        }
+.navbar-nav .nav-item .nav-link:not(.botao-graficos):not(.cabecalho-menu-botao):hover {
+    color: #FFBA00 !important;
+}
 
-        .navbar-dark .navbar-nav .nav-link {
-            color: #ffffff;
-        }
+.botao-graficos {
+    text-decoration: none;
+    border: 2px solid #00d2ff;
+    border-radius: 20px;
+    padding: 6px 20px !important;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
 
-        .navbar-dark .navbar-nav .nav-link:hover {
-            color: #ffbb00;
-        }
+.botao-graficos:hover {
+    background-color: #00d2ff;
+    color: #032B56 !important;
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+}
 
-        /* -------------------- PÁGINA SOBRE -------------------- */
-        .about-section {
-            padding: 4rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-            text-align: center;
-        }
+.cabecalho-menu-botao {
+    text-decoration: none;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 20px;
+    padding: 6px 20px !important;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
 
-        .about-section h1 {
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
-            color: #FFBA00; /* Cor de destaque */
-            font-weight: 700;
-        }
+.cabecalho-menu-botao:hover {
+    background-color: rgb(255, 196, 0);
+    color: #032B56 !important;
+    box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
+}
 
-        .about-section p {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            margin-bottom: 2.5rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .botao-graficos, .cabecalho-menu-botao {
+        display: inline-block;
+        width: fit-content;
+        margin: 5px auto;
+    }
+}
 
-        .team-section {
-            padding: 3rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-            text-align: center;
-        }
+/* ==========================================================================
+   PÁGINA SOBRE
+   ========================================================================== */
+.about-section {
+    padding: 4rem 2rem 2rem 2rem; /* Reduzi padding inferior pois adicionei seção nova */
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-        .team-section h2 {
-            font-size: 2rem;
-            margin-bottom: 3rem;
-            color: #FFBA00;
-            font-weight: 600;
-        }
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #FFBA00;
+    font-weight: 700;
+}
 
-        .team-members {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 3rem;
-        }
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        .member-card {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            width: 200px; /* Largura fixa para os cards */
-        }
+/* ==========================================================================
+   NOVO: SEÇÃO GITHUB DO PROJETO
+   ========================================================================== */
+.project-github-container {
+    text-align: center;
+    padding: 0 1rem 3rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-        .member-photo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid #FFBA00; /* Borda dourada para as fotos */
-            margin-bottom: 1rem;
-            box-shadow: 0 0 15px rgba(255, 186, 0, 0.4);
-        }
+.project-github-text {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
 
-        .member-name {
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin-bottom: 0.3rem;
-            color: #ffffff;
-        }
+.btn-project-github {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espaço entre ícone e texto */
+    text-decoration: none;
+    
+    /* Estilo do Botão */
+    border: 2px solid #FFBA00; /* Borda Amarela */
+    background: transparent;
+    border-radius: 30px; /* Mais arredondado que os outros */
+    padding: 12px 35px;
+    
+    /* Texto */
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    
+    transition: all 0.3s ease;
+}
 
-        .member-email {
-            font-size: 0.9rem; /* Fonte menor para o email */
-            color: #cccccc;
-            word-break: break-all; /* Garante que emails longos quebrem a linha */
-        }
+.btn-project-github i {
+    font-size: 1.4rem;
+}
 
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .about-section h1 {
-                font-size: 2rem;
-            }
-            .about-section p {
-                font-size: 1rem;
-            }
-            .team-section h2 {
-                font-size: 1.7rem;
-            }
-            .team-members {
-                gap: 2rem;
-            }
-            .member-photo {
-                width: 120px;
-                height: 120px;
-            }
-            .member-name {
-                font-size: 1.1rem;
-            }
-            .member-email {
-                font-size: 0.8rem;
-            }
-        }
+.btn-project-github:hover {
+    background-color: #FFBA00;
+    color: #032B56; /* Texto escuro no hover */
+    box-shadow: 0 0 15px rgba(255, 186, 0, 0.6); /* Brilho mais forte */
+    transform: translateY(-3px); /* Sobe um pouquinho */
+}
+
+/* ==========================================================================
+   EQUIPE
+   ========================================================================== */
+.team-section {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #FFBA00;
+    font-weight: 600;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+}
+
+.member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #FFBA00;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 15px rgba(255, 186, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.member-card:hover .member-photo {
+    transform: scale(1.05);
+}
+
+.member-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+}
+
+/* --- WRAPPER DO EMAIL (COM ALTURA FIXA) --- */
+.email-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 1.2rem;
+    width: 100%;
+    min-height: 50px; 
+}
+
+.email-icon {
+    color: #FFBA00;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.member-email {
+    font-size: 0.9rem;
+    color: #cccccc;
+    text-decoration: none;
+    word-break: break-all;
+    text-align: left;
+    transition: color 0.3s;
+    line-height: 1.3;
+}
+
+.member-email:hover {
+    color: #FFBA00;
+    text-decoration: underline;
+}
+
+/* --- ÍCONE GITHUB MEMBROS --- */
+.github-icon-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2.5rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.github-icon-link:hover {
+    color: #FFBA00;
+    transform: scale(1.2) rotate(5deg);
+    filter: drop-shadow(0 0 8px rgba(255, 186, 0, 0.6));
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .about-section h1 { font-size: 2rem; }
+    .about-section p { font-size: 1rem; }
+    .team-section h2 { font-size: 1.7rem; }
+    .team-members { gap: 2rem; }
+    
+    .member-photo { width: 120px; height: 120px; }
+    .member-name { font-size: 1.1rem; }
+    .member-email { font-size: 0.8rem; }
+    .member-card { width: 200px; }
+}

@@ -4,50 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
- 
-   
-  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
-   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
   
-  
-  
- 
-
-
-   {%block title%} <title>CodeWave: Home</title>{%endblock%}
+    {%block title%} <title>CodeWave: Home</title>{%endblock%}
     {% block css%}<link rel="stylesheet" href="./static/style.css">{%endblock%}
 </head>
 
 <body>
     <header>
- <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./static/Logo CodeWave.svg" alt="Logo" width="100">
-      </a>
-      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Alternar navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-lg-end" id="menu">
-        <ul class="navbar-nav text-end">
-          <li class="nav-item"><a class="nav-link" href="{{url_for('home')}}">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{url_for('sobre')}}">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{url_for('review')}}">Review</a></li>
-          <li class=" nav-item cabecalho-menu-botao "><a class="nav-link" href="{{url_for('indicadores')}}">Principais Indicadores</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+        <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./static/Logo CodeWave.svg" alt="Logo" width="100">
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-lg-end" id="menu">
+                    <!-- 'align-items-center' garante que todos fiquem no meio verticalmente -->
+                    <ul class="navbar-nav text-end align-items-center gap-2">
+                        
+                        <!-- Links Normais (Agora em Negrito igual aos botões) -->
+                        <li class="nav-item"><a class="nav-link" href="{{url_for('home')}}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{url_for('sobre')}}">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{url_for('review')}}">Review</a></li>
+                        
+                        <!-- Botão Gráficos (Azul) -->
+                        <li class="nav-item">
+                            <a class="nav-link botao-graficos" href="{{url_for('graf')}}">Gráficos</a>
+                        </li>
+
+                        <!-- Botão Indicadores (Amarelo) -->
+                        <li class="nav-item">
+                            <a class="nav-link cabecalho-menu-botao" href="{{url_for('indicadores')}}">Principais Indicadores</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     
-       {% block main %}
+    {% block main %}
     <main> 
         <section class="pagina-principal">
             <div class="pagina-principal-textos">
@@ -56,12 +61,13 @@
                 <a href="{{url_for('graf')}}">Comece a consultar agora</a>
             </div>
             <img src="./static/desenho_grafico.svg" alt="">
-            </main>
-            {% endblock %}
         </section>
+    </main>
+    {% endblock %}
+    
     <footer>
      
     </footer>
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

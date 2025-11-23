@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,30 +10,82 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
     background: linear-gradient(90deg, #004997 21.15%, #032B56 100%);
+    color: #ffffff;
 }
 
 header {
     background: linear-gradient(90deg, #004997 42.79%, #163659 69.23%);
 }
 
-/* -------------------- NAVBAR -------------------- */
+/* ==========================================================================
+   NAVBAR ATUALIZADA E ALINHADA
+   ========================================================================== */
+
+/* 1. REGRA GERAL PARA TODOS OS LINKS */
+.navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    color: #ffffff !important;
+    padding: 8px 10px !important;
+    transition: color 0.3s ease, background 0.3s ease;
+    display: inline-block;
+}
+
+/* Hover apenas para os links normais */
+.navbar-nav .nav-item .nav-link:not(.botao-graficos):not(.cabecalho-menu-botao):hover {
+    color: #FFBA00 !important;
+}
+
+/* 2. BOTÃO GRÁFICOS (Azul) */
+.botao-graficos {
+    text-decoration: none;
+    border: 2px solid #00d2ff;
+    border-radius: 20px;
+    padding: 6px 20px !important;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.botao-graficos:hover {
+    background-color: #00d2ff;
+    color: #032B56 !important;
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+}
+
+/* 3. BOTÃO INDICADORES (Amarelo) */
 .cabecalho-menu-botao {
     text-decoration: none;
     border: 2px solid rgb(255, 196, 0);
-    font-weight: 700;
-    font-size: 15px;
-    color: #ffbb00;
     border-radius: 20px;
-    padding: 5px 10px;
-    transition: background 0.3s ease;
+    padding: 6px 20px !important;
+    margin-left: 5px;
+    transition: all 0.3s ease;
 }
 
 .cabecalho-menu-botao:hover {
-    background-color: rgb(255, 251, 0);
-    color: #032B56;
+    background-color: rgb(255, 196, 0);
+    color: #032B56 !important;
+    box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
 }
 
-/* -------------------- PÁGINA PRINCIPAL -------------------- */
+/* Mobile */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .botao-graficos, .cabecalho-menu-botao {
+        display: inline-block;
+        width: fit-content;
+        margin: 5px auto;
+    }
+}
+
+/* ==========================================================================
+   ESTRUTURA DE PÁGINAS GERAIS
+   ========================================================================== */
 
 .pagina-principal {
     display: flex;
@@ -57,13 +109,8 @@ header {
     gap: 16px;
 }
 
-.pagina-principal-textos h1 {
-    font-size: 2rem;
-}
-
-.pagina-principal-textos p {
-    font-size: 1rem;
-}
+.pagina-principal-textos h1 { font-size: 2rem; }
+.pagina-principal-textos p { font-size: 1rem; }
 
 .pagina-principal-textos a {
     font-size: 1rem;
@@ -88,26 +135,11 @@ header {
     height: auto;
 }
 
-/* -------------------- PÁGINA SECUNDÁRIA -------------------- */
+/* Página Secundária Básica */
+.pagina-secundaria h1, .pagina-secundaria h2 { color: white; }
+.pagina-secundaria h1 { text-align: center; margin: 5% 0 3%; font-size: 1.8rem; }
+.pagina-secundaria h2 { text-align: left; margin: 3% 0 1% 5%; font-size: 1.4rem; }
 
-.pagina-secundaria h1,
-.pagina-secundaria h2 {
-    color: white;
-}
-
-.pagina-secundaria h1 {
-    text-align: center;
-    margin: 5% 0 3%;
-    font-size: 1.8rem;
-}
-
-.pagina-secundaria h2 {
-    text-align: left;
-    margin: 3% 0 1% 5%;
-    font-size: 1.4rem;
-}
-
-/* Contêiner dos gráficos */
 .pagina-secundaria .container-fluid {
     margin-bottom: 40px;
     display: flex;
@@ -115,70 +147,24 @@ header {
     align-items: center;
     width: 100%;
     max-width: 100%;
-    overflow-x: auto; /* Permite rolagem horizontal caso o gráfico seja largo */
+    overflow-x: auto;
 }
 
-/* Garante que os gráficos (Plotly, Chart.js, SVG etc.) fiquem fluidos */
 .pagina-secundaria .container-fluid > div,
 .pagina-secundaria .container-fluid iframe,
-.pagina-secundaria .container-fluid svg,
-.pagina-secundaria .container-fluid canvas {
+.pagina-secundaria .container-fluid svg {
     width: 100% !important;
     height: auto !important;
     max-width: 100%;
 }
 
-/* -------------------- RESPONSIVIDADE -------------------- */
+/* ==========================================================================
+   DASHBOARD / GRÁFICOS (ATUALIZADO PARA OCUPAR TELA)
+   ========================================================================== */
 
-@media (max-width: 992px) {
-    .pagina-principal {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .pagina-principal-textos {
-        align-items: center;
-        text-align: center;
-    }
-
-    .pagina-secundaria h2 {
-        margin-left: 3%;
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .pagina-principal-textos h1 {
-        font-size: 1.5rem;
-    }
-
-    .pagina-principal-textos p,
-    .pagina-principal-textos a {
-        font-size: 0.95rem;
-    }
-
-    .pagina-secundaria h1 {
-        font-size: 1.5rem;
-    }
-
-    .pagina-secundaria h2 {
-        font-size: 1.1rem;
-    }
-
-    /* Torna os gráficos menores em tablets */
-    .pagina-secundaria .container-fluid {
-        width: 90%;
-    }
-}
-
-
-
-
-
- /* Estilos específicos para a página de gráficos */
 .dashboard-container {
     padding: 2rem 1rem;
-    max-width: 1400px;
+    max-width: 1600px; /* Mais largo para aproveitar monitores grandes */
     margin: 0 auto;
 }
 
@@ -200,16 +186,13 @@ header {
     margin: 0 auto;
 }
 
+/* Filtros */
 .filters-card {
     background: white;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     padding: 1.5rem;
     margin-bottom: 2rem;
-}
-
-.filter-form {
-    width: 100%;
 }
 
 .filters-row {
@@ -267,6 +250,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 73, 151, 0.3);
 }
 
+/* Tags de Filtros */
 .active-filters {
     display: flex;
     flex-wrap: wrap;
@@ -292,35 +276,23 @@ header {
     align-items: center;
 }
 
-/* Layout principal com gráfico maior */
-.content-grid-large {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    align-items: start;
-}
+/* --- ESTILOS DO GRÁFICO PRINCIPAL (AMPLIADO) --- */
 
-@media (max-width: 992px) {
-    .content-grid-large {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Cartão do gráfico principal */
 .main-chart-card {
     background: white;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
 }
 
 .chart-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     border-bottom: 1px solid #eee;
     padding-bottom: 0.75rem;
 }
@@ -337,66 +309,78 @@ header {
     font-weight: 500;
 }
 
+/* Container do Gráfico: Altura grande para ver melhor */
 .chart-container-large {
-    min-height: 500px;
+    width: 100%;
+    height: 75vh; /* Ocupa 75% da altura da tela */
+    min-height: 600px; /* Altura mínima */
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+/* Força o gráfico a preencher tudo */
+.graph-wrapper-large {
+    width: 100%;
+    height: 100%;
+}
+
+.graph-wrapper-large > div, 
+.graph-wrapper-large iframe, 
+.graph-wrapper-large svg {
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .no-chart-large {
     text-align: center;
     color: #666;
     padding: 3rem 2rem;
-}
-
-.no-chart-icon {
-    margin-bottom: 1rem;
-    opacity: 0.7;
-}
-
-.no-chart-large p {
-    margin-bottom: 0;
-    font-size: 1.1rem;
-}
-
-.graph-wrapper-large {
+    background-color: #f9f9f9;
+    border-radius: 8px;
     width: 100%;
     height: 100%;
-    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Cartão do mapa aumentado */
+/* --- ESTILOS DO MAPA (MENOR E CENTRALIZADO) --- */
+
 .map-card-large {
     background: white;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
-    height: fit-content;
+    /* Centralização do card */
+    margin: 0 auto 2rem auto; 
+    width: 90%;
+    max-width: 1100px;
 }
 
 .map-container-large {
-    min-height: 400px;
+    width: 100%;
+    height: 500px; /* Altura fixa para o mapa */
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map-container-large iframe {
+    width: 100%;
+    height: 100%;
 }
 
 .no-map {
     text-align: center;
     color: #666;
     padding: 3rem 1rem;
-}
-
-.no-map-icon {
-    margin-bottom: 1rem;
-    opacity: 0.7;
-}
-
-.no-map p {
-    margin-bottom: 0;
-    font-size: 1rem;
+    width: 100%;
 }
 
 .map-info {
@@ -405,23 +389,15 @@ header {
     border-top: 1px solid #eee;
 }
 
-.map-info h4 {
-    color: #032B56;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-}
-
-.map-info p {
-    color: #666;
-    font-size: 0.95rem;
-    margin-bottom: 1.5rem;
-    line-height: 1.5;
-}
-
+/* Legenda do Mapa */
 .legend {
     display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+    color:#000000;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 10px;
 }
 
 .legend-item {
@@ -430,224 +406,85 @@ header {
 }
 
 .legend-color {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     border-radius: 4px;
-    margin-right: 0.75rem;
+    margin-right: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
-.conditional-filters {
+/* Formulário de Feedback */
+.filter-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: border-color 0.3s;
+    resize: vertical;
+    min-height: 120px;
+}
+
+.filter-group textarea:focus {
+    outline: none;
+    border-color: #004997;
+    box-shadow: 0 0 0 2px rgba(0, 73, 151, 0.2);
+}
+
+/* Star Rating */
+.star-rating-container {
+    text-align: center;
+}
+
+.star-rating-container .rating-label {
+    font-size: 1.1rem;
+    color: #032B56;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.star-rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.star-rating input[type="radio"] {
     display: none;
-    align-items: flex-end;
-    gap: 1.5rem;
-    flex-wrap: wrap;
 }
 
-.conditional-filters .filter-group {
-    flex: 1;
-    min-width: 180px;
+.star-rating label {
+    font-size: 2.8rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    padding: 0 0.2rem;
+    margin: 0;
 }
 
-/* Ajustes para telas menores */
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input[type="radio"]:checked ~ label {
+    color: #FFBA00;
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
-    .content-grid-large {
-        gap: 1rem;
-    }
+    .pagina-principal-textos h1 { font-size: 1.5rem; }
+    .pagina-principal-textos p, .pagina-principal-textos a { font-size: 0.95rem; }
     
-    .main-chart-card,
-    .map-card-large {
-        padding: 1rem;
-    }
+    .filters-row { flex-direction: column; gap: 1rem; }
+    .filter-group { min-width: 100%; width: 100%; }
+    .btn-submit { width: 100%; margin-top: 0.5rem; }
     
-    .chart-container-large {
-        min-height: 400px;
-    }
-    
-    .map-container-large {
-        min-height: 350px;
-    }
-    
-    .filters-row {
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .filter-group {
-        min-width: 100%;
-        width: 100%;
-    }
-    
-    .conditional-filters {
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    .btn-submit {
-        width: 100%;
-        margin-top: 0.5rem;
-      
-    }
+    .chart-container-large { height: 50vh; min-height: 400px; }
+    .map-card-large { width: 100%; padding: 1rem; }
+    .map-container-large { height: 350px; }
 }
 
-/* Ajustes para telas médias */
 @media (max-width: 1200px) and (min-width: 769px) {
-    .filters-row {
-        gap: 1rem;
-    }
-    
-    .filter-group {
-        min-width: 160px;
-    }
+    .filters-row { gap: 1rem; }
+    .filter-group { min-width: 160px; }
 }
-
-
-
-
-.dashboard-container {
-            padding: 2rem 1rem;
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        /* Cabeçalho da Página (Reutilizado do seu CSS) */
-        .dashboard-header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }
-
-        .dashboard-header h1 {
-            color: #FFBA00; /* Destaque dourado */
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-        }
-
-        .dashboard-header p {
-            color: #ffffff;
-            font-size: 1.1rem;
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        /* Cartão de Filtros (Reutilizado para o Formulário) */
-        .filters-card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            padding: 2rem 1.5rem; /* Mais padding para o formulário */
-            margin: 0 auto; /* Centraliza o cartão */
-            max-width: 700px; /* Limita a largura do formulário */
-        }
-
-        /* Estilo do Formulário */
-        .feedback-form {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem; /* Espaço entre os campos */
-        }
-        
-        /* Grupo de Filtro (Reutilizado para os campos) */
-        .filter-group {
-            width: 100%;
-        }
-
-        .filter-group label {
-            display: block;
-            margin-bottom: 0.75rem; /* Mais espaço para o label */
-            font-weight: 600;
-            color: #032B56;
-            font-size: 1rem;
-        }
-
-        /* Estilo da Caixa de Comentários (Textarea) */
-        .filter-group textarea {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            background-color: white;
-            font-size: 1rem;
-            font-family: 'Poppins', sans-serif;
-            transition: border-color 0.3s;
-            resize: vertical; /* Permite ao usuário redimensionar verticalmente */
-            min-height: 120px;
-        }
-
-        .filter-group textarea:focus {
-            outline: none;
-            border-color: #004997;
-            box-shadow: 0 0 0 2px rgba(0, 73, 151, 0.2);
-        }
-
-        /* -------------------- NOVO: ESTILO DAS ESTRELAS -------------------- */
-        
-        .star-rating-container {
-            text-align: center;
-        }
-
-        .star-rating-container .rating-label {
-            font-size: 1.1rem;
-            color: #032B56;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .star-rating {
-            display: inline-flex;
-            flex-direction: row-reverse; /* Isso faz a mágica do hover funcionar */
-            justify-content: center;
-        }
-
-        /* Esconde os botões de rádio reais */
-        .star-rating input[type="radio"] {
-            display: none;
-        }
-
-        /* Estilo das labels (as estrelas) */
-        .star-rating label {
-            font-size: 2.8rem; /* Tamanho das estrelas */
-            color: #ccc; /* Cor da estrela apagada */
-            cursor: pointer;
-            transition: color 0.2s ease;
-            padding: 0 0.2rem;
-            margin: 0;
-        }
-
-        /* Mágica do CSS: 
-           1. Colore a estrela que está com hover
-           2. Colore TODAS as estrelas "anteriores" a ela (usando ~) */
-        .star-rating label:hover,
-        .star-rating label:hover ~ label {
-            color: #FFBA00; /* Cor dourada ao passar o mouse */
-        }
-
-        /* 3. Colore de forma permanente as estrelas quando uma é clicada (:checked)
-           4. Colore TODAS as estrelas "anteriores" à clicada (usando ~) */
-        .star-rating input[type="radio"]:checked ~ label {
-            color: #FFBA00; /* Cor dourada permanente */
-        }
-
-        /* -------------------- Botão de Envio (Reutilizado) -------------------- */
-        .btn-submit {
-            background-color: #004997;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            padding: 0.85rem 1.5rem; /* Botão um pouco maior */
-            font-weight: 600;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-            width: 100%; /* Ocupa a largura total do cartão */
-            max-width: 300px; /* Limite de largura */
-            margin: 0.5rem auto 0; /* Centraliza o botão */
-            font-size: 1.1rem;
-            display: block;
-        }
-
-        .btn-submit:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 73, 151, 0.3);
-        }
-
-
-
-        
