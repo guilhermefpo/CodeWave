@@ -1,6 +1,6 @@
 {% extends "index.html" %}
 
-{% block title %}<title>CodeWave: Graficos</title>{% endblock %}
+{% block title %}<title>CodeWave: Gráficos</title>{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{{ url_for('static', filename='graficos.css') }}">
@@ -13,21 +13,26 @@
         <p>Explore dados demográficos e estatísticos de São José dos Campos através de visualizações interativas</p>
     </div>
     
+    <!-- Painel de Filtros -->
     <div class="filters-card">
-        <form method="POST" class="filter-form">
+        <form method="POST" class="filter-form" id="form-graficos">
             <div class="filters-row">
+                
+                <!-- Seleção do Censo -->
                 <div class="filter-group">
                     <label for="censo">Tipo de Censo:</label>
-                    <select name="censo" id="censo">
+                    <select name="censo" id="censo" onchange="this.form.submit()">
                         <option value="Censo_d" {% if censo == 'Censo_d' %}selected{% endif %}>Censo Demográfico</option>
                         <option value="Censo_e" {% if censo == 'Censo_e' %}selected{% endif %}>Censo Escolar</option>
                     </select>
                 </div>
                 
-                <div class="conditional-filters" id="censo-d-filters" {% if censo == 'Censo_d' %}style="display: flex;"{% endif %}>
+                <!-- Filtros do Censo Demográfico -->
+                <div class="conditional-filters" id="censo-d-filters" style="display: {% if censo == 'Censo_d' %}flex{% else %}none{% endif %};">
                     <div class="filter-group">
                         <label for="grafico">Tipo de Gráfico:</label>
-                        <select name="grafico" id="grafico">
+                        <!-- Agora o 'selected' funcionará pois 'tipo' é enviado pelo app.py -->
+                        <select name="grafico" id="grafico" onchange="this.form.submit()">
                             <option value="barras" {% if tipo == 'barras' %}selected{% endif %}>População por grupo Etário</option>
                             <option value="piramide" {% if tipo == 'piramide' %}selected{% endif %}>Pirâmide Etária</option>
                             <option value="setor" {% if tipo == 'setor' %}selected{% endif %}>População por Setor</option>
@@ -37,10 +42,11 @@
                     </div>
                 </div>
                 
-                <div class="conditional-filters" id="censo-e-filters" {% if censo == 'Censo_e' %}style="display: flex;"{% endif %}>
+                <!-- Filtros do Censo Escolar -->
+                <div class="conditional-filters" id="censo-e-filters" style="display: {% if censo == 'Censo_e' %}flex{% else %}none{% endif %};">
                     <div class="filter-group">
                         <label for="regiao">Região:</label>
-                        <select name="regiao" id="regiao">
+                        <select name="regiao" id="regiao" onchange="this.form.submit()">
                             <option value="NORTE" {% if regi == 'NORTE' %}selected{% endif %}>Norte</option>
                             <option value="SUL" {% if regi == 'SUL' %}selected{% endif %}>Sul</option>
                             <option value="LESTE" {% if regi == 'LESTE' %}selected{% endif %}>Leste</option>
@@ -52,7 +58,7 @@
                     
                     <div class="filter-group">
                         <label for="escolas">Nível de Ensino:</label>
-                        <select name="escolas" id="escolas">
+                        <select name="escolas" id="escolas" onchange="this.form.submit()">
                             {% for x, y in titulo.items() %}
                             <option value="{{ x }}" {% if esco == x %}selected{% endif %}>{{ y }}</option>
                             {% endfor %}
@@ -60,33 +66,32 @@
                     </div>
                 </div>
                 
-                <button type="submit" class="btn-submit">Gerar Gráfico</button>
             </div>
         </form>
     </div>
     
+    <!-- Tags de Filtros Ativos (Feedback Visual) -->
     {% if censo %}
     <div class="active-filters">
-        <span class="active-filters-label">Filtros Ativos:</span>
+        <span class="active-filters-label">Visualizando:</span>
         {% if censo == 'Censo_d' %}
             <span class="filter-tag">Censo: Demográfico</span>
+            
+            <!-- Nomes amigáveis para o tipo de gráfico selecionado -->
+            {% if tipo == 'barras' %}
+                <span class="filter-tag" style="background-color: #e9f2ff; border: 1px solid #004997;">População por Etária</span>
+            {% elif tipo == 'piramide' %}
+                <span class="filter-tag" style="background-color: #e9f2ff; border: 1px solid #004997;">Pirâmide Etária</span>
+            {% elif tipo == 'setor' %}
+                <span class="filter-tag" style="background-color: #e9f2ff; border: 1px solid #004997;">População por Setor</span>
+            {% elif tipo == 'domici' %}
+                <span class="filter-tag" style="background-color: #e9f2ff; border: 1px solid #004997;">Domicílios por Região</span>
+            {% elif tipo == 'popu_regi' %}
+                <span class="filter-tag" style="background-color: #e9f2ff; border: 1px solid #004997;">População por Região</span>
+            {% endif %}
+
         {% elif censo == 'Censo_e' %}
             <span class="filter-tag">Censo: Escolar</span>
-        {% endif %}
-        
-        {% if censo == 'Censo_d' and tipo %}
-            {% if tipo == 'barras' %}
-                <span class="filter-tag">Gráfico: Barras</span>
-            {% elif tipo == 'piramide' %}
-                <span class="filter-tag">Gráfico: Pirâmide</span>
-            {% elif tipo == 'setor' %}
-                <span class="filter-tag">Gráfico: Pizza</span>
-            {% elif tipo == 'domici' %}
-                <span class="filter-tag">Gráfico: Domicílios</span>
-            {% endif %}
-        {% endif %}
-        
-        {% if censo == 'Censo_e' %}
             {% if regi %}
                 <span class="filter-tag">Região: {{ regi|title }}</span>
             {% endif %}
@@ -97,84 +102,48 @@
     </div>
     {% endif %}
     
-    <div class="content-grid-large">
-        <div class="main-chart-card">
-            <div class="chart-header">
-                <h3 class="chart-title">Visualização do Censo</h3>
-                {% if censo and tipo %}
-                <span class="chart-subtitle">{{ tipo|title }}</span>
-                {% endif %}
-            </div>
-            <div class="chart-container-large">
-                {% if grap %}
-                    <div class="graph-wrapper-large">{{ grap|safe }}</div>
-                {% else %}
-                    <div class="no-chart-large">
-                        <div class="no-chart-icon">
-                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17ZM19 19H5V5H19V19.1M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3Z" fill="#004997"/>
-                            </svg>
-                        </div>
-                        <p>Selecione as opções nos filtros acima e clique em "Gerar Gráfico" para visualizar os dados.</p>
-                    </div>
-                {% endif %}
-            </div>
+    <!-- 1. CARTÃO DO GRÁFICO -->
+    <div class="main-chart-card">
+        <div class="chart-header">
+            <h3 class="chart-title">Gráfico Estatístico</h3>
         </div>
-        
-        <div class="map-card-large">
-            <div class="chart-header">
-                <h3 class="chart-title">Mapa - SJC</h3>
-            </div>
-            <div class="map-container-large">
-                {% if m %}
-                    {{ m|safe }}
-                {% else %}
-                    <div class="no-map">
-                        <div class="no-map-icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#004997"/>
-                            </svg>
-                        </div>
-                       
-                    </div>
-                {% endif %}
-            </div>
-            
-                
-                <div class="legend">
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: #004997;"></div>
-                        <span>Oeste</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: #28a745;"></div>
-                        <span>Norte</span>
-                
-                    </div>
-                     <div class="legend-item">
-                        <div class="legend-color" style="background-color: #6328a7;"></div>
-                        <span>Sudeste</span>
-                
-                    </div>
-                   <div class="legend-item">
-                        <div class="legend-color" style="background-color: #fffb00;"></div>
-                        <span>Sul</span>
-                
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: #ff0000;"></div>
-                        <span>Leste</span>
-                
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background-color: #c5511c;"></div>
-                        <span>Centro</span>
-                
-                    </div>
+        <div class="chart-container-large">
+            {% if grap %}
+                <div class="graph-wrapper-large">{{ grap|safe }}</div>
+            {% else %}
+                <div class="no-chart-large">
+                    <p>Carregando dados...</p>
                 </div>
-            </div>
+            {% endif %}
         </div>
     </div>
+    
+    <!-- 2. CARTÃO DO MAPA -->
+    <div class="map-card-large" style="width: 90%; max-width: 1000px; margin: 0 auto;">
+        <div class="chart-header">
+            <h3 class="chart-title">Mapa Geográfico - SJC</h3>
+        </div>
+        
+        <div class="map-container-large" style="height: 500px; overflow: hidden; border-radius: 8px;">
+            {% if m %}
+                {{ m|safe }}
+            {% else %}
+                <div class="no-map">
+                    <p>Mapa indisponível.</p>
+                </div>
+            {% endif %}
+        </div>
+        
+        <div class="legend" style="margin-top: 1.5rem; display: flex; flex-direction: row; flex-wrap: wrap; gap: 1.5rem; justify-content: center; padding-bottom: 1rem;">
+            <div class="legend-item"><div class="legend-color" style="background-color: #004997;"></div><span>Oeste</span></div>
+            <div class="legend-item"><div class="legend-color" style="background-color: #28a745;"></div><span>Norte</span></div>
+            <div class="legend-item"><div class="legend-color" style="background-color: #6328a7;"></div><span>Sudeste</span></div>
+            <div class="legend-item"><div class="legend-color" style="background-color: #fffb00;"></div><span>Sul</span></div>
+            <div class="legend-item"><div class="legend-color" style="background-color: #ff0000;"></div><span>Leste</span></div>
+            <div class="legend-item"><div class="legend-color" style="background-color: #c5511c;"></div><span>Centro</span></div>
+        </div>
+    </div>
+    
 </div>
 {% endblock %}
 
@@ -188,22 +157,16 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateFilterVisibility() {
         const selectedCenso = censoSelect.value;
         
-        // Esconder todos os filtros condicionais
-        censoDFilters.style.display = 'none';
-        censoEFilters.style.display = 'none';
-        
-        // Mostrar apenas os filtros relevantes
         if (selectedCenso === 'Censo_d') {
             censoDFilters.style.display = 'flex';
-        } else if (selectedCenso === 'Censo_e') {
+            censoEFilters.style.display = 'none';
+        } else {
+            censoDFilters.style.display = 'none';
             censoEFilters.style.display = 'flex';
         }
     }
     
-    // Configurar evento de mudança
     censoSelect.addEventListener('change', updateFilterVisibility);
-    
-    // Inicializar visibilidade
     updateFilterVisibility();
 });
 </script>

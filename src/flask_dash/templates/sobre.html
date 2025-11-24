@@ -1,48 +1,126 @@
 {% extends "index.html"%}
- {% block css%}<link rel="stylesheet" href="./static/css_sobre.css">{%endblock%}
+
+{% block css%}
+    <link rel="stylesheet" href="./static/css_sobre.css">
+    <!-- Biblioteca de ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+{%endblock%}
+
 {%block main%}
     <main>
+        <!-- Seção Sobre -->
         <section class="about-section">
             <h1>Sobre o Projeto CodeWave</h1>
             <p>O Projeto CodeWave visa criar uma plataforma robusta e intuitiva para filtrar e exibir dados demográficos e estatísticos de São José dos Campos. Nosso objetivo é democratizar o acesso a informações importantes da cidade, permitindo que usuários façam buscas detalhadas por bairro, período e indicadores específicos. Com uma interface clara, gráficos interativos e tabelas dinâmicas, facilitamos a análise e a compreensão dos dados para pesquisadores, estudantes, gestores públicos e cidadãos interessados.</p>
             <p>Acreditamos que, ao tornar esses dados mais acessíveis e visuais, podemos contribuir para o planejamento urbano, a formulação de políticas públicas mais eficazes e o engajamento cívico em São José dos Campos.</p>
         </section>
 
+        <!-- NOVO: Seção do GitHub do Projeto -->
+        <section class="project-github-container">
+            <p class="project-github-text">Acesse o código-fonte e a documentação completa no nosso repositório oficial:</p>
+            
+            <!-- Substitua o href pelo link real do repositório do projeto -->
+            <a href="https://github.com/guilhermefpo/CodeWave" target="_blank" class="btn-project-github">
+                <i class="fa-brands fa-github"></i> GitHub do Projeto
+            </a>
+        </section>
+
+        <!-- Seção Equipe -->
         <section class="team-section">
             <h2>Nossa Equipe</h2>
             <div class="team-members">
+                
+                <!-- 1. Altier -->
                 <div class="member-card">
-                    <img src="{{ url_for('static', filename='hugo.jpeg') }}" alt="Foto do Membro 1" class="member-photo">
-                    <span class="member-name">Hugo Perestrelo </span>
-                    <span class="member-email">hugoleonardo040906@gmail.com</span>
-                </div>
-                <div class="member-card">
-                    <img src="{{ url_for('static', filename='gui.jpeg') }}" alt="Foto do Membro 2" class="member-photo">
-                    <span class="member-name">Guilherme Fernando</span>
-                    <span class="member-email">gfernandoportelaoliveira@gmail.com</span>
-                </div>
-                <div class="member-card">
-                    <img src="{{ url_for('static', filename='felipe.PNG') }}" alt="Foto do Membro 3" class="member-photo">
-                    <span class="member-name">Felipe Gomes</span>
-                    <span class="member-email">felipesgb2310@gmail.com</span>
-                </div>
-                <div class="member-card">
-                    <img src="{{url_for('static',filename='joao_cavalcante.png')}}" alt="Foto do Membro 4" class="member-photo">
-                    <span class="member-name">João Cavalcante</span>
-                    <span class="member-email">exemplo@email.com</span>
-                </div>
-                <div class="member-card">
-                    <img src="{{ url_for('static', filename='altier.jpeg') }}" alt="Foto do Membro 5" class="member-photo">
+                    <img src="{{ url_for('static', filename='altier.jpeg') }}" alt="Foto Altier" class="member-photo">
                     <span class="member-name">Altier Romão</span>
-                    <span class="member-email">altierromao@gmail.com</span>
+                    
+                    <div class="email-wrapper">
+                        <i class="fa-solid fa-envelope email-icon"></i>
+                        <a href="mailto:altierromao@gmail.com" class="member-email">altierromao@gmail.com</a>
+                    </div>
+
+                    <a href="https://github.com/T13rz" target="_blank" class="github-icon-link" title="Ir para o GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
                 </div>
+
+                <!-- 2. Felipe -->
                 <div class="member-card">
-                    <img src="{{ url_for('static', filename='yuri_g.png') }}" alt="Foto do Membro 6" class="member-photo">
+                    <img src="{{ url_for('static', filename='felipe.PNG') }}" alt="Foto Felipe" class="member-photo">
+                    <span class="member-name">Felipe Gomes</span>
+                    
+                    <div class="email-wrapper">
+                        <i class="fa-solid fa-envelope email-icon"></i>
+                        <a href="mailto:felipesgb2310@gmail.com" class="member-email">felipesgb2310@gmail.com</a>
+                    </div>
+
+                    <a href="https://github.com/felipesgb" target="_blank" class="github-icon-link" title="Ir para o GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <!-- 3. Guilherme -->
+                <div class="member-card">
+                    <img src="{{ url_for('static', filename='gui.jpeg') }}" alt="Foto Guilherme" class="member-photo">
+                    <span class="member-name">Guilherme Fernando</span>
+                    
+                    <div class="email-wrapper">
+                        <i class="fa-solid fa-envelope email-icon"></i>
+                        <a href="mailto:gfernandoportelaoliveira@gmail.com" class="member-email">gfernandoportelaoliveira@gmail.com</a>
+                    </div>
+
+                    <a href="https://github.com/guilhermefpo" target="_blank" class="github-icon-link" title="Ir para o GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <!-- 4. Hugo -->
+                <div class="member-card">
+                    <img src="{{ url_for('static', filename='hugo.jpeg') }}" alt="Foto Hugo" class="member-photo">
+                    <span class="member-name">Hugo Perestrelo</span>
+                    
+                    <div class="email-wrapper">
+                        <i class="fa-solid fa-envelope email-icon"></i>
+                        <a href="mailto:hugoleonardo040906@gmail.com" class="member-email">hugoleonardo040906@gmail.com</a>
+                    </div>
+                    
+                    <a href="https://github.com/HUGO0895" target="_blank" class="github-icon-link" title="Ir para o GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <!-- 5. João -->
+                <div class="member-card">
+                    <img src="{{url_for('static',filename='joao_cavalcante.png')}}" alt="Foto João" class="member-photo">
+                    <span class="member-name">João Cavalcante</span>
+                    
+                    <div class="email-wrapper">
+                        <i class="fa-solid fa-envelope email-icon"></i>
+                        <a href="mailto:joaocavalcante377@gmail.com" class="member-email">joaocavalcante377@gmail.com</a>
+                    </div>
+
+                    <a href="https://github.com/joaoCavalcante377" target="_blank" class="github-icon-link" title="Ir para o GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <!-- 6. Yuri -->
+                <div class="member-card">
+                    <img src="{{ url_for('static', filename='yuri_g.png') }}" alt="Foto Yuri" class="member-photo">
                     <span class="member-name">Yuri Gonçalves</span>
-                    <span class="member-email">yurigoncalvesds@gmail.com</span>
+                    
+                    <div class="email-wrapper">
+                        <i class="fa-solid fa-envelope email-icon"></i>
+                        <a href="mailto:yurigoncalvesds@gmail.com" class="member-email">yurigoncalvesds@gmail.com</a>
+                    </div>
+
+                    <a href="https://github.com/YuridevOH" target="_blank" class="github-icon-link" title="Ir para o GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
                 </div>
-                </div>
+                
+            </div>
         </section>
     </main>
-
-  {%endblock%}
+{%endblock%}

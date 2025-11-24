@@ -1,6 +1,5 @@
-
 {% extends "index.html" %}
-{% block title %}<title>CodeWave: Graficos</title>{% endblock %}
+{% block title %}<title>CodeWave: Feedback</title>{% endblock %}
 {% block main %}
     <main class="dashboard-container">
         
@@ -9,14 +8,31 @@
             <p>Sua opinião é muito importante para a melhoria contínua do nosso projeto. Por favor, deixe sua avaliação e um comentário.</p>
         </div>
 
+        <!-- BLOCO DE MENSAGENS (FLASH MESSAGES) -->
+        <!-- É aqui que aparece "Enviado com sucesso" ou "Erro" -->
+        <div style="max-width: 700px; margin: 0 auto; padding: 0 1rem;">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <!-- Usa classes do Bootstrap: alert-success, alert-danger, etc -->
+                        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+
         <div class="filters-card">
-            
-            <form action="#" method="POST" class="feedback-form" id="feedbackForm">
+            <!-- ACTION: Aponta para a rota 'review' -->
+            <form action="{{ url_for('review') }}" method="POST" class="feedback-form" id="feedbackForm">
 
                 <div class="filter-group">
                     <div class="star-rating-container">
                         <label class="rating-label">Sua avaliação (1 a 5 estrelas):</label>
                         <div class="star-rating">
+                            <!-- 'required' garante que o usuário marque uma estrela -->
                             <input type="radio" id="star5" name="rating" value="5" required><label for="star5">★</label>
                             <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
                             <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
@@ -37,5 +53,4 @@
         </div>
 
     </main>
-
-  {% endblock %}
+{% endblock %}
