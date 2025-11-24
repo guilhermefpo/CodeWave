@@ -78,6 +78,7 @@ A Secretaria Municipal de Planejamento Urbano de São José dos Campos solicitou
   </details>
   <details>
   <summary> MVP - Sprint 3 </summary>
+     <img src="doc/videos/video_sprint_3.mp4">
   </details>
 
 <br>
