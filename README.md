@@ -209,7 +209,7 @@ de cada etapa de entrega
 │       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> principais_indicadores.html
 │       │   ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> review.html
 │       │   └── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="15" height="15" /> sobre.html
-│       ├──  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="15" height="15" /> .dockerignore
+│       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="15" height="15" /> .dockerignore
 │       ├── ⚙️ .env_exemplo
 │       ├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="15" height="15" /> Dockerfile
 │       ├── 📄 LimiteMunicipal.kml
