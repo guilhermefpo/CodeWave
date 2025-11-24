@@ -702,9 +702,9 @@ def grap_censo_e(regiao,escolas,titulo):
               filtro_centro=filtro[filtro['NO_BAIRRO'].isin(bairros_por_regiao[regiao])]
               filtro_centro.rename(columns={'NO_MUNICIPIO': 'MUNICIPIO', 'NO_BAIRRO': 'BAIRRO'}, inplace=True)
               bairros_quant=filtro_centro['BAIRRO'].value_counts().reset_index()
-              bairros_quant.collumns=['BAIRRO','ESCOLAS']
+              bairros_quant.columns=['BAIRRO','ESCOLAS']
 
-              grap = px.bar(bairros_quant, x="BAIRRO", y="count", title=f"Quantidade de escolas com {titulo[escolas]} na região {regiao}")
+              grap = px.bar(bairros_quant, x="BAIRRO", y="ESCOLAS", title=f"Quantidade de escolas com {titulo[escolas]} na região {regiao}")
            return grap.to_html(full_html=False)
 
 
